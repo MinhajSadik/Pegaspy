@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-08-04T23:23:55.230650",
+  "monitoring_duration": 0,
+  "total_packets": 0,
+  "total_flows": 0,
+  "suspicious_flows": 0,
+  "alerts": 0,
+  "top_talkers": [],
+  "dns_analysis": {
+    "total_queries": 0,
+    "suspicious_queries": 0,
+    "top_domains": [],
+    "suspicious_percentage": 0
+  },
+  "suspicious_flows_detail": [],
+  "recent_alerts": []
+}

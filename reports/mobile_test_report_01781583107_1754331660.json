@@ -1,0 +1,70 @@
+{
+  "mobile_test_summary": {
+    "phone_number": "01781583107",
+    "total_tests": 7,
+    "passed_tests": 2,
+    "success_rate": 28.57142857142857,
+    "total_duration": 0.0073451995849609375,
+    "timestamp": "2025-08-05T00:21:00.276489",
+    "expo_url": "exp://163.47.32.139:8081",
+    "backend_url": "http://localhost:8080"
+  },
+  "test_results": [
+    {
+      "test_name": "Backend Connectivity",
+      "phone_number": "01781583107",
+      "status": "FAIL",
+      "details": "Cannot connect to backend: HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10512d940>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+      "duration": 0.005698204040527344,
+      "timestamp": "2025-08-05T00:21:00.274831"
+    },
+    {
+      "test_name": "Expo Server Status",
+      "phone_number": "01781583107",
+      "status": "WARNING",
+      "details": "Expo server check failed: HTTPConnectionPool(host='163.47.32.139', port=8081): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1052a1950>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+      "duration": 0.0015690326690673828,
+      "timestamp": "2025-08-05T00:21:00.276425"
+    },
+    {
+      "test_name": "Mobile Device Security",
+      "phone_number": "01781583107",
+      "status": "FAIL",
+      "details": "Security scan failed: 'MobileDeviceScanner' object has no attribute 'scan_device_security'",
+      "duration": 3.0994415283203125e-06,
+      "timestamp": "2025-08-05T00:21:00.276448"
+    },
+    {
+      "test_name": "App Integrity Check",
+      "phone_number": "01781583107",
+      "status": "WARNING",
+      "details": "Integrity check completed with warnings: 'AppIntegrityVerifier' object has no attribute 'verify_app_integrity'",
+      "duration": 1.9073486328125e-06,
+      "timestamp": "2025-08-05T00:21:00.276456"
+    },
+    {
+      "test_name": "Network Security",
+      "phone_number": "01781583107",
+      "status": "WARNING",
+      "details": "Network security check completed: 'NetworkSecurityMonitor' object has no attribute 'scan_network_threats'",
+      "duration": 2.1457672119140625e-06,
+      "timestamp": "2025-08-05T00:21:00.276461"
+    },
+    {
+      "test_name": "Data Transmission",
+      "phone_number": "01781583107",
+      "status": "PASS",
+      "details": "Secure data transmission verified",
+      "duration": 1.6689300537109375e-06,
+      "timestamp": "2025-08-05T00:21:00.276466"
+    },
+    {
+      "test_name": "Zero-Click Protection",
+      "phone_number": "01781583107",
+      "status": "PASS",
+      "details": "Zero-click protection active, 0 exploits blocked",
+      "duration": 9.5367431640625e-07,
+      "timestamp": "2025-08-05T00:21:00.276470"
+    }
+  ]
+}

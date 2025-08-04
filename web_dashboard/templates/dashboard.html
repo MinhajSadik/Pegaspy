@@ -1,0 +1,111 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Total Targets</h5>
+                <h2 class="text-success">{{ total_targets }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Active Exploits</h5>
+                <h2 class="text-warning">{{ system_status.active_exploits }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Successful Infections</h5>
+                <h2 class="text-success">{{ system_status.successful_infections }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Stealth Rating</h5>
+                <h2 class="text-success">{{ system_status.stealth_rating }}%</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-crosshairs"></i> Quick Actions</h5>
+            </div>
+            <div class="card-body">
+                <button class="btn btn-primary me-2" onclick="launchExploit()">Launch Zero-Click</button>
+                <button class="btn btn-warning me-2" onclick="viewTargets()">Manage Targets</button>
+                <button class="btn btn-info me-2" onclick="viewAnalytics()">View Analytics</button>
+                <button class="btn btn-danger" onclick="emergencyDestruct()">Emergency Destruct</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-chart-line"></i> System Status</h5>
+            </div>
+            <div class="card-body">
+                <div class="mb-2">
+                    <strong>C2 Network:</strong> <span class="text-success">Online</span>
+                </div>
+                <div class="mb-2">
+                    <strong>Stealth Mode:</strong> <span class="text-success">Active</span>
+                </div>
+                <div class="mb-2">
+                    <strong>Persistence:</strong> <span class="text-success">Established</span>
+                </div>
+                <div class="mb-2">
+                    <strong>Last Update:</strong> <span id="lastUpdate">{{ current_time }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function launchExploit() {
+    window.location.href = '/exploits';
+}
+
+function viewTargets() {
+    window.location.href = '/targets';
+}
+
+function viewAnalytics() {
+    window.location.href = '/analytics';
+}
+
+function emergencyDestruct() {
+    if (confirm('Are you sure you want to initiate emergency self-destruct? This action cannot be undone.')) {
+        fetch('/api/emergency/destruct', { method: 'POST' })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                if (data.success) {
+                    location.reload();
+                }
+            });
+    }
+}
+
+// Socket.IO for real-time updates
+const socket = io();
+socket.on('system_update', function(data) {
+    document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
+});
+</script>
+{% endblock %}

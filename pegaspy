@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# PegaSpy Quick Manager Script
+# Simple wrapper for pegaspy-manager.py
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+MANAGER_SCRIPT="$SCRIPT_DIR/pegaspy-manager.py"
+
+# Check if manager script exists
+if [ ! -f "$MANAGER_SCRIPT" ]; then
+    echo "❌ Error: pegaspy-manager.py not found in $SCRIPT_DIR"
+    exit 1
+fi
+
+# Execute the Python manager with all arguments
+python3 "$MANAGER_SCRIPT" "$@"

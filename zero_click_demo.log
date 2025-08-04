@@ -1,0 +1,625 @@
+2025-08-04 22:33:39,831 - INFO - 🔧 Setting up zero-click exploit demonstration environment...
+2025-08-04 22:33:39,836 - INFO - ✅ Demo environment created at: /tmp/pegaspy_zero_click_demo
+2025-08-04 22:33:39,836 - INFO - 
+📱 DEMONSTRATING IMAGE-BASED ZERO-CLICK EXPLOITS
+2025-08-04 22:33:39,837 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:39,837 - INFO - Created image_parser exploit for ios: QBuAmWX5fP8XKEHW
+2025-08-04 22:33:39,837 - INFO - Created image_parser exploit for android: fMFAZvTSjxnlHFX7
+2025-08-04 22:33:39,838 - INFO - Exported exploit QBuAmWX5fP8XKEHW to /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg
+2025-08-04 22:33:39,839 - INFO - Exported exploit fMFAZvTSjxnlHFX7 to /tmp/pegaspy_zero_click_demo/images/innocent_image.png
+2025-08-04 22:33:39,840 - INFO - 📸 Created malicious JPEG: /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg
+2025-08-04 22:33:39,840 - INFO - 🖼️  Created malicious PNG: /tmp/pegaspy_zero_click_demo/images/innocent_image.png
+2025-08-04 22:33:39,942 - INFO - Deployed exploit QBuAmWX5fP8XKEHW: FAILED
+2025-08-04 22:33:39,942 - INFO - 📱 iOS Deployment: FAILED
+2025-08-04 22:33:39,942 - INFO - 
+📲 DEMONSTRATING PUSH NOTIFICATION ZERO-CLICK EXPLOITS
+2025-08-04 22:33:39,942 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:39,942 - INFO - Created push_notification exploit for ios: yeyeO4m3hLvmZx6E
+2025-08-04 22:33:39,943 - INFO - Created push_notification exploit for android: QeItxDWQQIcMEaPj
+2025-08-04 22:33:39,943 - INFO - Exported exploit yeyeO4m3hLvmZx6E to /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json
+2025-08-04 22:33:39,945 - INFO - Exported exploit QeItxDWQQIcMEaPj to /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json
+2025-08-04 22:33:39,945 - INFO - 🍎 Created APNs exploit payload: /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json
+2025-08-04 22:33:39,945 - INFO - 🤖 Created FCM exploit payload: /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json
+2025-08-04 22:33:40,046 - INFO - Deployed exploit yeyeO4m3hLvmZx6E: SUCCESS
+2025-08-04 22:33:40,148 - INFO - Deployed exploit QeItxDWQQIcMEaPj: SUCCESS
+2025-08-04 22:33:40,148 - INFO - 📱 APNs Exploit: SUCCESS
+2025-08-04 22:33:40,148 - INFO - 📱 FCM Exploit: SUCCESS
+2025-08-04 22:33:40,148 - INFO -    🎯 iOS device compromised via push notification
+2025-08-04 22:33:40,148 - INFO -    🎯 Android device compromised via push notification
+2025-08-04 22:33:40,149 - INFO - 
+💳 DEMONSTRATING WALLET PASS ZERO-CLICK EXPLOITS
+2025-08-04 22:33:40,149 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:40,149 - INFO - Created wallet_pass exploit for ios: fgrp5P8GuG34txJ3
+2025-08-04 22:33:40,150 - INFO - Created wallet_pass exploit for android: f2Zrr4qrG4tNYnRj
+2025-08-04 22:33:40,150 - INFO - Exported exploit fgrp5P8GuG34txJ3 to /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass
+2025-08-04 22:33:40,151 - INFO - Exported exploit f2Zrr4qrG4tNYnRj to /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json
+2025-08-04 22:33:40,151 - INFO - 🎫 Created malicious Apple Wallet pass: /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass
+2025-08-04 22:33:40,152 - INFO - 💳 Created malicious Google Pay pass: /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json
+2025-08-04 22:33:40,263 - INFO - Deployed exploit fgrp5P8GuG34txJ3: FAILED
+2025-08-04 22:33:40,347 - INFO - 💳 Wallet Exploit: FAILED
+2025-08-04 22:33:40,347 - INFO - 
+📞 DEMONSTRATING VOIP CALL INVITE ZERO-CLICK EXPLOITS
+2025-08-04 22:33:40,404 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:40,404 - INFO - Created voip_invite exploit for web_browser: mI67KKF1BhWtNSIq
+2025-08-04 22:33:40,404 - INFO - Created voip_invite exploit for ios: zXZd1cmmxIH5Qmf8
+2025-08-04 22:33:40,448 - INFO - Exported exploit mI67KKF1BhWtNSIq to /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json
+2025-08-04 22:33:40,453 - INFO - Exported exploit zXZd1cmmxIH5Qmf8 to /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt
+2025-08-04 22:33:40,453 - INFO - 🌐 Created WebRTC exploit: /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json
+2025-08-04 22:33:40,453 - INFO - 📱 Created SIP exploit: /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt
+2025-08-04 22:33:40,555 - INFO - Deployed exploit mI67KKF1BhWtNSIq: SUCCESS
+2025-08-04 22:33:40,656 - INFO - Deployed exploit zXZd1cmmxIH5Qmf8: SUCCESS
+2025-08-04 22:33:40,656 - INFO - 🌐 WebRTC Exploit: SUCCESS
+2025-08-04 22:33:40,656 - INFO - 📱 SIP Exploit: SUCCESS
+2025-08-04 22:33:40,657 - INFO - 
+📄 DEMONSTRATING PDF JAVASCRIPT ZERO-CLICK EXPLOITS
+2025-08-04 22:33:40,657 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:40,657 - INFO - Created pdf_javascript exploit for windows: GKKZS0VXFoSlceLS
+2025-08-04 22:33:40,658 - INFO - Exported exploit GKKZS0VXFoSlceLS to /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf
+2025-08-04 22:33:40,658 - INFO - 📄 Created malicious PDF: /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf
+2025-08-04 22:33:40,658 - INFO - 🚨 PDF Threat: HIGH
+2025-08-04 22:33:40,658 - INFO -    JavaScript detected: Auto-execution enabled
+2025-08-04 22:33:40,658 - INFO -    Confidence: 0.70
+2025-08-04 22:33:40,760 - INFO - Deployed exploit GKKZS0VXFoSlceLS: SUCCESS
+2025-08-04 22:33:40,760 - INFO - 📄 PDF Exploit: SUCCESS
+2025-08-04 22:33:40,760 - INFO - 
+📡 DEMONSTRATING BLUETOOTH BEACON ZERO-CLICK EXPLOITS
+2025-08-04 22:33:40,760 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:40,760 - INFO - Created bluetooth_beacon exploit for ios: 0ucyxqOG1Pule5EJ
+2025-08-04 22:33:40,761 - INFO - Exported exploit 0ucyxqOG1Pule5EJ to /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json
+2025-08-04 22:33:40,761 - INFO - 📡 Created Bluetooth beacon exploit: /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json
+2025-08-04 22:33:40,862 - INFO - Deployed exploit 0ucyxqOG1Pule5EJ: SUCCESS
+2025-08-04 22:33:40,863 - INFO - 📡 Bluetooth Exploit: SUCCESS
+2025-08-04 22:33:40,863 - INFO -    👻 Completely silent proximity-based compromise
+2025-08-04 22:33:40,863 - INFO -    📍 No user interaction or notification required
+2025-08-04 22:33:40,863 - INFO - 
+🔤 DEMONSTRATING FONT PARSING ZERO-CLICK EXPLOITS
+2025-08-04 22:33:40,863 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:40,863 - INFO - Created font_parser exploit for macos: 6iDBbvKn8iLyOlSf
+2025-08-04 22:33:40,865 - INFO - Exported exploit 6iDBbvKn8iLyOlSf to /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf
+2025-08-04 22:33:40,865 - INFO - 🔤 Created malicious font: /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf
+2025-08-04 22:33:40,965 - INFO - Deployed exploit 6iDBbvKn8iLyOlSf: FAILED
+2025-08-04 22:33:40,965 - INFO - 🔤 Font Exploit: FAILED
+2025-08-04 22:33:40,966 - INFO - 
+🎵 DEMONSTRATING MEDIA CODEC ZERO-CLICK EXPLOITS
+2025-08-04 22:33:40,966 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:40,966 - INFO - Created audio_codec exploit for android: CXDMBHKdSN49Zsgb
+2025-08-04 22:33:40,966 - INFO - Created video_codec exploit for ios: obFlqB5zfopcb812
+2025-08-04 22:33:40,967 - INFO - Exported exploit CXDMBHKdSN49Zsgb to /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3
+2025-08-04 22:33:40,968 - INFO - Exported exploit obFlqB5zfopcb812 to /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4
+2025-08-04 22:33:40,968 - INFO - 🎵 Created malicious audio: /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3
+2025-08-04 22:33:40,968 - INFO - 🎬 Created malicious video: /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4
+2025-08-04 22:33:41,069 - INFO - Deployed exploit CXDMBHKdSN49Zsgb: FAILED
+2025-08-04 22:33:41,171 - INFO - Deployed exploit obFlqB5zfopcb812: SUCCESS
+2025-08-04 22:33:41,171 - INFO - 🎵 Audio Exploit: FAILED
+2025-08-04 22:33:41,171 - INFO - 🎬 Video Exploit: SUCCESS
+2025-08-04 22:33:41,171 - INFO - 
+🔍 RUNNING COMPREHENSIVE ZERO-CLICK EXPLOIT SCAN
+2025-08-04 22:33:41,171 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:41,172 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4.meta: multiple repeat at position 17
+2025-08-04 22:33:41,173 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/images/innocent_image.png.meta: multiple repeat at position 17
+2025-08-04 22:33:41,173 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg.meta: multiple repeat at position 17
+2025-08-04 22:33:41,174 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf.meta: multiple repeat at position 17
+2025-08-04 22:33:41,174 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3.meta: multiple repeat at position 17
+2025-08-04 22:33:41,175 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass.meta: multiple repeat at position 17
+2025-08-04 22:33:41,175 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json.meta: multiple repeat at position 17
+2025-08-04 22:33:41,176 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json: multiple repeat at position 17
+2025-08-04 22:33:41,177 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json.meta: multiple repeat at position 17
+2025-08-04 22:33:41,177 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json: multiple repeat at position 17
+2025-08-04 22:33:41,178 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf: multiple repeat at position 17
+2025-08-04 22:33:41,178 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf.meta: multiple repeat at position 17
+2025-08-04 22:33:41,179 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json: multiple repeat at position 17
+2025-08-04 22:33:41,179 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json.meta: multiple repeat at position 17
+2025-08-04 22:33:41,179 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json.meta: multiple repeat at position 17
+2025-08-04 22:33:41,179 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json: multiple repeat at position 17
+2025-08-04 22:33:41,180 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt.meta: multiple repeat at position 17
+2025-08-04 22:33:41,180 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt: multiple repeat at position 17
+2025-08-04 22:33:41,180 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json: multiple repeat at position 17
+2025-08-04 22:33:41,181 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json.meta: multiple repeat at position 17
+2025-08-04 22:33:41,181 - INFO - 📊 Scanned 32 files
+2025-08-04 22:33:41,181 - INFO - 🚨 Detected 1 zero-click exploits
+2025-08-04 22:33:41,181 - INFO - 
+📈 THREAT LEVEL BREAKDOWN:
+2025-08-04 22:33:41,181 - INFO -    HIGH: 1 threats
+2025-08-04 22:33:41,182 - INFO - 
+📄 Detailed report saved to: /tmp/pegaspy_zero_click_demo/zero_click_detection_report.json
+2025-08-04 22:33:41,182 - INFO - 
+📊 ZERO-CLICK EXPLOIT FRAMEWORK STATISTICS
+2025-08-04 22:33:41,182 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 22:33:41,182 - INFO - 🎯 Total Exploits Created: 13
+2025-08-04 22:33:41,182 - INFO - 🚀 Total Deployments: 11
+2025-08-04 22:33:41,182 - INFO - ✅ Successful Exploits: 7
+2025-08-04 22:33:41,182 - INFO - 🔍 Detected Exploits: 0
+2025-08-04 22:33:41,183 - INFO - 📈 Success Rate: 63.64%
+2025-08-04 22:33:41,183 - INFO - 🛡️ Detection Rate: 0.00%
+2025-08-04 22:33:41,183 - INFO - 
+🎭 EXPLOIT TYPES BREAKDOWN:
+2025-08-04 22:33:41,183 - INFO -    Image Parser: 2
+2025-08-04 22:33:41,183 - INFO -    Push Notification: 2
+2025-08-04 22:33:41,183 - INFO -    Wallet Pass: 2
+2025-08-04 22:33:41,183 - INFO -    Voip Invite: 2
+2025-08-04 22:33:41,183 - INFO -    Pdf Javascript: 1
+2025-08-04 22:33:41,183 - INFO -    Bluetooth Beacon: 1
+2025-08-04 22:33:41,183 - INFO -    Font Parser: 1
+2025-08-04 22:33:41,183 - INFO -    Audio Codec: 1
+2025-08-04 22:33:41,183 - INFO -    Video Codec: 1
+2025-08-04 22:33:41,183 - INFO - 
+📱 TARGET PLATFORMS BREAKDOWN:
+2025-08-04 22:33:41,183 - INFO -    IOS: 6
+2025-08-04 22:33:41,183 - INFO -    ANDROID: 4
+2025-08-04 22:33:41,183 - INFO -    WEB_BROWSER: 1
+2025-08-04 22:33:41,183 - INFO -    WINDOWS: 1
+2025-08-04 22:33:41,184 - INFO -    MACOS: 1
+2025-08-04 22:33:41,184 - INFO - 
+🎉 Demonstration complete! Files created in: /tmp/pegaspy_zero_click_demo
+2025-08-04 22:33:41,184 - INFO - 📝 Check zero_click_demo.log for detailed logs
+2025-08-04 23:02:56,254 - INFO - 🔧 Setting up zero-click exploit demonstration environment...
+2025-08-04 23:02:56,255 - INFO - ✅ Demo environment created at: /tmp/pegaspy_zero_click_demo
+2025-08-04 23:02:56,255 - INFO - 
+📱 DEMONSTRATING IMAGE-BASED ZERO-CLICK EXPLOITS
+2025-08-04 23:02:56,255 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:56,255 - INFO - Created image_parser exploit for ios: mhKxpRk60d02sgNY
+2025-08-04 23:02:56,255 - INFO - Created image_parser exploit for android: JqS01gXG1unWa2Ry
+2025-08-04 23:02:56,257 - INFO - Exported exploit mhKxpRk60d02sgNY to /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg
+2025-08-04 23:02:56,258 - INFO - Exported exploit JqS01gXG1unWa2Ry to /tmp/pegaspy_zero_click_demo/images/innocent_image.png
+2025-08-04 23:02:56,259 - INFO - 📸 Created malicious JPEG: /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg
+2025-08-04 23:02:56,259 - INFO - 🖼️  Created malicious PNG: /tmp/pegaspy_zero_click_demo/images/innocent_image.png
+2025-08-04 23:02:56,361 - INFO - Deployed exploit mhKxpRk60d02sgNY: SUCCESS
+2025-08-04 23:02:56,361 - INFO - 📱 iOS Deployment: SUCCESS
+2025-08-04 23:02:56,361 - INFO -    ⚡ Privilege Escalation: YES
+2025-08-04 23:02:56,361 - INFO -    🔒 Persistence Achieved: NO
+2025-08-04 23:02:56,361 - INFO - 
+📲 DEMONSTRATING PUSH NOTIFICATION ZERO-CLICK EXPLOITS
+2025-08-04 23:02:56,362 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:56,362 - INFO - Created push_notification exploit for ios: pBunJ3TRROwJryKF
+2025-08-04 23:02:56,362 - INFO - Created push_notification exploit for android: Bib3185Wf51rKxcc
+2025-08-04 23:02:56,362 - INFO - Exported exploit pBunJ3TRROwJryKF to /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json
+2025-08-04 23:02:56,363 - INFO - Exported exploit Bib3185Wf51rKxcc to /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json
+2025-08-04 23:02:56,363 - INFO - 🍎 Created APNs exploit payload: /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json
+2025-08-04 23:02:56,363 - INFO - 🤖 Created FCM exploit payload: /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json
+2025-08-04 23:02:56,465 - INFO - Deployed exploit pBunJ3TRROwJryKF: FAILED
+2025-08-04 23:02:56,566 - INFO - Deployed exploit Bib3185Wf51rKxcc: SUCCESS
+2025-08-04 23:02:56,566 - INFO - 📱 APNs Exploit: FAILED
+2025-08-04 23:02:56,566 - INFO - 📱 FCM Exploit: SUCCESS
+2025-08-04 23:02:56,567 - INFO -    🎯 Android device compromised via push notification
+2025-08-04 23:02:56,567 - INFO - 
+💳 DEMONSTRATING WALLET PASS ZERO-CLICK EXPLOITS
+2025-08-04 23:02:56,567 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:56,567 - INFO - Created wallet_pass exploit for ios: Q0xlmdQbOZgreDM4
+2025-08-04 23:02:56,567 - INFO - Created wallet_pass exploit for android: 3zYQ7BRGWDWsAp0D
+2025-08-04 23:02:56,569 - INFO - Exported exploit Q0xlmdQbOZgreDM4 to /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass
+2025-08-04 23:02:56,571 - INFO - Exported exploit 3zYQ7BRGWDWsAp0D to /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json
+2025-08-04 23:02:56,571 - INFO - 🎫 Created malicious Apple Wallet pass: /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass
+2025-08-04 23:02:56,571 - INFO - 💳 Created malicious Google Pay pass: /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json
+2025-08-04 23:02:56,672 - INFO - Deployed exploit Q0xlmdQbOZgreDM4: SUCCESS
+2025-08-04 23:02:56,672 - INFO - 💳 Wallet Exploit: SUCCESS
+2025-08-04 23:02:56,673 - INFO -    💀 Device compromised via wallet pass processing
+2025-08-04 23:02:56,673 - INFO -    📊 This attack vector has very high stealth level
+2025-08-04 23:02:56,673 - INFO - 
+📞 DEMONSTRATING VOIP CALL INVITE ZERO-CLICK EXPLOITS
+2025-08-04 23:02:56,673 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:56,673 - INFO - Created voip_invite exploit for web_browser: z2fiptwqWrWZAv7Y
+2025-08-04 23:02:56,673 - INFO - Created voip_invite exploit for ios: CA9E3P4H0GqCIiSk
+2025-08-04 23:02:56,674 - INFO - Exported exploit z2fiptwqWrWZAv7Y to /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json
+2025-08-04 23:02:56,675 - INFO - Exported exploit CA9E3P4H0GqCIiSk to /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt
+2025-08-04 23:02:56,675 - INFO - 🌐 Created WebRTC exploit: /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json
+2025-08-04 23:02:56,675 - INFO - 📱 Created SIP exploit: /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt
+2025-08-04 23:02:56,776 - INFO - Deployed exploit z2fiptwqWrWZAv7Y: FAILED
+2025-08-04 23:02:56,879 - INFO - Deployed exploit CA9E3P4H0GqCIiSk: FAILED
+2025-08-04 23:02:56,881 - INFO - 🌐 WebRTC Exploit: FAILED
+2025-08-04 23:02:56,882 - INFO - 📱 SIP Exploit: FAILED
+2025-08-04 23:02:56,882 - INFO - 
+📄 DEMONSTRATING PDF JAVASCRIPT ZERO-CLICK EXPLOITS
+2025-08-04 23:02:56,882 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:56,882 - INFO - Created pdf_javascript exploit for windows: T5XVH8z18kO1kdM2
+2025-08-04 23:02:56,885 - INFO - Exported exploit T5XVH8z18kO1kdM2 to /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf
+2025-08-04 23:02:56,885 - INFO - 📄 Created malicious PDF: /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf
+2025-08-04 23:02:56,885 - INFO - 🚨 PDF Threat: HIGH
+2025-08-04 23:02:56,885 - INFO -    JavaScript detected: Auto-execution enabled
+2025-08-04 23:02:56,885 - INFO -    Confidence: 0.70
+2025-08-04 23:02:56,987 - INFO - Deployed exploit T5XVH8z18kO1kdM2: FAILED
+2025-08-04 23:02:56,987 - INFO - 📄 PDF Exploit: FAILED
+2025-08-04 23:02:56,987 - INFO - 
+📡 DEMONSTRATING BLUETOOTH BEACON ZERO-CLICK EXPLOITS
+2025-08-04 23:02:56,987 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:56,987 - INFO - Created bluetooth_beacon exploit for ios: BUn3qg78H6R1Z3Yz
+2025-08-04 23:02:56,988 - INFO - Exported exploit BUn3qg78H6R1Z3Yz to /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json
+2025-08-04 23:02:56,988 - INFO - 📡 Created Bluetooth beacon exploit: /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json
+2025-08-04 23:02:57,090 - INFO - Deployed exploit BUn3qg78H6R1Z3Yz: SUCCESS
+2025-08-04 23:02:57,090 - INFO - 📡 Bluetooth Exploit: SUCCESS
+2025-08-04 23:02:57,090 - INFO -    👻 Completely silent proximity-based compromise
+2025-08-04 23:02:57,090 - INFO -    📍 No user interaction or notification required
+2025-08-04 23:02:57,090 - INFO - 
+🔤 DEMONSTRATING FONT PARSING ZERO-CLICK EXPLOITS
+2025-08-04 23:02:57,090 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:57,091 - INFO - Created font_parser exploit for macos: 17msBpJSOA4FixLZ
+2025-08-04 23:02:57,092 - INFO - Exported exploit 17msBpJSOA4FixLZ to /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf
+2025-08-04 23:02:57,092 - INFO - 🔤 Created malicious font: /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf
+2025-08-04 23:02:57,193 - INFO - Deployed exploit 17msBpJSOA4FixLZ: SUCCESS
+2025-08-04 23:02:57,194 - INFO - 🔤 Font Exploit: SUCCESS
+2025-08-04 23:02:57,194 - INFO - 
+🎵 DEMONSTRATING MEDIA CODEC ZERO-CLICK EXPLOITS
+2025-08-04 23:02:57,194 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:57,195 - INFO - Created audio_codec exploit for android: M8UjQilqRW2NWHMM
+2025-08-04 23:02:57,195 - INFO - Created video_codec exploit for ios: VqjCzLGk3asRyaM9
+2025-08-04 23:02:57,195 - INFO - Exported exploit M8UjQilqRW2NWHMM to /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3
+2025-08-04 23:02:57,196 - INFO - Exported exploit VqjCzLGk3asRyaM9 to /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4
+2025-08-04 23:02:57,196 - INFO - 🎵 Created malicious audio: /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3
+2025-08-04 23:02:57,196 - INFO - 🎬 Created malicious video: /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4
+2025-08-04 23:02:57,298 - INFO - Deployed exploit M8UjQilqRW2NWHMM: SUCCESS
+2025-08-04 23:02:57,399 - INFO - Deployed exploit VqjCzLGk3asRyaM9: SUCCESS
+2025-08-04 23:02:57,399 - INFO - 🎵 Audio Exploit: SUCCESS
+2025-08-04 23:02:57,400 - INFO - 🎬 Video Exploit: SUCCESS
+2025-08-04 23:02:57,400 - INFO - 
+🔍 RUNNING COMPREHENSIVE ZERO-CLICK EXPLOIT SCAN
+2025-08-04 23:02:57,400 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:57,402 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/zero_click_detection_report.json: multiple repeat at position 17
+2025-08-04 23:02:57,404 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4.meta: multiple repeat at position 17
+2025-08-04 23:02:57,404 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/images/innocent_image.png.meta: multiple repeat at position 17
+2025-08-04 23:02:57,404 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg.meta: multiple repeat at position 17
+2025-08-04 23:02:57,405 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf.meta: multiple repeat at position 17
+2025-08-04 23:02:57,405 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3.meta: multiple repeat at position 17
+2025-08-04 23:02:57,406 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass.meta: multiple repeat at position 17
+2025-08-04 23:02:57,406 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json.meta: multiple repeat at position 17
+2025-08-04 23:02:57,406 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json: multiple repeat at position 17
+2025-08-04 23:02:57,406 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json.meta: multiple repeat at position 17
+2025-08-04 23:02:57,407 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json: multiple repeat at position 17
+2025-08-04 23:02:57,407 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf: multiple repeat at position 17
+2025-08-04 23:02:57,407 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf.meta: multiple repeat at position 17
+2025-08-04 23:02:57,408 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json: multiple repeat at position 17
+2025-08-04 23:02:57,408 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json.meta: multiple repeat at position 17
+2025-08-04 23:02:57,408 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json.meta: multiple repeat at position 17
+2025-08-04 23:02:57,408 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json: multiple repeat at position 17
+2025-08-04 23:02:57,409 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt.meta: multiple repeat at position 17
+2025-08-04 23:02:57,409 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt: multiple repeat at position 17
+2025-08-04 23:02:57,409 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json: multiple repeat at position 17
+2025-08-04 23:02:57,410 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json.meta: multiple repeat at position 17
+2025-08-04 23:02:57,410 - INFO - 📊 Scanned 33 files
+2025-08-04 23:02:57,410 - INFO - 🚨 Detected 1 zero-click exploits
+2025-08-04 23:02:57,410 - INFO - 
+📈 THREAT LEVEL BREAKDOWN:
+2025-08-04 23:02:57,410 - INFO -    HIGH: 1 threats
+2025-08-04 23:02:57,411 - INFO - 
+📄 Detailed report saved to: /tmp/pegaspy_zero_click_demo/zero_click_detection_report.json
+2025-08-04 23:02:57,411 - INFO - 
+📊 ZERO-CLICK EXPLOIT FRAMEWORK STATISTICS
+2025-08-04 23:02:57,411 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:02:57,411 - INFO - 🎯 Total Exploits Created: 13
+2025-08-04 23:02:57,411 - INFO - 🚀 Total Deployments: 11
+2025-08-04 23:02:57,411 - INFO - ✅ Successful Exploits: 7
+2025-08-04 23:02:57,411 - INFO - 🔍 Detected Exploits: 2
+2025-08-04 23:02:57,411 - INFO - 📈 Success Rate: 63.64%
+2025-08-04 23:02:57,411 - INFO - 🛡️ Detection Rate: 18.18%
+2025-08-04 23:02:57,412 - INFO - 
+🎭 EXPLOIT TYPES BREAKDOWN:
+2025-08-04 23:02:57,412 - INFO -    Image Parser: 2
+2025-08-04 23:02:57,412 - INFO -    Push Notification: 2
+2025-08-04 23:02:57,412 - INFO -    Wallet Pass: 2
+2025-08-04 23:02:57,412 - INFO -    Voip Invite: 2
+2025-08-04 23:02:57,412 - INFO -    Pdf Javascript: 1
+2025-08-04 23:02:57,412 - INFO -    Bluetooth Beacon: 1
+2025-08-04 23:02:57,412 - INFO -    Font Parser: 1
+2025-08-04 23:02:57,412 - INFO -    Audio Codec: 1
+2025-08-04 23:02:57,412 - INFO -    Video Codec: 1
+2025-08-04 23:02:57,412 - INFO - 
+📱 TARGET PLATFORMS BREAKDOWN:
+2025-08-04 23:02:57,412 - INFO -    IOS: 6
+2025-08-04 23:02:57,412 - INFO -    ANDROID: 4
+2025-08-04 23:02:57,412 - INFO -    WEB_BROWSER: 1
+2025-08-04 23:02:57,412 - INFO -    WINDOWS: 1
+2025-08-04 23:02:57,412 - INFO -    MACOS: 1
+2025-08-04 23:02:57,414 - INFO - 
+🎉 Demonstration complete! Files created in: /tmp/pegaspy_zero_click_demo
+2025-08-04 23:02:57,414 - INFO - 📝 Check zero_click_demo.log for detailed logs
+2025-08-04 23:43:45,128 - INFO - 🔧 Setting up zero-click exploit demonstration environment...
+2025-08-04 23:43:45,129 - INFO - ✅ Demo environment created at: /tmp/pegaspy_zero_click_demo
+2025-08-04 23:43:45,129 - INFO - 
+📱 DEMONSTRATING IMAGE-BASED ZERO-CLICK EXPLOITS
+2025-08-04 23:43:45,129 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:45,129 - INFO - Created image_parser exploit for ios: LCJsa8D7zDGfq1kD
+2025-08-04 23:43:45,129 - INFO - Created image_parser exploit for android: yTTgyxrRLEK3y1QN
+2025-08-04 23:43:45,129 - INFO - Exported exploit LCJsa8D7zDGfq1kD to /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg
+2025-08-04 23:43:45,129 - INFO - Exported exploit yTTgyxrRLEK3y1QN to /tmp/pegaspy_zero_click_demo/images/innocent_image.png
+2025-08-04 23:43:45,129 - INFO - 📸 Created malicious JPEG: /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg
+2025-08-04 23:43:45,129 - INFO - 🖼️  Created malicious PNG: /tmp/pegaspy_zero_click_demo/images/innocent_image.png
+2025-08-04 23:43:45,231 - INFO - Deployed exploit LCJsa8D7zDGfq1kD: FAILED
+2025-08-04 23:43:45,231 - INFO - 📱 iOS Deployment: FAILED
+2025-08-04 23:43:45,231 - INFO - 
+📲 DEMONSTRATING PUSH NOTIFICATION ZERO-CLICK EXPLOITS
+2025-08-04 23:43:45,231 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:45,231 - INFO - Created push_notification exploit for ios: FWgzGm6HARqyeiBe
+2025-08-04 23:43:45,231 - INFO - Created push_notification exploit for android: 3LQpQVbHkZYSbUin
+2025-08-04 23:43:45,231 - INFO - Exported exploit FWgzGm6HARqyeiBe to /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json
+2025-08-04 23:43:45,232 - INFO - Exported exploit 3LQpQVbHkZYSbUin to /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json
+2025-08-04 23:43:45,232 - INFO - 🍎 Created APNs exploit payload: /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json
+2025-08-04 23:43:45,232 - INFO - 🤖 Created FCM exploit payload: /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json
+2025-08-04 23:43:45,333 - INFO - Deployed exploit FWgzGm6HARqyeiBe: FAILED
+2025-08-04 23:43:45,434 - INFO - Deployed exploit 3LQpQVbHkZYSbUin: SUCCESS
+2025-08-04 23:43:45,434 - INFO - 📱 APNs Exploit: FAILED
+2025-08-04 23:43:45,434 - INFO - 📱 FCM Exploit: SUCCESS
+2025-08-04 23:43:45,434 - INFO -    🎯 Android device compromised via push notification
+2025-08-04 23:43:45,434 - INFO - 
+💳 DEMONSTRATING WALLET PASS ZERO-CLICK EXPLOITS
+2025-08-04 23:43:45,434 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:45,434 - INFO - Created wallet_pass exploit for ios: 3rvbPBdnDln7mM7R
+2025-08-04 23:43:45,434 - INFO - Created wallet_pass exploit for android: qbSPROdqxTdhqbIe
+2025-08-04 23:43:45,435 - INFO - Exported exploit 3rvbPBdnDln7mM7R to /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass
+2025-08-04 23:43:45,435 - INFO - Exported exploit qbSPROdqxTdhqbIe to /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json
+2025-08-04 23:43:45,435 - INFO - 🎫 Created malicious Apple Wallet pass: /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass
+2025-08-04 23:43:45,435 - INFO - 💳 Created malicious Google Pay pass: /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json
+2025-08-04 23:43:45,536 - INFO - Deployed exploit 3rvbPBdnDln7mM7R: SUCCESS
+2025-08-04 23:43:45,536 - INFO - 💳 Wallet Exploit: SUCCESS
+2025-08-04 23:43:45,536 - INFO -    💀 Device compromised via wallet pass processing
+2025-08-04 23:43:45,536 - INFO -    📊 This attack vector has very high stealth level
+2025-08-04 23:43:45,536 - INFO - 
+📞 DEMONSTRATING VOIP CALL INVITE ZERO-CLICK EXPLOITS
+2025-08-04 23:43:45,536 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:45,536 - INFO - Created voip_invite exploit for web_browser: qoUSYMQRL1OD4qZP
+2025-08-04 23:43:45,537 - INFO - Created voip_invite exploit for ios: p4y28MdFvsQZXQn3
+2025-08-04 23:43:45,537 - INFO - Exported exploit qoUSYMQRL1OD4qZP to /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json
+2025-08-04 23:43:45,537 - INFO - Exported exploit p4y28MdFvsQZXQn3 to /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt
+2025-08-04 23:43:45,537 - INFO - 🌐 Created WebRTC exploit: /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json
+2025-08-04 23:43:45,537 - INFO - 📱 Created SIP exploit: /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt
+2025-08-04 23:43:45,638 - INFO - Deployed exploit qoUSYMQRL1OD4qZP: FAILED
+2025-08-04 23:43:45,740 - INFO - Deployed exploit p4y28MdFvsQZXQn3: SUCCESS
+2025-08-04 23:43:45,740 - INFO - 🌐 WebRTC Exploit: FAILED
+2025-08-04 23:43:45,740 - INFO - 📱 SIP Exploit: SUCCESS
+2025-08-04 23:43:45,740 - INFO - 
+📄 DEMONSTRATING PDF JAVASCRIPT ZERO-CLICK EXPLOITS
+2025-08-04 23:43:45,740 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:45,740 - INFO - Created pdf_javascript exploit for windows: 9xjDJb8NUbqbaLeE
+2025-08-04 23:43:45,741 - INFO - Exported exploit 9xjDJb8NUbqbaLeE to /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf
+2025-08-04 23:43:45,741 - INFO - 📄 Created malicious PDF: /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf
+2025-08-04 23:43:45,741 - INFO - 🚨 PDF Threat: HIGH
+2025-08-04 23:43:45,741 - INFO -    JavaScript detected: Auto-execution enabled
+2025-08-04 23:43:45,741 - INFO -    Confidence: 0.70
+2025-08-04 23:43:45,843 - INFO - Deployed exploit 9xjDJb8NUbqbaLeE: SUCCESS
+2025-08-04 23:43:45,843 - INFO - 📄 PDF Exploit: SUCCESS
+2025-08-04 23:43:45,843 - INFO - 
+📡 DEMONSTRATING BLUETOOTH BEACON ZERO-CLICK EXPLOITS
+2025-08-04 23:43:45,844 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:45,844 - INFO - Created bluetooth_beacon exploit for ios: mk4CWHNI0jIhi68d
+2025-08-04 23:43:45,845 - INFO - Exported exploit mk4CWHNI0jIhi68d to /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json
+2025-08-04 23:43:45,845 - INFO - 📡 Created Bluetooth beacon exploit: /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json
+2025-08-04 23:43:45,947 - INFO - Deployed exploit mk4CWHNI0jIhi68d: SUCCESS
+2025-08-04 23:43:45,947 - INFO - 📡 Bluetooth Exploit: SUCCESS
+2025-08-04 23:43:45,947 - INFO -    👻 Completely silent proximity-based compromise
+2025-08-04 23:43:45,947 - INFO -    📍 No user interaction or notification required
+2025-08-04 23:43:45,947 - INFO - 
+🔤 DEMONSTRATING FONT PARSING ZERO-CLICK EXPLOITS
+2025-08-04 23:43:45,947 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:45,948 - INFO - Created font_parser exploit for macos: 20GVeagFIJs9snmu
+2025-08-04 23:43:45,948 - INFO - Exported exploit 20GVeagFIJs9snmu to /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf
+2025-08-04 23:43:45,948 - INFO - 🔤 Created malicious font: /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf
+2025-08-04 23:43:46,050 - INFO - Deployed exploit 20GVeagFIJs9snmu: SUCCESS
+2025-08-04 23:43:46,050 - INFO - 🔤 Font Exploit: SUCCESS
+2025-08-04 23:43:46,050 - INFO - 
+🎵 DEMONSTRATING MEDIA CODEC ZERO-CLICK EXPLOITS
+2025-08-04 23:43:46,050 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:46,050 - INFO - Created audio_codec exploit for android: ftdJv1ZszZjMD7rm
+2025-08-04 23:43:46,050 - INFO - Created video_codec exploit for ios: BnbD3MnoxYd8g029
+2025-08-04 23:43:46,050 - INFO - Exported exploit ftdJv1ZszZjMD7rm to /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3
+2025-08-04 23:43:46,050 - INFO - Exported exploit BnbD3MnoxYd8g029 to /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4
+2025-08-04 23:43:46,050 - INFO - 🎵 Created malicious audio: /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3
+2025-08-04 23:43:46,050 - INFO - 🎬 Created malicious video: /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4
+2025-08-04 23:43:46,152 - INFO - Deployed exploit ftdJv1ZszZjMD7rm: SUCCESS
+2025-08-04 23:43:46,253 - INFO - Deployed exploit BnbD3MnoxYd8g029: SUCCESS
+2025-08-04 23:43:46,253 - INFO - 🎵 Audio Exploit: SUCCESS
+2025-08-04 23:43:46,253 - INFO - 🎬 Video Exploit: SUCCESS
+2025-08-04 23:43:46,253 - INFO - 
+🔍 RUNNING COMPREHENSIVE ZERO-CLICK EXPLOIT SCAN
+2025-08-04 23:43:46,253 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:46,254 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/zero_click_detection_report.json: multiple repeat at position 17
+2025-08-04 23:43:46,254 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4.meta: multiple repeat at position 17
+2025-08-04 23:43:46,254 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/images/innocent_image.png.meta: multiple repeat at position 17
+2025-08-04 23:43:46,254 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg.meta: multiple repeat at position 17
+2025-08-04 23:43:46,254 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf.meta: multiple repeat at position 17
+2025-08-04 23:43:46,254 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3.meta: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass.meta: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json.meta: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json.meta: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf.meta: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json.meta: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json.meta: multiple repeat at position 17
+2025-08-04 23:43:46,255 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json: multiple repeat at position 17
+2025-08-04 23:43:46,256 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt.meta: multiple repeat at position 17
+2025-08-04 23:43:46,256 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt: multiple repeat at position 17
+2025-08-04 23:43:46,256 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json: multiple repeat at position 17
+2025-08-04 23:43:46,256 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json.meta: multiple repeat at position 17
+2025-08-04 23:43:46,256 - INFO - 📊 Scanned 33 files
+2025-08-04 23:43:46,256 - INFO - 🚨 Detected 1 zero-click exploits
+2025-08-04 23:43:46,256 - INFO - 
+📈 THREAT LEVEL BREAKDOWN:
+2025-08-04 23:43:46,256 - INFO -    HIGH: 1 threats
+2025-08-04 23:43:46,256 - INFO - 
+📄 Detailed report saved to: /tmp/pegaspy_zero_click_demo/zero_click_detection_report.json
+2025-08-04 23:43:46,256 - INFO - 
+📊 ZERO-CLICK EXPLOIT FRAMEWORK STATISTICS
+2025-08-04 23:43:46,256 - INFO - ════════════════════════════════════════════════════════════
+2025-08-04 23:43:46,256 - INFO - 🎯 Total Exploits Created: 13
+2025-08-04 23:43:46,256 - INFO - 🚀 Total Deployments: 11
+2025-08-04 23:43:46,256 - INFO - ✅ Successful Exploits: 8
+2025-08-04 23:43:46,256 - INFO - 🔍 Detected Exploits: 3
+2025-08-04 23:43:46,256 - INFO - 📈 Success Rate: 72.73%
+2025-08-04 23:43:46,256 - INFO - 🛡️ Detection Rate: 27.27%
+2025-08-04 23:43:46,257 - INFO - 
+🎭 EXPLOIT TYPES BREAKDOWN:
+2025-08-04 23:43:46,257 - INFO -    Image Parser: 2
+2025-08-04 23:43:46,257 - INFO -    Push Notification: 2
+2025-08-04 23:43:46,257 - INFO -    Wallet Pass: 2
+2025-08-04 23:43:46,257 - INFO -    Voip Invite: 2
+2025-08-04 23:43:46,257 - INFO -    Pdf Javascript: 1
+2025-08-04 23:43:46,257 - INFO -    Bluetooth Beacon: 1
+2025-08-04 23:43:46,257 - INFO -    Font Parser: 1
+2025-08-04 23:43:46,257 - INFO -    Audio Codec: 1
+2025-08-04 23:43:46,257 - INFO -    Video Codec: 1
+2025-08-04 23:43:46,257 - INFO - 
+📱 TARGET PLATFORMS BREAKDOWN:
+2025-08-04 23:43:46,257 - INFO -    IOS: 6
+2025-08-04 23:43:46,257 - INFO -    ANDROID: 4
+2025-08-04 23:43:46,257 - INFO -    WEB_BROWSER: 1
+2025-08-04 23:43:46,257 - INFO -    WINDOWS: 1
+2025-08-04 23:43:46,257 - INFO -    MACOS: 1
+2025-08-04 23:43:46,257 - INFO - 
+🎉 Demonstration complete! Files created in: /tmp/pegaspy_zero_click_demo
+2025-08-04 23:43:46,257 - INFO - 📝 Check zero_click_demo.log for detailed logs
+2025-08-05 00:30:21,918 - INFO - 🔧 Setting up zero-click exploit demonstration environment...
+2025-08-05 00:30:21,919 - INFO - ✅ Demo environment created at: /tmp/pegaspy_zero_click_demo
+2025-08-05 00:30:21,919 - INFO - 
+📱 DEMONSTRATING IMAGE-BASED ZERO-CLICK EXPLOITS
+2025-08-05 00:30:21,919 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:21,919 - INFO - Created image_parser exploit for ios: YqEst32t0icWP2hv
+2025-08-05 00:30:21,919 - INFO - Created image_parser exploit for android: PHjjI2CiIkGezHsr
+2025-08-05 00:30:21,919 - INFO - Exported exploit YqEst32t0icWP2hv to /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg
+2025-08-05 00:30:21,920 - INFO - Exported exploit PHjjI2CiIkGezHsr to /tmp/pegaspy_zero_click_demo/images/innocent_image.png
+2025-08-05 00:30:21,920 - INFO - 📸 Created malicious JPEG: /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg
+2025-08-05 00:30:21,920 - INFO - 🖼️  Created malicious PNG: /tmp/pegaspy_zero_click_demo/images/innocent_image.png
+2025-08-05 00:30:22,021 - INFO - Deployed exploit YqEst32t0icWP2hv: SUCCESS
+2025-08-05 00:30:22,021 - INFO - 📱 iOS Deployment: SUCCESS
+2025-08-05 00:30:22,021 - INFO -    ⚡ Privilege Escalation: NO
+2025-08-05 00:30:22,021 - INFO -    🔒 Persistence Achieved: YES
+2025-08-05 00:30:22,021 - INFO - 
+📲 DEMONSTRATING PUSH NOTIFICATION ZERO-CLICK EXPLOITS
+2025-08-05 00:30:22,021 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:22,021 - INFO - Created push_notification exploit for ios: kpvHi09XZPfCLy5B
+2025-08-05 00:30:22,021 - INFO - Created push_notification exploit for android: RBUT8a9I5P9B7tCQ
+2025-08-05 00:30:22,022 - INFO - Exported exploit kpvHi09XZPfCLy5B to /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json
+2025-08-05 00:30:22,022 - INFO - Exported exploit RBUT8a9I5P9B7tCQ to /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json
+2025-08-05 00:30:22,022 - INFO - 🍎 Created APNs exploit payload: /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json
+2025-08-05 00:30:22,022 - INFO - 🤖 Created FCM exploit payload: /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json
+2025-08-05 00:30:22,124 - INFO - Deployed exploit kpvHi09XZPfCLy5B: SUCCESS
+2025-08-05 00:30:22,225 - INFO - Deployed exploit RBUT8a9I5P9B7tCQ: FAILED
+2025-08-05 00:30:22,225 - INFO - 📱 APNs Exploit: SUCCESS
+2025-08-05 00:30:22,225 - INFO - 📱 FCM Exploit: FAILED
+2025-08-05 00:30:22,225 - INFO -    🎯 iOS device compromised via push notification
+2025-08-05 00:30:22,225 - INFO - 
+💳 DEMONSTRATING WALLET PASS ZERO-CLICK EXPLOITS
+2025-08-05 00:30:22,225 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:22,225 - INFO - Created wallet_pass exploit for ios: 6HtPaLQphyV36tSY
+2025-08-05 00:30:22,225 - INFO - Created wallet_pass exploit for android: jXVgzjHlx6dL3lEy
+2025-08-05 00:30:22,226 - INFO - Exported exploit 6HtPaLQphyV36tSY to /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass
+2025-08-05 00:30:22,226 - INFO - Exported exploit jXVgzjHlx6dL3lEy to /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json
+2025-08-05 00:30:22,226 - INFO - 🎫 Created malicious Apple Wallet pass: /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass
+2025-08-05 00:30:22,226 - INFO - 💳 Created malicious Google Pay pass: /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json
+2025-08-05 00:30:22,328 - INFO - Deployed exploit 6HtPaLQphyV36tSY: SUCCESS
+2025-08-05 00:30:22,328 - INFO - 💳 Wallet Exploit: SUCCESS
+2025-08-05 00:30:22,328 - INFO -    💀 Device compromised via wallet pass processing
+2025-08-05 00:30:22,328 - INFO -    📊 This attack vector has very high stealth level
+2025-08-05 00:30:22,328 - INFO - 
+📞 DEMONSTRATING VOIP CALL INVITE ZERO-CLICK EXPLOITS
+2025-08-05 00:30:22,328 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:22,328 - INFO - Created voip_invite exploit for web_browser: aimyYD3IZL6pI9cH
+2025-08-05 00:30:22,328 - INFO - Created voip_invite exploit for ios: iv06paPOAh7eSUa5
+2025-08-05 00:30:22,328 - INFO - Exported exploit aimyYD3IZL6pI9cH to /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json
+2025-08-05 00:30:22,328 - INFO - Exported exploit iv06paPOAh7eSUa5 to /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt
+2025-08-05 00:30:22,328 - INFO - 🌐 Created WebRTC exploit: /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json
+2025-08-05 00:30:22,328 - INFO - 📱 Created SIP exploit: /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt
+2025-08-05 00:30:22,430 - INFO - Deployed exploit aimyYD3IZL6pI9cH: SUCCESS
+2025-08-05 00:30:22,531 - INFO - Deployed exploit iv06paPOAh7eSUa5: SUCCESS
+2025-08-05 00:30:22,531 - INFO - 🌐 WebRTC Exploit: SUCCESS
+2025-08-05 00:30:22,531 - INFO - 📱 SIP Exploit: SUCCESS
+2025-08-05 00:30:22,531 - INFO - 
+📄 DEMONSTRATING PDF JAVASCRIPT ZERO-CLICK EXPLOITS
+2025-08-05 00:30:22,531 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:22,531 - INFO - Created pdf_javascript exploit for windows: RaQe4bQd1kmvV78a
+2025-08-05 00:30:22,532 - INFO - Exported exploit RaQe4bQd1kmvV78a to /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf
+2025-08-05 00:30:22,532 - INFO - 📄 Created malicious PDF: /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf
+2025-08-05 00:30:22,533 - INFO - 🚨 PDF Threat: HIGH
+2025-08-05 00:30:22,533 - INFO -    JavaScript detected: Auto-execution enabled
+2025-08-05 00:30:22,533 - INFO -    Confidence: 0.70
+2025-08-05 00:30:22,634 - INFO - Deployed exploit RaQe4bQd1kmvV78a: FAILED
+2025-08-05 00:30:22,635 - INFO - 📄 PDF Exploit: FAILED
+2025-08-05 00:30:22,635 - INFO - 
+📡 DEMONSTRATING BLUETOOTH BEACON ZERO-CLICK EXPLOITS
+2025-08-05 00:30:22,635 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:22,635 - INFO - Created bluetooth_beacon exploit for ios: vlLR4k0JYNNhOYcU
+2025-08-05 00:30:22,637 - INFO - Exported exploit vlLR4k0JYNNhOYcU to /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json
+2025-08-05 00:30:22,638 - INFO - 📡 Created Bluetooth beacon exploit: /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json
+2025-08-05 00:30:22,739 - INFO - Deployed exploit vlLR4k0JYNNhOYcU: SUCCESS
+2025-08-05 00:30:22,740 - INFO - 📡 Bluetooth Exploit: SUCCESS
+2025-08-05 00:30:22,740 - INFO -    👻 Completely silent proximity-based compromise
+2025-08-05 00:30:22,740 - INFO -    📍 No user interaction or notification required
+2025-08-05 00:30:22,740 - INFO - 
+🔤 DEMONSTRATING FONT PARSING ZERO-CLICK EXPLOITS
+2025-08-05 00:30:22,740 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:22,740 - INFO - Created font_parser exploit for macos: 6HDA0RKRT0FnAeU9
+2025-08-05 00:30:22,742 - INFO - Exported exploit 6HDA0RKRT0FnAeU9 to /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf
+2025-08-05 00:30:22,743 - INFO - 🔤 Created malicious font: /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf
+2025-08-05 00:30:22,844 - INFO - Deployed exploit 6HDA0RKRT0FnAeU9: FAILED
+2025-08-05 00:30:22,845 - INFO - 🔤 Font Exploit: FAILED
+2025-08-05 00:30:22,845 - INFO - 
+🎵 DEMONSTRATING MEDIA CODEC ZERO-CLICK EXPLOITS
+2025-08-05 00:30:22,845 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:22,845 - INFO - Created audio_codec exploit for android: KZAXC4PQaTywZr7Y
+2025-08-05 00:30:22,845 - INFO - Created video_codec exploit for ios: JjP36CsmzbuXF1rJ
+2025-08-05 00:30:22,847 - INFO - Exported exploit KZAXC4PQaTywZr7Y to /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3
+2025-08-05 00:30:22,848 - INFO - Exported exploit JjP36CsmzbuXF1rJ to /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4
+2025-08-05 00:30:22,848 - INFO - 🎵 Created malicious audio: /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3
+2025-08-05 00:30:22,848 - INFO - 🎬 Created malicious video: /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4
+2025-08-05 00:30:22,949 - INFO - Deployed exploit KZAXC4PQaTywZr7Y: SUCCESS
+2025-08-05 00:30:23,051 - INFO - Deployed exploit JjP36CsmzbuXF1rJ: FAILED
+2025-08-05 00:30:23,051 - INFO - 🎵 Audio Exploit: SUCCESS
+2025-08-05 00:30:23,052 - INFO - 🎬 Video Exploit: FAILED
+2025-08-05 00:30:23,052 - INFO - 
+🔍 RUNNING COMPREHENSIVE ZERO-CLICK EXPLOIT SCAN
+2025-08-05 00:30:23,052 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:23,054 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/video/vacation_video.mp4.meta: multiple repeat at position 17
+2025-08-05 00:30:23,055 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/images/innocent_image.png.meta: multiple repeat at position 17
+2025-08-05 00:30:23,055 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/images/malicious_photo.jpg.meta: multiple repeat at position 17
+2025-08-05 00:30:23,056 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/pdf_documents/invoice.pdf.meta: multiple repeat at position 17
+2025-08-05 00:30:23,056 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/audio/voice_message.mp3.meta: multiple repeat at position 17
+2025-08-05 00:30:23,057 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/boarding_pass.pkpass.meta: multiple repeat at position 17
+2025-08-05 00:30:23,058 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json.meta: multiple repeat at position 17
+2025-08-05 00:30:23,059 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/wallet_passes/loyalty_card.json: multiple repeat at position 17
+2025-08-05 00:30:23,060 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json.meta: multiple repeat at position 17
+2025-08-05 00:30:23,060 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/bluetooth_beacons/ble_advertisement.json: multiple repeat at position 17
+2025-08-05 00:30:23,061 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf: multiple repeat at position 17
+2025-08-05 00:30:23,061 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/fonts/custom_font.ttf.meta: multiple repeat at position 17
+2025-08-05 00:30:23,062 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json: multiple repeat at position 17
+2025-08-05 00:30:23,062 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json.meta: multiple repeat at position 17
+2025-08-05 00:30:23,062 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/apns_payload.json.meta: multiple repeat at position 17
+2025-08-05 00:30:23,063 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/notifications/fcm_payload.json: multiple repeat at position 17
+2025-08-05 00:30:23,063 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt.meta: multiple repeat at position 17
+2025-08-05 00:30:23,064 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/sip_invite.txt: multiple repeat at position 17
+2025-08-05 00:30:23,064 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json: multiple repeat at position 17
+2025-08-05 00:30:23,064 - ERROR - Error scanning /tmp/pegaspy_zero_click_demo/voip_invites/webrtc_offer.json.meta: multiple repeat at position 17
+2025-08-05 00:30:23,064 - INFO - 📊 Scanned 32 files
+2025-08-05 00:30:23,064 - INFO - 🚨 Detected 1 zero-click exploits
+2025-08-05 00:30:23,065 - INFO - 
+📈 THREAT LEVEL BREAKDOWN:
+2025-08-05 00:30:23,065 - INFO -    HIGH: 1 threats
+2025-08-05 00:30:23,065 - INFO - 
+📄 Detailed report saved to: /tmp/pegaspy_zero_click_demo/zero_click_detection_report.json
+2025-08-05 00:30:23,065 - INFO - 
+📊 ZERO-CLICK EXPLOIT FRAMEWORK STATISTICS
+2025-08-05 00:30:23,065 - INFO - ════════════════════════════════════════════════════════════
+2025-08-05 00:30:23,066 - INFO - 🎯 Total Exploits Created: 13
+2025-08-05 00:30:23,066 - INFO - 🚀 Total Deployments: 11
+2025-08-05 00:30:23,066 - INFO - ✅ Successful Exploits: 7
+2025-08-05 00:30:23,066 - INFO - 🔍 Detected Exploits: 0
+2025-08-05 00:30:23,066 - INFO - 📈 Success Rate: 63.64%
+2025-08-05 00:30:23,066 - INFO - 🛡️ Detection Rate: 0.00%
+2025-08-05 00:30:23,066 - INFO - 
+🎭 EXPLOIT TYPES BREAKDOWN:
+2025-08-05 00:30:23,066 - INFO -    Image Parser: 2
+2025-08-05 00:30:23,066 - INFO -    Push Notification: 2
+2025-08-05 00:30:23,066 - INFO -    Wallet Pass: 2
+2025-08-05 00:30:23,066 - INFO -    Voip Invite: 2
+2025-08-05 00:30:23,066 - INFO -    Pdf Javascript: 1
+2025-08-05 00:30:23,066 - INFO -    Bluetooth Beacon: 1
+2025-08-05 00:30:23,066 - INFO -    Font Parser: 1
+2025-08-05 00:30:23,066 - INFO -    Audio Codec: 1
+2025-08-05 00:30:23,066 - INFO -    Video Codec: 1
+2025-08-05 00:30:23,066 - INFO - 
+📱 TARGET PLATFORMS BREAKDOWN:
+2025-08-05 00:30:23,066 - INFO -    IOS: 6
+2025-08-05 00:30:23,066 - INFO -    ANDROID: 4
+2025-08-05 00:30:23,067 - INFO -    WEB_BROWSER: 1
+2025-08-05 00:30:23,067 - INFO -    WINDOWS: 1
+2025-08-05 00:30:23,067 - INFO -    MACOS: 1
+2025-08-05 00:30:23,067 - INFO - 
+🎉 Demonstration complete! Files created in: /tmp/pegaspy_zero_click_demo
+2025-08-05 00:30:23,067 - INFO - 📝 Check zero_click_demo.log for detailed logs

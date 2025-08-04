@@ -1,0 +1,79 @@
+{
+  "scan_type": "comprehensive",
+  "timestamp": "2025-08-04T23:06:09.949885",
+  "results": {
+    "mobile_scan": {
+      "error": "(pid=60691)"
+    },
+    "file_integrity": {
+      "total_files_scanned": 1235,
+      "changes_detected": 1235,
+      "suspicious_changes": 962,
+      "high_risk_changes": 10,
+      "recommendations": [
+        "Investigate suspicious file changes immediately",
+        "Consider running full antimalware scan",
+        "New executable files detected - verify legitimacy",
+        "Critical system files modified - restore from backup if unauthorized",
+        "High volume of file changes detected - investigate potential compromise",
+        "Enable real-time file integrity monitoring",
+        "Regularly backup critical system files",
+        "Implement application whitelisting",
+        "Monitor system logs for correlation with file changes",
+        "Keep file integrity baseline updated"
+      ]
+    },
+    "network_analysis": {
+      "total_packets": 0,
+      "total_flows": 0,
+      "suspicious_flows": 0,
+      "alerts": 0,
+      "dns_analysis": {
+        "total_queries": 0,
+        "suspicious_queries": 0,
+        "top_domains": [],
+        "suspicious_percentage": 0
+      }
+    },
+    "behavioral_analysis": {
+      "processes_monitored": 638,
+      "alerts_generated": 742,
+      "high_risk_processes": 10,
+      "behavioral_patterns": {
+        "PERSISTENT_LOW_CPU": 581,
+        "ORPHANED_PROCESS": 1,
+        "LONG_RUNNING_PROCESS": 245,
+        "KEYLOGGER_BEHAVIOR_PATTERN": 240,
+        "MANY_CHILD_PROCESSES": 5,
+        "EXTERNAL_NETWORK_ACCESS": 22,
+        "SPYWARE_COMMUNICATION_PATTERN": 17,
+        "MULTIPLE_EXTERNAL_CONNECTIONS": 4,
+        "UNUSUAL_START_TIME": 67
+      },
+      "recommendations": [
+        "Investigate high-risk processes immediately",
+        "Consider terminating suspicious processes after verification",
+        "Potential keylogger detected - scan for credential theft",
+        "Potential spyware detected - check for data exfiltration",
+        "High external network activity - monitor for data leaks",
+        "Enable real-time behavioral monitoring",
+        "Implement application whitelisting",
+        "Monitor network traffic for anomalies",
+        "Regular behavioral baseline updates",
+        "Deploy endpoint detection and response (EDR) solutions"
+      ]
+    }
+  },
+  "scan_duration": 253.19578623771667,
+  "threat_assessment": {
+    "threat_level": "CRITICAL",
+    "threat_score": 10556,
+    "threat_indicators": [
+      "962 suspicious file changes",
+      "10 high-risk file changes",
+      "10 high-risk behavioral patterns",
+      "742 behavioral alerts"
+    ],
+    "recommendation": "IMMEDIATE ACTION REQUIRED: Disconnect from network and perform full system remediation"
+  }
+}

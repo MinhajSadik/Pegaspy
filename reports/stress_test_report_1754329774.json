@@ -1,0 +1,73 @@
+{
+  "test_summary": {
+    "total_tests": 8,
+    "passed": 7,
+    "failed": 1,
+    "success_rate": 87.5,
+    "total_duration": 2.5721421241760254,
+    "timestamp": "2025-08-04T23:49:34.091715"
+  },
+  "test_results": [
+    {
+      "test_name": "File Creation Stress Test",
+      "status": "PASS",
+      "details": "Created 500 files",
+      "duration": 0.1124887466430664,
+      "timestamp": "2025-08-04T23:49:31.632072"
+    },
+    {
+      "test_name": "File Integrity Stress",
+      "status": "PASS",
+      "details": "Initial scan: 0.40s, Rescan: 0.13s",
+      "duration": 0.6416828632354736,
+      "timestamp": "2025-08-04T23:49:32.161260"
+    },
+    {
+      "test_name": "Concurrent Operations",
+      "status": "PASS",
+      "details": "10/10 workers succeeded",
+      "duration": 0.5400261878967285,
+      "timestamp": "2025-08-04T23:49:32.701447"
+    },
+    {
+      "test_name": "Invalid Input Testing",
+      "status": "PASS",
+      "details": "6/6 invalid inputs handled",
+      "duration": 0.002293109893798828,
+      "timestamp": "2025-08-04T23:49:32.703792"
+    },
+    {
+      "test_name": "Memory Stress Test",
+      "status": "PASS",
+      "details": "Scanned 10 large files (10MB total)",
+      "duration": 0.0630340576171875,
+      "timestamp": "2025-08-04T23:49:32.766842"
+    },
+    {
+      "test_name": "Rapid File Changes",
+      "status": "PASS",
+      "details": "100 rapid changes handled",
+      "duration": 1.2384579181671143,
+      "timestamp": "2025-08-04T23:49:34.005325"
+    },
+    {
+      "test_name": "Malicious URL Testing",
+      "status": "FAIL",
+      "details": "name 'MaliciousLinkScanner' is not defined",
+      "duration": 3.814697265625e-06,
+      "timestamp": "2025-08-04T23:49:34.005373"
+    },
+    {
+      "test_name": "System Limits Test",
+      "status": "PASS",
+      "details": "Tested 100 file descriptors",
+      "duration": 0.013607978820800781,
+      "timestamp": "2025-08-04T23:49:34.018999"
+    }
+  ],
+  "system_info": {
+    "platform": "darwin",
+    "python_version": "3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "working_directory": "/Users/minhajsadik/Documents/MinhajSadik/Pegaspy"
+  }
+}

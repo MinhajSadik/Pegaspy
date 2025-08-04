@@ -227,9 +227,9 @@ class MeshNetworkManager:
             if self.config['bootstrap_nodes']:
                 await self._connect_to_bootstrap_nodes()
             
-            # Start auto-discovery if enabled
+            # Start auto-discovery if enabled (non-blocking)
             if self.config['auto_discovery']:
-                await self._start_discovery()
+                asyncio.create_task(self._start_discovery())
             
             self.is_running = True
             self.logger.info(f"Mesh network initialized - Node ID: {self.local_node.node_id}")

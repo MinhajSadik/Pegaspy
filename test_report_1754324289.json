@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-08-04T22:18:09.059453",
+  "health_results": {
+    "timestamp": "2025-08-04T22:18:08.900797",
+    "overall_status": "healthy",
+    "services": {
+      "go-backend": {
+        "name": "go-backend",
+        "running": true,
+        "healthy": true,
+        "port": 8080,
+        "pid": 13050,
+        "response_time": 11.99,
+        "error": null
+      },
+      "python-legacy": {
+        "name": "python-legacy",
+        "running": true,
+        "healthy": true,
+        "port": 5000,
+        "pid": 879,
+        "response_time": 5.11,
+        "error": null
+      },
+      "mobile-app": {
+        "name": "mobile-app",
+        "running": true,
+        "healthy": true,
+        "port": 8081,
+        "pid": 92017,
+        "response_time": null,
+        "error": null
+      }
+    },
+    "api_tests": {
+      "stats": {
+        "status": "pass",
+        "status_code": 200,
+        "response_time": 2.7529999999999997
+      },
+      "ml_stats": {
+        "status": "pass",
+        "status_code": 200,
+        "response_time": 2.3770000000000002
+      },
+      "audit_stats": {
+        "status": "pass",
+        "status_code": 200,
+        "response_time": 2.049
+      },
+      "system_info": {
+        "status": "pass",
+        "status_code": 200,
+        "response_time": 1.1119999999999999
+      }
+    }
+  },
+  "test_status": "completed"
+}

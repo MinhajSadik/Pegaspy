@@ -1,0 +1,40 @@
+# Essential dependencies for PegaSpy Phase 3
+# Web Framework
+Flask==2.3.3
+Flask-SocketIO==5.3.6
+Werkzeug==2.3.7
+Jinja2==3.1.2
+
+# Async Support
+aiohttp==3.8.6
+aiofiles==23.2.1
+
+# Cryptography
+cryptography==41.0.7
+pycryptodome==3.19.0
+
+# Networking
+requests==2.31.0
+psutil==5.9.6
+scapy==2.5.0
+
+# System Monitoring
+watchdog==3.0.0
+
+# Data Processing
+numpy==1.24.4
+pandas==2.0.3
+
+# Tor Network
+stem==1.8.1
+pysocks==1.7.1
+
+# Utilities
+colorama==0.4.6
+tqdm==4.66.1
+click==8.1.7
+
+# Development
+pytest==7.4.3
+black==23.9.1
+flake8==6.1.0

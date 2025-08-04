@@ -1,0 +1,918 @@
+{
+  "timestamp": "2025-08-04T23:10:23.111277",
+  "monitoring_duration": 170.4287610054016,
+  "processes_monitored": 638,
+  "alerts_generated": 742,
+  "high_risk_processes": [
+    {
+      "pid": 386,
+      "name": "Claude Helper",
+      "cmdline": [
+        "/Applications/Claude.app/Contents/Frameworks/Claude Helper.app/Contents/MacOS/Claude Helper",
+        "--type=utility",
+        "--utility-sub-type=network.mojom.NetworkService",
+        "--lang=en-GB",
+        "--service-sandbox-type=network",
+        "--user-data-dir=/Users/minhajsadik/Library/Application Support/Claude",
+        "--secure-schemes=sentry-ipc",
+        "--bypasscsp-schemes=sentry-ipc",
+        "--cors-schemes=sentry-ipc",
+        "--fetch-schemes=sentry-ipc",
+        "--shared-files",
+        "--field-trial-handle=1718379636,r,17526366830844944335,3590050773739268531,262144",
+        "--enable-features=PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma",
+        "--disable-features=MacWebContentsOcclusion,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts",
+        "--variations-seed-version",
+        "--seatbelt-client=38"
+      ],
+      "start_time": 1754215402.129006,
+      "cpu_usage_history": [
+        0.1,
+        0.1,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.1,
+        0.1,
+        0.0,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.08411407470703125,
+        0.09918212890625,
+        0.1049041748046875,
+        0.08068084716796875,
+        0.10166168212890625,
+        0.07038116455078125,
+        0.08792877197265625,
+        0.08258819580078125,
+        0.0904083251953125,
+        0.08983612060546875,
+        0.10089874267578125,
+        0.0957489013671875,
+        0.08258819580078125
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:56504",
+          "remote_address": "18.97.36.13:443",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327422.680175
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 373,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 932,
+      "name": "identityservicesd",
+      "cmdline": [
+        "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd"
+      ],
+      "start_time": 1753951316.661391,
+      "cpu_usage_history": [
+        0.1,
+        0.1,
+        0.0,
+        0.1,
+        0.2,
+        0.0,
+        0.0,
+        0.1,
+        0.5,
+        0.0,
+        0.1,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.10623931884765625,
+        0.081634521484375,
+        0.08678436279296875,
+        0.07762908935546875,
+        0.093841552734375,
+        0.09899139404296875,
+        0.09365081787109375,
+        0.081634521484375,
+        0.15201568603515625,
+        0.0972747802734375,
+        0.08411407470703125,
+        0.08392333984375
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "0.0.0.0:0",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "0.0.0.0:0",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_STREAM",
+          "local_address": "fe80:14::bfe9:279c:b6d4:2415:1024",
+          "remote_address": "fe80:14::b823:557e:f41:afd0:1024",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_STREAM",
+          "local_address": "fe80:14::bfe9:279c:b6d4:2415:1025",
+          "remote_address": "fe80:14::b823:557e:f41:afd0:1236",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_STREAM",
+          "local_address": "fe80:14::bfe9:279c:b6d4:2415:1025",
+          "remote_address": "fe80:14::b823:557e:f41:afd0:1236",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 1,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 1075,
+      "name": "postgres",
+      "cmdline": [
+        "/opt/homebrew/opt/postgresql@14/bin/postgres",
+        "-D",
+        "/opt/homebrew/var/postgresql@14"
+      ],
+      "start_time": 1753951322.816063,
+      "cpu_usage_history": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.016021728515625,
+        0.016021728515625,
+        0.016021728515625,
+        0.016021728515625,
+        0.016021728515625,
+        0.016021728515625,
+        0.02460479736328125,
+        0.0148773193359375,
+        0.01621246337890625,
+        0.02288818359375,
+        0.01773834228515625,
+        0.01621246337890625
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_STREAM",
+          "local_address": "::1:5432",
+          "remote_address": null,
+          "status": "LISTEN",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "127.0.0.1:5432",
+          "remote_address": null,
+          "status": "LISTEN",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": "::1:50463",
+          "remote_address": "::1:50463",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [
+        1144,
+        1145,
+        1146,
+        1147,
+        1148,
+        1149
+      ],
+      "parent_pid": 1,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 1144,
+      "name": "postgres",
+      "cmdline": [
+        "postgres: checkpointer ",
+        "",
+        ""
+      ],
+      "start_time": 1753951328.112399,
+      "cpu_usage_history": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.0041961669921875,
+        0.0041961669921875,
+        0.0041961669921875,
+        0.0041961669921875,
+        0.0041961669921875,
+        0.0041961669921875,
+        0.00705718994140625,
+        0.00705718994140625,
+        0.00705718994140625,
+        0.00705718994140625,
+        0.00705718994140625,
+        0.00705718994140625
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": "::1:50463",
+          "remote_address": "::1:50463",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 1075,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 1145,
+      "name": "postgres",
+      "cmdline": [
+        "postgres: background writer ",
+        "",
+        ""
+      ],
+      "start_time": 1753951328.113854,
+      "cpu_usage_history": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.00553131103515625,
+        0.00553131103515625,
+        0.0080108642578125,
+        0.00762939453125,
+        0.00762939453125,
+        0.00553131103515625,
+        0.00553131103515625,
+        0.00820159912109375,
+        0.00820159912109375,
+        0.0057220458984375,
+        0.0057220458984375,
+        0.0057220458984375
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": "::1:50463",
+          "remote_address": "::1:50463",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 1075,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 1146,
+      "name": "postgres",
+      "cmdline": [
+        "postgres: walwriter ",
+        "",
+        ""
+      ],
+      "start_time": 1753951328.115279,
+      "cpu_usage_history": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.00438690185546875,
+        0.00438690185546875,
+        0.00629425048828125,
+        0.00438690185546875,
+        0.00438690185546875,
+        0.00629425048828125,
+        0.00438690185546875,
+        0.00629425048828125,
+        0.00629425048828125,
+        0.00629425048828125,
+        0.00438690185546875,
+        0.00629425048828125
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": "::1:50463",
+          "remote_address": "::1:50463",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 1075,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 1147,
+      "name": "postgres",
+      "cmdline": [
+        "postgres: autovacuum launcher ",
+        "",
+        ""
+      ],
+      "start_time": 1753951328.117051,
+      "cpu_usage_history": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.0156402587890625,
+        0.0156402587890625,
+        0.0156402587890625,
+        0.0156402587890625,
+        0.0156402587890625,
+        0.0156402587890625,
+        0.02841949462890625,
+        0.0156402587890625,
+        0.0156402587890625,
+        0.02899169921875,
+        0.0156402587890625,
+        0.0156402587890625
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": "::1:50463",
+          "remote_address": "::1:50463",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 1075,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 1148,
+      "name": "postgres",
+      "cmdline": [
+        "postgres: stats collector ",
+        "",
+        ""
+      ],
+      "start_time": 1753951328.118398,
+      "cpu_usage_history": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.0080108642578125,
+        0.0080108642578125,
+        0.0080108642578125,
+        0.0080108642578125,
+        0.0080108642578125,
+        0.0080108642578125,
+        0.01392364501953125,
+        0.0080108642578125,
+        0.0080108642578125,
+        0.01678466796875,
+        0.00820159912109375,
+        0.0080108642578125
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": "::1:50463",
+          "remote_address": "::1:50463",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 1075,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 1149,
+      "name": "postgres",
+      "cmdline": [
+        "postgres: logical replication launcher ",
+        "",
+        ""
+      ],
+      "start_time": 1753951328.120044,
+      "cpu_usage_history": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "memory_usage_history": [
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625,
+        0.01373291015625
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": "::1:50463",
+          "remote_address": "::1:50463",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 1075,
+      "user": "minhajsadik",
+      "suspicious_score": 80.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    },
+    {
+      "pid": 19345,
+      "name": "Browser Helper",
+      "cmdline": [
+        "/Applications/Arc.app/Contents/Frameworks/ArcCore.framework/Helpers/Browser Helper.app/Contents/MacOS/Browser Helper",
+        "--type=utility",
+        "--utility-sub-type=network.mojom.NetworkService",
+        "--lang=en-GB",
+        "--service-sandbox-type=network",
+        "--user-data-dir=/Users/minhajsadik/Library/Application Support/Arc/User Data",
+        "--bcny-app-id=0",
+        "--shared-files",
+        "--field-trial-handle=1718379636,r,1211471991846186006,17978487013908729974,262144",
+        "--variations-seed-version",
+        "--seatbelt-client=25"
+      ],
+      "start_time": 1754040049.026106,
+      "cpu_usage_history": [
+        1.2,
+        0.5,
+        0.7,
+        1.1,
+        1.3,
+        1.0,
+        0.8,
+        1.0,
+        0.8,
+        0.9,
+        1.4,
+        1.3
+      ],
+      "memory_usage_history": [
+        0.460052490234375,
+        0.58135986328125,
+        0.714874267578125,
+        0.5052566528320312,
+        0.4550933837890625,
+        0.6679534912109375,
+        0.5018234252929688,
+        0.4482269287109375,
+        0.5550384521484375,
+        0.6208419799804688,
+        0.48065185546875,
+        0.6198883056640625
+      ],
+      "network_connections": [
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:51237",
+          "remote_address": "172.217.194.188:5228",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "163.47.32.139:64510",
+          "remote_address": "172.64.146.215:443",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:51615",
+          "remote_address": "172.253.118.188:5228",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:55741",
+          "remote_address": "104.18.39.21:443",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:60664",
+          "remote_address": "140.82.114.26:443",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "163.47.32.139:49918",
+          "remote_address": "142.251.43.142:443",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:61444",
+          "remote_address": "18.213.149.15:443",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "163.47.32.139:65000",
+          "remote_address": "59.152.106.21:443",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "163.47.32.139:62937",
+          "remote_address": "104.16.65.50:443",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "163.47.32.139:58291",
+          "remote_address": "142.251.43.68:443",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:55102",
+          "remote_address": "54.69.112.215:443",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "163.47.32.139:49930",
+          "remote_address": "8.8.4.4:443",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "163.47.32.139:51073",
+          "remote_address": "142.250.66.2:443",
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:55128",
+          "remote_address": "3.147.197.136:443",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "0.0.0.0:5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::5353",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_STREAM",
+          "local_address": "163.47.32.139:55115",
+          "remote_address": "3.147.197.136:443",
+          "status": "ESTABLISHED",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET",
+          "type": "SOCK_DGRAM",
+          "local_address": "0.0.0.0:58254",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        },
+        {
+          "family": "AF_INET6",
+          "type": "SOCK_DGRAM",
+          "local_address": ":::55328",
+          "remote_address": null,
+          "status": "NONE",
+          "timestamp": 1754327411.324666
+        }
+      ],
+      "file_operations": [],
+      "registry_operations": [],
+      "child_processes": [],
+      "parent_pid": 19327,
+      "user": "minhajsadik",
+      "suspicious_score": 95.0,
+      "behavioral_flags": [
+        "PERSISTENT_LOW_CPU",
+        "EXTERNAL_NETWORK_ACCESS",
+        "MULTIPLE_EXTERNAL_CONNECTIONS",
+        "LONG_RUNNING_PROCESS",
+        "KEYLOGGER_BEHAVIOR_PATTERN",
+        "SPYWARE_COMMUNICATION_PATTERN"
+      ]
+    }
+  ],
+  "behavioral_patterns": {
+    "PERSISTENT_LOW_CPU": 581,
+    "ORPHANED_PROCESS": 1,
+    "LONG_RUNNING_PROCESS": 245,
+    "KEYLOGGER_BEHAVIOR_PATTERN": 240,
+    "MANY_CHILD_PROCESSES": 5,
+    "EXTERNAL_NETWORK_ACCESS": 22,
+    "SPYWARE_COMMUNICATION_PATTERN": 17,
+    "MULTIPLE_EXTERNAL_CONNECTIONS": 4,
+    "UNUSUAL_START_TIME": 67
+  },
+  "recommendations": [
+    "Investigate high-risk processes immediately",
+    "Consider terminating suspicious processes after verification",
+    "Potential keylogger detected - scan for credential theft",
+    "Potential spyware detected - check for data exfiltration",
+    "High external network activity - monitor for data leaks",
+    "Enable real-time behavioral monitoring",
+    "Implement application whitelisting",
+    "Monitor network traffic for anomalies",
+    "Regular behavioral baseline updates",
+    "Deploy endpoint detection and response (EDR) solutions"
+  ]
+}

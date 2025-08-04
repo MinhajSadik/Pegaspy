@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-08-04T23:15:53.707494",
+  "scan_duration": 7.363028,
+  "total_files_scanned": 1235,
+  "changes_detected": 0,
+  "suspicious_changes": 0,
+  "new_files": 0,
+  "modified_files": 0,
+  "deleted_files": 0,
+  "permission_changes": 0,
+  "high_risk_changes": [],
+  "recommendations": [
+    "Enable real-time file integrity monitoring",
+    "Regularly backup critical system files",
+    "Implement application whitelisting",
+    "Monitor system logs for correlation with file changes",
+    "Keep file integrity baseline updated"
+  ]
+}

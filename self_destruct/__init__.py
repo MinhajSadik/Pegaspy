@@ -18,8 +18,9 @@ from .stealth_wiper import (
     StealthWiper,
     WipeMethod,
     WipeTarget,
-    WipeResult,
-    SecureDelete
+    WipeStatus,
+    WipeTask,
+    WipeStatistics
 )
 
 from .evidence_eliminator import (
@@ -27,7 +28,8 @@ from .evidence_eliminator import (
     EvidenceType,
     EliminationMethod,
     EvidenceTarget,
-    EliminationResult
+    EliminationStatus,
+    EliminationStatistics
 )
 
 from .trigger_manager import (
@@ -35,7 +37,9 @@ from .trigger_manager import (
     TriggerType,
     TriggerEvent,
     TriggerCondition as TriggerCond,
-    TriggerAction
+    TriggerStatus,
+    TriggerPriority,
+    TriggerRule
 )
 
 __all__ = [
@@ -49,18 +53,22 @@ __all__ = [
     'StealthWiper',
     'WipeMethod',
     'WipeTarget',
-    'WipeResult',
-    'SecureDelete',
+    'WipeStatus',
+    'WipeTask',
+    'WipeStatistics',
     'EvidenceEliminator',
     'EvidenceType',
     'EliminationMethod',
     'EvidenceTarget',
-    'EliminationResult',
+    'EliminationStatus',
+    'EliminationStatistics',
     'TriggerManager',
     'TriggerType',
     'TriggerEvent',
     'TriggerCond',
-    'TriggerAction'
+    'TriggerStatus',
+    'TriggerPriority',
+    'TriggerRule'
 ]
 
 __version__ = "1.0.0"

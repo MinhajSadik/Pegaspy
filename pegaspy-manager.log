@@ -1,0 +1,162 @@
+[2025-08-04 22:13:29] [INFO] 📊 PegaSpy Service Status
+[2025-08-04 22:13:29] [INFO] ==================================================
+[2025-08-04 22:13:29] [INFO] ❌ go-backend:
+[2025-08-04 22:13:29] [INFO]    Running: 🔴 No
+[2025-08-04 22:13:29] [INFO]    Port: 8080
+[2025-08-04 22:13:29] [INFO] 
+[2025-08-04 22:13:29] [INFO] ❌ python-legacy:
+[2025-08-04 22:13:29] [INFO]    Running: 🔴 No
+[2025-08-04 22:13:29] [INFO]    Port: 5000
+[2025-08-04 22:13:29] [INFO] 
+[2025-08-04 22:13:29] [INFO] ❌ mobile-app:
+[2025-08-04 22:13:29] [INFO]    Running: 🔴 No
+[2025-08-04 22:13:29] [INFO]    Port: 8081
+[2025-08-04 22:13:29] [INFO] 
+[2025-08-04 22:13:35] [INFO] 🏥 Running health checks...
+[2025-08-04 22:13:35] [ERROR] ❌ go-backend: Unhealthy - None
+[2025-08-04 22:13:35] [ERROR] ❌ python-legacy: Unhealthy - None
+[2025-08-04 22:13:35] [ERROR] ❌ mobile-app: Unhealthy - None
+[2025-08-04 22:14:07] [INFO] 🏥 Running health checks...
+[2025-08-04 22:14:07] [ERROR] ❌ go-backend: Unhealthy - HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x101527230>: Failed to establish a new connection: [Errno 61] Connection refused'))
+[2025-08-04 22:14:07] [INFO] ✅ python-legacy: Healthy (PID: 879, Response: 20.28ms)
+[2025-08-04 22:14:08] [INFO] ✅ mobile-app: Healthy (PID: 92017, Response: Nonems)
+[2025-08-04 22:14:34] [INFO] 🧪 Running comprehensive tests...
+[2025-08-04 22:14:34] [INFO] 🏥 Running health checks...
+[2025-08-04 22:14:34] [INFO] ✅ go-backend: Healthy (PID: 13050, Response: 13.85ms)
+[2025-08-04 22:14:34] [INFO] ✅ python-legacy: Healthy (PID: 879, Response: 23.63ms)
+[2025-08-04 22:14:34] [INFO] ✅ mobile-app: Healthy (PID: 92017, Response: Nonems)
+[2025-08-04 22:14:34] [INFO] 
+🔬 Testing API functionality...
+[2025-08-04 22:14:34] [INFO] ✅ Scan API: Working
+[2025-08-04 22:14:34] [INFO] ✅ ML Prediction API: Working
+[2025-08-04 22:14:34] [INFO] 📄 Test report saved to: /Users/minhajsadik/Documents/MinhajSadik/Pegaspy/test_report_1754324074.json
+[2025-08-04 22:15:28] [INFO] 📊 PegaSpy Service Status
+[2025-08-04 22:15:28] [INFO] ==================================================
+[2025-08-04 22:15:28] [INFO] ✅ go-backend:
+[2025-08-04 22:15:28] [INFO]    Running: 🟢 Yes
+[2025-08-04 22:15:28] [INFO]    PID: 13050
+[2025-08-04 22:15:28] [INFO]    Port: 8080
+[2025-08-04 22:15:28] [INFO]    Response Time: 32.22ms
+[2025-08-04 22:15:28] [INFO] 
+[2025-08-04 22:15:28] [INFO] ✅ python-legacy:
+[2025-08-04 22:15:28] [INFO]    Running: 🟢 Yes
+[2025-08-04 22:15:28] [INFO]    PID: 879
+[2025-08-04 22:15:28] [INFO]    Port: 5000
+[2025-08-04 22:15:28] [INFO]    Response Time: 25.6ms
+[2025-08-04 22:15:28] [INFO] 
+[2025-08-04 22:15:28] [INFO] ✅ mobile-app:
+[2025-08-04 22:15:28] [INFO]    Running: 🟢 Yes
+[2025-08-04 22:15:28] [INFO]    PID: 92017
+[2025-08-04 22:15:28] [INFO]    Port: 8081
+[2025-08-04 22:15:28] [INFO] 
+[2025-08-04 22:17:57] [INFO] 🚀 Starting PegaSpy ecosystem...
+[2025-08-04 22:17:57] [INFO] 🔍 Checking dependencies...
+[2025-08-04 22:17:57] [INFO] ✅ Go: go version go1.23.2 darwin/arm64
+[2025-08-04 22:17:57] [INFO] ✅ Python: Python 3.13.5
+[2025-08-04 22:17:57] [INFO] ✅ Node.js: v24.2.0
+[2025-08-04 22:17:58] [INFO] ✅ npm: 11.3.0
+[2025-08-04 22:17:58] [INFO] 🚀 Starting go-backend...
+[2025-08-04 22:18:01] [ERROR] ❌ go-backend failed to start
+[2025-08-04 22:18:01] [ERROR] STDOUT: [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /health                   --> pegaspy-backend/internal/api.healthCheck (3 handlers)
+[GIN-debug] POST   /api/v1/scan              --> pegaspy-backend/internal/api.SetupRoutes.scanHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/v1/detections        --> pegaspy-backend/internal/api.SetupRoutes.getDetectionsHandler.func2 (3 handlers)
+[GIN-debug] GET    /api/v1/stats             --> pegaspy-backend/internal/api.SetupRoutes.getStatsHandler.func3 (3 handlers)
+[GIN-debug] GET    /api/v1/status            --> pegaspy-backend/internal/api.SetupRoutes.getStatusHandler.func4 (3 handlers)
+[GIN-debug] GET    /api/v1/audit/chain       --> pegaspy-backend/internal/api.SetupRoutes.getAuditChainHandler.func5 (3 handlers)
+[GIN-debug] GET    /api/v1/audit/events      --> pegaspy-backend/internal/api.SetupRoutes.getAuditEventsHandler.func6 (3 handlers)
+[GIN-debug] GET    /api/v1/audit/stats       --> pegaspy-backend/internal/api.SetupRoutes.getAuditStatsHandler.func7 (3 handlers)
+[GIN-debug] POST   /api/v1/audit/mine        --> pegaspy-backend/internal/api.SetupRoutes.mineBlockHandler.func8 (3 handlers)
+[GIN-debug] GET    /api/v1/audit/validate    --> pegaspy-backend/internal/api.SetupRoutes.validateChainHandler.func9 (3 handlers)
+[GIN-debug] POST   /api/v1/ml/predict        --> pegaspy-backend/internal/api.SetupRoutes.mlPredictHandler.func10 (3 handlers)
+[GIN-debug] GET    /api/v1/ml/stats          --> pegaspy-backend/internal/api.SetupRoutes.mlStatsHandler.func11 (3 handlers)
+[GIN-debug] POST   /api/v1/ml/train          --> pegaspy-backend/internal/api.SetupRoutes.mlTrainHandler.func12 (3 handlers)
+[GIN-debug] GET    /api/v1/ml/patterns       --> pegaspy-backend/internal/api.SetupRoutes.mlPatternsHandler.func13 (3 handlers)
+[GIN-debug] GET    /api/v1/monitor/realtime  --> pegaspy-backend/internal/api.SetupRoutes.realtimeMonitorHandler.func14 (3 handlers)
+[GIN-debug] GET    /api/v1/monitor/threats   --> pegaspy-backend/internal/api.SetupRoutes.threatMonitorHandler.func15 (3 handlers)
+[GIN-debug] GET    /api/v1/system/info       --> pegaspy-backend/internal/api.systemInfoHandler (3 handlers)
+[GIN-debug] GET    /api/v1/system/performance --> pegaspy-backend/internal/api.performanceHandler (3 handlers)
+[GIN-debug] GET    /dashboard/               --> pegaspy-backend/internal/api.dashboardHandler (3 handlers)
+[GIN-debug] GET    /dashboard/static/*filepath --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] HEAD   /dashboard/static/*filepath --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (3 handlers)
+[GIN-debug] GET    /docs                     --> pegaspy-backend/internal/api.docsHandler (3 handlers)
+[GIN-debug] GET    /ws                       --> pegaspy-backend/internal/api.SetupRoutes.websocketHandler.func16 (3 handlers)
+
+[2025-08-04 22:18:01] [ERROR] STDERR: 2025/08/04 22:18:01 🕷️ PegaSpy Phase 4 - High-Performance Backend Server
+2025/08/04 22:18:01 =============================================
+2025/08/04 22:18:01 📋 Configuration loaded:
+2025/08/04 22:18:01    Port: 8080
+2025/08/04 22:18:01    Host: 0.0.0.0
+2025/08/04 22:18:01    Security Mode: strict
+2025/08/04 22:18:01    Detection Enabled: true
+2025/08/04 22:18:01    Realtime Monitoring: true
+2025/08/04 22:18:01    Max Concurrent Scans: 10
+2025/08/04 22:18:01 🔍 Starting PegaSpy Detection Engine...
+2025/08/04 22:18:01 ✅ Detection engine started with 10 workers
+2025/08/04 22:18:01 🎯 Threat detection: true
+2025/08/04 22:18:01 📡 Real-time monitoring: true
+2025/08/04 22:18:01 🧠 Threat intelligence: true
+2025/08/04 22:18:01 🚀 Server starting on port 8080
+2025/08/04 22:18:01 📊 Dashboard: http://localhost:8080/dashboard
+2025/08/04 22:18:01 🔍 API Docs: http://localhost:8080/docs
+2025/08/04 22:18:01 Failed to start server: listen tcp :8080: bind: address already in use
+exit status 1
+
+[2025-08-04 22:18:01] [INFO] 🚀 Starting python-legacy...
+[2025-08-04 22:18:04] [INFO] ✅ python-legacy started successfully (PID: 16648)
+[2025-08-04 22:18:04] [INFO] 🚀 Starting mobile-app...
+[2025-08-04 22:18:07] [ERROR] ❌ mobile-app failed to start
+[2025-08-04 22:18:07] [ERROR] STDOUT: 
+> mobile-app@1.0.0 start
+> expo start
+
+Starting project at /Users/minhajsadik/Documents/MinhajSadik/Pegaspy/mobile-app
+› Port 8081 is running this app in another window
+  /Users/minhajsadik/Documents/MinhajSadik/Pegaspy/mobile-app (pid 92017)
+› Skipping dev server
+
+[2025-08-04 22:18:07] [ERROR] STDERR: Input is required, but 'npx expo' is in non-interactive mode.
+Required input:
+> Use port 8082 instead?
+
+[2025-08-04 22:18:08] [INFO] 📊 PegaSpy Service Status
+[2025-08-04 22:18:08] [INFO] ==================================================
+[2025-08-04 22:18:08] [INFO] ✅ go-backend:
+[2025-08-04 22:18:08] [INFO]    Running: 🟢 Yes
+[2025-08-04 22:18:08] [INFO]    PID: 13050
+[2025-08-04 22:18:08] [INFO]    Port: 8080
+[2025-08-04 22:18:08] [INFO]    Response Time: 25.06ms
+[2025-08-04 22:18:08] [INFO] 
+[2025-08-04 22:18:08] [INFO] ✅ python-legacy:
+[2025-08-04 22:18:08] [INFO]    Running: 🟢 Yes
+[2025-08-04 22:18:08] [INFO]    PID: 879
+[2025-08-04 22:18:08] [INFO]    Port: 5000
+[2025-08-04 22:18:08] [INFO]    Response Time: 9.23ms
+[2025-08-04 22:18:08] [INFO] 
+[2025-08-04 22:18:08] [INFO] ✅ mobile-app:
+[2025-08-04 22:18:08] [INFO]    Running: 🟢 Yes
+[2025-08-04 22:18:08] [INFO]    PID: 92017
+[2025-08-04 22:18:08] [INFO]    Port: 8081
+[2025-08-04 22:18:08] [INFO] 
+[2025-08-04 22:18:08] [INFO] 🧪 Running comprehensive tests...
+[2025-08-04 22:18:08] [INFO] 🏥 Running health checks...
+[2025-08-04 22:18:08] [INFO] ✅ go-backend: Healthy (PID: 13050, Response: 11.99ms)
+[2025-08-04 22:18:08] [INFO] ✅ python-legacy: Healthy (PID: 879, Response: 5.11ms)
+[2025-08-04 22:18:09] [INFO] ✅ mobile-app: Healthy (PID: 92017, Response: Nonems)
+[2025-08-04 22:18:09] [INFO] 
+🔬 Testing API functionality...
+[2025-08-04 22:18:09] [INFO] ✅ Scan API: Working
+[2025-08-04 22:18:09] [INFO] ✅ ML Prediction API: Working
+[2025-08-04 22:18:09] [INFO] 📄 Test report saved to: /Users/minhajsadik/Documents/MinhajSadik/Pegaspy/test_report_1754324289.json
+[2025-08-04 22:18:09] [INFO] 🏥 Running health checks...
+[2025-08-04 22:18:09] [INFO] ✅ go-backend: Healthy (PID: 13050, Response: 11.74ms)
+[2025-08-04 22:18:09] [INFO] ✅ python-legacy: Healthy (PID: 879, Response: 4.77ms)
+[2025-08-04 22:18:09] [INFO] ✅ mobile-app: Healthy (PID: 92017, Response: Nonems)
+[2025-08-04 22:18:11] [INFO] 🛑 Stopping PegaSpy ecosystem...
+[2025-08-04 22:18:11] [INFO] ⚠️  Service go-backend is not running
+[2025-08-04 22:18:11] [INFO] ⚠️  Service python-legacy is not running
+[2025-08-04 22:18:11] [INFO] ⚠️  Service mobile-app is not running
+[2025-08-04 22:18:11] [INFO] ✅ All services stopped successfully
