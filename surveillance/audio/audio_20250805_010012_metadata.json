@@ -1,0 +1,12 @@
+{
+  "session_id": "audio_20250805_010012",
+  "start_time": "2025-08-05T01:00:12.088400",
+  "end_time": "2025-08-05T01:00:15.187861",
+  "sample_count": 11,
+  "quality_settings": {
+    "sample_rate": 44100,
+    "channels": 2,
+    "format": "wav"
+  },
+  "output_path": "surveillance/audio/audio_20250805_010012.wav"
+}

