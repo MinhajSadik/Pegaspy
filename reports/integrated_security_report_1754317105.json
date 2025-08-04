@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-08-04T20:18:25.327667",
+  "framework_version": "2.0.0",
+  "scan_results": {
+    "mobile": {
+      "status": "failed",
+      "error": "'MobileDeviceScanner' object has no attribute 'scan_device'"
+    },
+    "network": {
+      "status": "failed",
+      "error": "'NetworkTrafficAnalyzer' object has no attribute 'get_analysis_results'"
+    },
+    "file_integrity": {
+      "status": "failed",
+      "error": "'FileIntegrityChecker' object has no attribute 'scan_system'"
+    },
+    "behavioral": {
+      "status": "failed",
+      "error": "'BehavioralAnalysisEngine' object has no attribute 'get_analysis_results'"
+    }
+  },
+  "protection_status": {
+    "system_hardening": {
+      "status": "failed",
+      "error": "'SystemHardeningManager' object has no attribute 'check_security_settings'"
+    },
+    "app_permissions": {
+      "apps_scanned": 60,
+      "high_risk_apps": 0
+    },
+    "network_security": {
+      "status": "failed",
+      "error": "'NetworkSecurityMonitor' object has no attribute 'scan_network_connections'"
+    }
+  },
+  "summary": {
+    "overall_security_score": 100,
+    "threats_detected": 0,
+    "recommendations": 0,
+    "protection_active": false
+  }
+}
