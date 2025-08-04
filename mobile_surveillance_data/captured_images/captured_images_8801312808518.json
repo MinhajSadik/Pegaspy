@@ -1,0 +1,727 @@
+[
+  {
+    "image_id": "IMG_20250804_202603_000",
+    "filename": "captured_selfie_20250804_202603_000.jpg",
+    "type": "selfie",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 3310480,
+    "timestamp": "2025-08-04T20:26:03.154630",
+    "location": {
+      "latitude": 23.822915,
+      "longitude": 90.402081,
+      "accuracy": 4,
+      "altitude": 7,
+      "speed": 44.95843861394915,
+      "bearing": 293,
+      "timestamp": "2025-08-05T01:26:03.154654",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "Chrome",
+    "metadata": {
+      "exposure_time": "1/482",
+      "f_number": "f/2.0",
+      "iso": 800,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": false,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250804_132603_001",
+    "filename": "captured_social_media_20250804_132603_001.jpg",
+    "type": "social_media",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 3210518,
+    "timestamp": "2025-08-04T13:26:03.154662",
+    "location": {
+      "latitude": 23.806575,
+      "longitude": 90.413966,
+      "accuracy": 7,
+      "altitude": 14,
+      "speed": 28.98490037414447,
+      "bearing": 334,
+      "timestamp": "2025-08-05T01:26:03.154674",
+      "location_method": "WiFi"
+    },
+    "app_context": "Chrome",
+    "metadata": {
+      "exposure_time": "1/115",
+      "f_number": "f/2.6",
+      "iso": 1600,
+      "flash": "on",
+      "orientation": "landscape"
+    },
+    "stealth_capture": false,
+    "detection_risk": "LOW"
+  },
+  {
+    "image_id": "IMG_20250802_192603_002",
+    "filename": "captured_social_media_20250802_192603_002.jpg",
+    "type": "social_media",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 6033734,
+    "timestamp": "2025-08-02T19:26:03.154680",
+    "location": {
+      "latitude": 23.781843,
+      "longitude": 90.454477,
+      "accuracy": 11,
+      "altitude": 5,
+      "speed": 15.114038689640745,
+      "bearing": 308,
+      "timestamp": "2025-08-05T01:26:03.154690",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "Facebook",
+    "metadata": {
+      "exposure_time": "1/205",
+      "f_number": "f/2.7",
+      "iso": 1600,
+      "flash": "on",
+      "orientation": "landscape"
+    },
+    "stealth_capture": false,
+    "detection_risk": "LOW"
+  },
+  {
+    "image_id": "IMG_20250802_122603_003",
+    "filename": "captured_social_media_20250802_122603_003.jpg",
+    "type": "social_media",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 3650655,
+    "timestamp": "2025-08-02T12:26:03.154695",
+    "location": {
+      "latitude": 23.856922,
+      "longitude": 90.45485,
+      "accuracy": 4,
+      "altitude": 25,
+      "speed": 43.8688100371946,
+      "bearing": 177,
+      "timestamp": "2025-08-05T01:26:03.154703",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "WhatsApp",
+    "metadata": {
+      "exposure_time": "1/224",
+      "f_number": "f/2.5",
+      "iso": 100,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": false,
+    "detection_risk": "LOW"
+  },
+  {
+    "image_id": "IMG_20250804_112603_004",
+    "filename": "captured_document_20250804_112603_004.jpg",
+    "type": "document",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 8008510,
+    "timestamp": "2025-08-04T11:26:03.154708",
+    "location": {
+      "latitude": 23.789776,
+      "longitude": 90.432369,
+      "accuracy": 3,
+      "altitude": 14,
+      "speed": 13.214838693201456,
+      "bearing": 26,
+      "timestamp": "2025-08-05T01:26:03.154716",
+      "location_method": "Hybrid"
+    },
+    "app_context": "Instagram",
+    "metadata": {
+      "exposure_time": "1/90",
+      "f_number": "f/1.8",
+      "iso": 800,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MINIMAL"
+  },
+  {
+    "image_id": "IMG_20250803_182603_005",
+    "filename": "captured_selfie_20250803_182603_005.jpg",
+    "type": "selfie",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 4881046,
+    "timestamp": "2025-08-03T18:26:03.154721",
+    "location": {
+      "latitude": 23.788731,
+      "longitude": 90.437426,
+      "accuracy": 8,
+      "altitude": 12,
+      "speed": 16.485810188205342,
+      "bearing": 254,
+      "timestamp": "2025-08-05T01:26:03.154730",
+      "location_method": "WiFi"
+    },
+    "app_context": "Messenger",
+    "metadata": {
+      "exposure_time": "1/235",
+      "f_number": "f/2.6",
+      "iso": 200,
+      "flash": "on",
+      "orientation": "portrait"
+    },
+    "stealth_capture": false,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250804_162603_006",
+    "filename": "captured_selfie_20250804_162603_006.jpg",
+    "type": "selfie",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 4493176,
+    "timestamp": "2025-08-04T16:26:03.154734",
+    "location": {
+      "latitude": 23.784116,
+      "longitude": 90.421358,
+      "accuracy": 5,
+      "altitude": 6,
+      "speed": 9.441085219779303,
+      "bearing": 1,
+      "timestamp": "2025-08-05T01:26:03.154742",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "Messenger",
+    "metadata": {
+      "exposure_time": "1/318",
+      "f_number": "f/1.9",
+      "iso": 1600,
+      "flash": "auto",
+      "orientation": "portrait"
+    },
+    "stealth_capture": false,
+    "detection_risk": "LOW"
+  },
+  {
+    "image_id": "IMG_20250802_232603_007",
+    "filename": "captured_screenshot_20250802_232603_007.jpg",
+    "type": "screenshot",
+    "camera": "screen",
+    "resolution": "1080x2340",
+    "size_bytes": 4564121,
+    "timestamp": "2025-08-02T23:26:03.154746",
+    "location": {
+      "latitude": 23.841339,
+      "longitude": 90.389652,
+      "accuracy": 4,
+      "altitude": 8,
+      "speed": 41.2273756303486,
+      "bearing": 246,
+      "timestamp": "2025-08-05T01:26:03.154755",
+      "location_method": "WiFi"
+    },
+    "app_context": "Chrome",
+    "metadata": {
+      "exposure_time": "1/447",
+      "f_number": "f/2.7",
+      "iso": 200,
+      "flash": "auto",
+      "orientation": "portrait"
+    },
+    "stealth_capture": true,
+    "detection_risk": "LOW"
+  },
+  {
+    "image_id": "IMG_20250804_122603_008",
+    "filename": "captured_photo_20250804_122603_008.jpg",
+    "type": "photo",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 6738207,
+    "timestamp": "2025-08-04T12:26:03.154759",
+    "location": {
+      "latitude": 23.792406,
+      "longitude": 90.374064,
+      "accuracy": 15,
+      "altitude": 8,
+      "speed": 14.491953540680374,
+      "bearing": 257,
+      "timestamp": "2025-08-05T01:26:03.154767",
+      "location_method": "GPS"
+    },
+    "app_context": "Gallery",
+    "metadata": {
+      "exposure_time": "1/360",
+      "f_number": "f/2.7",
+      "iso": 200,
+      "flash": "auto",
+      "orientation": "landscape"
+    },
+    "stealth_capture": false,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250803_032603_009",
+    "filename": "captured_selfie_20250803_032603_009.jpg",
+    "type": "selfie",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 4123255,
+    "timestamp": "2025-08-03T03:26:03.154771",
+    "location": {
+      "latitude": 23.853199,
+      "longitude": 90.367992,
+      "accuracy": 8,
+      "altitude": 20,
+      "speed": 27.980640350968166,
+      "bearing": 33,
+      "timestamp": "2025-08-05T01:26:03.154780",
+      "location_method": "GPS"
+    },
+    "app_context": "Gallery",
+    "metadata": {
+      "exposure_time": "1/161",
+      "f_number": "f/2.2",
+      "iso": 1600,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": false,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250804_072603_010",
+    "filename": "captured_photo_20250804_072603_010.jpg",
+    "type": "photo",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 3718471,
+    "timestamp": "2025-08-04T07:26:03.154784",
+    "location": {
+      "latitude": 23.765739,
+      "longitude": 90.386229,
+      "accuracy": 13,
+      "altitude": 9,
+      "speed": 0.5741275898618692,
+      "bearing": 335,
+      "timestamp": "2025-08-05T01:26:03.154795",
+      "location_method": "WiFi"
+    },
+    "app_context": "Camera",
+    "metadata": {
+      "exposure_time": "1/233",
+      "f_number": "f/2.5",
+      "iso": 200,
+      "flash": "on",
+      "orientation": "portrait"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MINIMAL"
+  },
+  {
+    "image_id": "IMG_20250802_022603_011",
+    "filename": "captured_social_media_20250802_022603_011.jpg",
+    "type": "social_media",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 2347678,
+    "timestamp": "2025-08-02T02:26:03.154800",
+    "location": {
+      "latitude": 23.832082,
+      "longitude": 90.401429,
+      "accuracy": 5,
+      "altitude": 23,
+      "speed": 21.195024877800535,
+      "bearing": 265,
+      "timestamp": "2025-08-05T01:26:03.154808",
+      "location_method": "WiFi"
+    },
+    "app_context": "Messenger",
+    "metadata": {
+      "exposure_time": "1/421",
+      "f_number": "f/2.0",
+      "iso": 1600,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250804_112603_012",
+    "filename": "captured_screenshot_20250804_112603_012.jpg",
+    "type": "screenshot",
+    "camera": "screen",
+    "resolution": "1080x2340",
+    "size_bytes": 7138258,
+    "timestamp": "2025-08-04T11:26:03.154813",
+    "location": {
+      "latitude": 23.771945,
+      "longitude": 90.398046,
+      "accuracy": 3,
+      "altitude": 22,
+      "speed": 12.824636130552669,
+      "bearing": 110,
+      "timestamp": "2025-08-05T01:26:03.154821",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "TikTok",
+    "metadata": {
+      "exposure_time": "1/264",
+      "f_number": "f/2.5",
+      "iso": 100,
+      "flash": "auto",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MINIMAL"
+  },
+  {
+    "image_id": "IMG_20250802_012603_013",
+    "filename": "captured_photo_20250802_012603_013.jpg",
+    "type": "photo",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 6966782,
+    "timestamp": "2025-08-02T01:26:03.154825",
+    "location": {
+      "latitude": 23.858402,
+      "longitude": 90.458079,
+      "accuracy": 5,
+      "altitude": 13,
+      "speed": 6.1550863663404245,
+      "bearing": 276,
+      "timestamp": "2025-08-05T01:26:03.154834",
+      "location_method": "WiFi"
+    },
+    "app_context": "TikTok",
+    "metadata": {
+      "exposure_time": "1/149",
+      "f_number": "f/2.8",
+      "iso": 400,
+      "flash": "auto",
+      "orientation": "portrait"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MINIMAL"
+  },
+  {
+    "image_id": "IMG_20250804_072603_014",
+    "filename": "captured_photo_20250804_072603_014.jpg",
+    "type": "photo",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 4103547,
+    "timestamp": "2025-08-04T07:26:03.154838",
+    "location": {
+      "latitude": 23.772902,
+      "longitude": 90.421452,
+      "accuracy": 8,
+      "altitude": 13,
+      "speed": 13.232453848427765,
+      "bearing": 64,
+      "timestamp": "2025-08-05T01:26:03.154846",
+      "location_method": "Hybrid"
+    },
+    "app_context": "Chrome",
+    "metadata": {
+      "exposure_time": "1/30",
+      "f_number": "f/2.7",
+      "iso": 1600,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250804_202603_015",
+    "filename": "captured_screenshot_20250804_202603_015.jpg",
+    "type": "screenshot",
+    "camera": "screen",
+    "resolution": "1080x2340",
+    "size_bytes": 4398247,
+    "timestamp": "2025-08-04T20:26:03.154850",
+    "location": {
+      "latitude": 23.844221,
+      "longitude": 90.441923,
+      "accuracy": 15,
+      "altitude": 14,
+      "speed": 41.927305780933104,
+      "bearing": 228,
+      "timestamp": "2025-08-05T01:26:03.154858",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "Gallery",
+    "metadata": {
+      "exposure_time": "1/41",
+      "f_number": "f/2.2",
+      "iso": 800,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250804_112603_016",
+    "filename": "captured_photo_20250804_112603_016.jpg",
+    "type": "photo",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 7867371,
+    "timestamp": "2025-08-04T11:26:03.154863",
+    "location": {
+      "latitude": 23.775944,
+      "longitude": 90.369123,
+      "accuracy": 6,
+      "altitude": 24,
+      "speed": 17.75017806816451,
+      "bearing": 248,
+      "timestamp": "2025-08-05T01:26:03.154871",
+      "location_method": "WiFi"
+    },
+    "app_context": "Gallery",
+    "metadata": {
+      "exposure_time": "1/212",
+      "f_number": "f/2.2",
+      "iso": 800,
+      "flash": "on",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MINIMAL"
+  },
+  {
+    "image_id": "IMG_20250802_172603_017",
+    "filename": "captured_document_20250802_172603_017.jpg",
+    "type": "document",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 3606687,
+    "timestamp": "2025-08-02T17:26:03.154875",
+    "location": {
+      "latitude": 23.792866,
+      "longitude": 90.380926,
+      "accuracy": 10,
+      "altitude": 23,
+      "speed": 23.454214520820916,
+      "bearing": 81,
+      "timestamp": "2025-08-05T01:26:03.154883",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "Camera",
+    "metadata": {
+      "exposure_time": "1/174",
+      "f_number": "f/2.2",
+      "iso": 200,
+      "flash": "auto",
+      "orientation": "portrait"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250804_082603_018",
+    "filename": "captured_social_media_20250804_082603_018.jpg",
+    "type": "social_media",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 7268026,
+    "timestamp": "2025-08-04T08:26:03.154888",
+    "location": {
+      "latitude": 23.834147,
+      "longitude": 90.431453,
+      "accuracy": 4,
+      "altitude": 8,
+      "speed": 24.38349908979617,
+      "bearing": 302,
+      "timestamp": "2025-08-05T01:26:03.154897",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "TikTok",
+    "metadata": {
+      "exposure_time": "1/37",
+      "f_number": "f/2.8",
+      "iso": 100,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "LOW"
+  },
+  {
+    "image_id": "IMG_20250804_022603_019",
+    "filename": "captured_document_20250804_022603_019.jpg",
+    "type": "document",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 5775201,
+    "timestamp": "2025-08-04T02:26:03.154901",
+    "location": {
+      "latitude": 23.810513,
+      "longitude": 90.380392,
+      "accuracy": 10,
+      "altitude": 25,
+      "speed": 33.49422257709282,
+      "bearing": 244,
+      "timestamp": "2025-08-05T01:26:03.154910",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "Instagram",
+    "metadata": {
+      "exposure_time": "1/54",
+      "f_number": "f/2.4",
+      "iso": 100,
+      "flash": "on",
+      "orientation": "landscape"
+    },
+    "stealth_capture": false,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250804_022603_020",
+    "filename": "captured_selfie_20250804_022603_020.jpg",
+    "type": "selfie",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 6410785,
+    "timestamp": "2025-08-04T02:26:03.154914",
+    "location": {
+      "latitude": 23.764172,
+      "longitude": 90.435949,
+      "accuracy": 7,
+      "altitude": 25,
+      "speed": 38.833863136327594,
+      "bearing": 245,
+      "timestamp": "2025-08-05T01:26:03.154923",
+      "location_method": "Hybrid"
+    },
+    "app_context": "Camera",
+    "metadata": {
+      "exposure_time": "1/127",
+      "f_number": "f/2.0",
+      "iso": 800,
+      "flash": "auto",
+      "orientation": "landscape"
+    },
+    "stealth_capture": false,
+    "detection_risk": "LOW"
+  },
+  {
+    "image_id": "IMG_20250804_232603_021",
+    "filename": "captured_social_media_20250804_232603_021.jpg",
+    "type": "social_media",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 7557684,
+    "timestamp": "2025-08-04T23:26:03.154927",
+    "location": {
+      "latitude": 23.815008,
+      "longitude": 90.395971,
+      "accuracy": 12,
+      "altitude": 25,
+      "speed": 23.27319877540353,
+      "bearing": 260,
+      "timestamp": "2025-08-05T01:26:03.154935",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "Facebook",
+    "metadata": {
+      "exposure_time": "1/117",
+      "f_number": "f/2.3",
+      "iso": 1600,
+      "flash": "auto",
+      "orientation": "portrait"
+    },
+    "stealth_capture": true,
+    "detection_risk": "LOW"
+  },
+  {
+    "image_id": "IMG_20250803_032603_022",
+    "filename": "captured_selfie_20250803_032603_022.jpg",
+    "type": "selfie",
+    "camera": "front",
+    "resolution": "1280x720",
+    "size_bytes": 5329559,
+    "timestamp": "2025-08-03T03:26:03.154939",
+    "location": {
+      "latitude": 23.784559,
+      "longitude": 90.425809,
+      "accuracy": 15,
+      "altitude": 8,
+      "speed": 32.71523663865646,
+      "bearing": 63,
+      "timestamp": "2025-08-05T01:26:03.154948",
+      "location_method": "Cell Tower"
+    },
+    "app_context": "Chrome",
+    "metadata": {
+      "exposure_time": "1/36",
+      "f_number": "f/2.1",
+      "iso": 800,
+      "flash": "auto",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MEDIUM"
+  },
+  {
+    "image_id": "IMG_20250802_142603_023",
+    "filename": "captured_photo_20250802_142603_023.jpg",
+    "type": "photo",
+    "camera": "rear",
+    "resolution": "1920x1080",
+    "size_bytes": 5479442,
+    "timestamp": "2025-08-02T14:26:03.154952",
+    "location": {
+      "latitude": 23.82294,
+      "longitude": 90.388961,
+      "accuracy": 13,
+      "altitude": 21,
+      "speed": 1.8067990800604568,
+      "bearing": 139,
+      "timestamp": "2025-08-05T01:26:03.154961",
+      "location_method": "WiFi"
+    },
+    "app_context": "Gallery",
+    "metadata": {
+      "exposure_time": "1/415",
+      "f_number": "f/2.8",
+      "iso": 200,
+      "flash": "auto",
+      "orientation": "portrait"
+    },
+    "stealth_capture": true,
+    "detection_risk": "MINIMAL"
+  },
+  {
+    "image_id": "IMG_20250805_012603_024",
+    "filename": "captured_screenshot_20250805_012603_024.jpg",
+    "type": "screenshot",
+    "camera": "screen",
+    "resolution": "1080x2340",
+    "size_bytes": 6201252,
+    "timestamp": "2025-08-05T01:26:03.154965",
+    "location": {
+      "latitude": 23.845176,
+      "longitude": 90.374432,
+      "accuracy": 15,
+      "altitude": 23,
+      "speed": 25.41693560167407,
+      "bearing": 39,
+      "timestamp": "2025-08-05T01:26:03.154973",
+      "location_method": "GPS"
+    },
+    "app_context": "Camera",
+    "metadata": {
+      "exposure_time": "1/459",
+      "f_number": "f/1.9",
+      "iso": 800,
+      "flash": "off",
+      "orientation": "landscape"
+    },
+    "stealth_capture": true,
+    "detection_risk": "LOW"
+  }
+]

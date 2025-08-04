@@ -1,0 +1,1765 @@
+[
+  {
+    "location_id": "LOC_20250804_002603_000",
+    "timestamp": "2025-08-04T00:26:03.156213",
+    "latitude": 23.75012,
+    "longitude": 90.367742,
+    "accuracy": 16,
+    "altitude": 15,
+    "speed": 47.5832125166935,
+    "bearing": 309,
+    "area_name": "Dhanmondi",
+    "address": "Dhanmondi, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 148,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_2635",
+      "WiFi_3365",
+      "WiFi_7323",
+      "WiFi_4575"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_41437",
+        "signal": -74
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250804_092603_001",
+    "timestamp": "2025-08-04T09:26:03.156231",
+    "latitude": 23.799774,
+    "longitude": 90.416709,
+    "accuracy": 8,
+    "altitude": 15,
+    "speed": 48.21246400974047,
+    "bearing": 235,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 128,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_8644",
+      "WiFi_1838",
+      "WiFi_6818",
+      "WiFi_4573",
+      "WiFi_8415",
+      "WiFi_9342"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_59895",
+        "signal": -61
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_042603_002",
+    "timestamp": "2025-08-03T04:26:03.156248",
+    "latitude": 23.745343,
+    "longitude": 90.374604,
+    "accuracy": 3,
+    "altitude": 24,
+    "speed": 0.9169089120380924,
+    "bearing": 130,
+    "area_name": "Dhanmondi",
+    "address": "Dhanmondi, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 152,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_3498",
+      "WiFi_1821",
+      "WiFi_1765",
+      "WiFi_5604",
+      "WiFi_5505",
+      "WiFi_6455",
+      "WiFi_7207"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_54109",
+        "signal": -59
+      },
+      {
+        "id": "CELL_98722",
+        "signal": -54
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_212603_003",
+    "timestamp": "2025-08-03T21:26:03.156263",
+    "latitude": 23.784626,
+    "longitude": 90.401852,
+    "accuracy": 8,
+    "altitude": 43,
+    "speed": 24.613983543814392,
+    "bearing": 72,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 16,
+    "activity_type": "unknown",
+    "nearby_wifi": [
+      "WiFi_3641",
+      "WiFi_3281",
+      "WiFi_3495",
+      "WiFi_3379",
+      "WiFi_9372",
+      "WiFi_7087",
+      "WiFi_3941",
+      "WiFi_9607"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_53805",
+        "signal": -60
+      },
+      {
+        "id": "CELL_24350",
+        "signal": -57
+      },
+      {
+        "id": "CELL_68755",
+        "signal": -51
+      },
+      {
+        "id": "CELL_28016",
+        "signal": -60
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_152603_004",
+    "timestamp": "2025-08-02T15:26:03.156278",
+    "latitude": 23.819497,
+    "longitude": 90.373506,
+    "accuracy": 24,
+    "altitude": 48,
+    "speed": 38.92044258353227,
+    "bearing": 56,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 145,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_3225",
+      "WiFi_2118",
+      "WiFi_8810",
+      "WiFi_3940",
+      "WiFi_4229",
+      "WiFi_1231",
+      "WiFi_2073"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_64713",
+        "signal": -54
+      },
+      {
+        "id": "CELL_36837",
+        "signal": -79
+      },
+      {
+        "id": "CELL_13073",
+        "signal": -43
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250804_192603_005",
+    "timestamp": "2025-08-04T19:26:03.156292",
+    "latitude": 23.798172,
+    "longitude": 90.405614,
+    "accuracy": 22,
+    "altitude": 20,
+    "speed": 39.43191371244875,
+    "bearing": 195,
+    "area_name": "Banani",
+    "address": "Banani, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 108,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_1830",
+      "WiFi_9523",
+      "WiFi_5613",
+      "WiFi_5076",
+      "WiFi_1113",
+      "WiFi_1788",
+      "WiFi_2080"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_11251",
+        "signal": -46
+      },
+      {
+        "id": "CELL_92747",
+        "signal": -78
+      },
+      {
+        "id": "CELL_21180",
+        "signal": -51
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250731_072603_006",
+    "timestamp": "2025-07-31T07:26:03.156306",
+    "latitude": 23.799602,
+    "longitude": 90.401072,
+    "accuracy": 13,
+    "altitude": 47,
+    "speed": 9.659139567300738,
+    "bearing": 53,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 86,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_8415",
+      "WiFi_8622",
+      "WiFi_2323",
+      "WiFi_3317",
+      "WiFi_8421",
+      "WiFi_8929",
+      "WiFi_5512",
+      "WiFi_2369"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_71254",
+        "signal": -60
+      },
+      {
+        "id": "CELL_99435",
+        "signal": -48
+      },
+      {
+        "id": "CELL_37037",
+        "signal": -69
+      },
+      {
+        "id": "CELL_25889",
+        "signal": -51
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_172603_007",
+    "timestamp": "2025-08-03T17:26:03.156321",
+    "latitude": 23.741044,
+    "longitude": 90.423192,
+    "accuracy": 8,
+    "altitude": 18,
+    "speed": 30.580887857851067,
+    "bearing": 85,
+    "area_name": "Motijheel",
+    "address": "Motijheel, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 66,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_4760",
+      "WiFi_6574",
+      "WiFi_9775"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_80306",
+        "signal": -62
+      },
+      {
+        "id": "CELL_43227",
+        "signal": -60
+      },
+      {
+        "id": "CELL_19453",
+        "signal": -54
+      },
+      {
+        "id": "CELL_49790",
+        "signal": -69
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_122603_008",
+    "timestamp": "2025-08-03T12:26:03.156335",
+    "latitude": 23.830346,
+    "longitude": 90.35817,
+    "accuracy": 12,
+    "altitude": 22,
+    "speed": 52.87843232842086,
+    "bearing": 19,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 43,
+    "activity_type": "unknown",
+    "nearby_wifi": [
+      "WiFi_6049",
+      "WiFi_7027",
+      "WiFi_2011",
+      "WiFi_7540"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_27854",
+        "signal": -49
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_062603_009",
+    "timestamp": "2025-08-03T06:26:03.156346",
+    "latitude": 23.743593,
+    "longitude": 90.378281,
+    "accuracy": 14,
+    "altitude": 28,
+    "speed": 30.767929284213288,
+    "bearing": 166,
+    "area_name": "Dhanmondi",
+    "address": "Dhanmondi, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 65,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_1625",
+      "WiFi_3888",
+      "WiFi_6436",
+      "WiFi_8790",
+      "WiFi_2714",
+      "WiFi_2852",
+      "WiFi_7303"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_71839",
+        "signal": -47
+      },
+      {
+        "id": "CELL_93818",
+        "signal": -69
+      },
+      {
+        "id": "CELL_13443",
+        "signal": -57
+      },
+      {
+        "id": "CELL_15683",
+        "signal": -69
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250730_192603_010",
+    "timestamp": "2025-07-30T19:26:03.156361",
+    "latitude": 23.829808,
+    "longitude": 90.365477,
+    "accuracy": 6,
+    "altitude": 48,
+    "speed": 53.68216291078871,
+    "bearing": 129,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 139,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_5974",
+      "WiFi_7559"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_14241",
+        "signal": -61
+      },
+      {
+        "id": "CELL_14010",
+        "signal": -79
+      },
+      {
+        "id": "CELL_26986",
+        "signal": -58
+      },
+      {
+        "id": "CELL_24898",
+        "signal": -45
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_052603_011",
+    "timestamp": "2025-08-02T05:26:03.156374",
+    "latitude": 23.712319,
+    "longitude": 90.408338,
+    "accuracy": 7,
+    "altitude": 22,
+    "speed": 50.12469665639115,
+    "bearing": 0,
+    "area_name": "Old Dhaka",
+    "address": "Old Dhaka, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 54,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_9765",
+      "WiFi_7573"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_20334",
+        "signal": -42
+      },
+      {
+        "id": "CELL_93827",
+        "signal": -44
+      },
+      {
+        "id": "CELL_46537",
+        "signal": -70
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_072603_012",
+    "timestamp": "2025-08-02T07:26:03.156385",
+    "latitude": 23.87203,
+    "longitude": 90.384252,
+    "accuracy": 11,
+    "altitude": 42,
+    "speed": 19.417037702662224,
+    "bearing": 185,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 53,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_4979",
+      "WiFi_9307",
+      "WiFi_9657",
+      "WiFi_4849",
+      "WiFi_9542",
+      "WiFi_8928"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_10489",
+        "signal": -65
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250801_112603_013",
+    "timestamp": "2025-08-01T11:26:03.156397",
+    "latitude": 23.74047,
+    "longitude": 90.418426,
+    "accuracy": 19,
+    "altitude": 19,
+    "speed": 46.932213641442274,
+    "bearing": 225,
+    "area_name": "Motijheel",
+    "address": "Motijheel, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 84,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_7705",
+      "WiFi_5091",
+      "WiFi_7243",
+      "WiFi_3658",
+      "WiFi_2035",
+      "WiFi_1719"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_60551",
+        "signal": -77
+      },
+      {
+        "id": "CELL_98933",
+        "signal": -52
+      },
+      {
+        "id": "CELL_68649",
+        "signal": -61
+      },
+      {
+        "id": "CELL_18951",
+        "signal": -73
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_232603_014",
+    "timestamp": "2025-08-02T23:26:03.156412",
+    "latitude": 23.786038,
+    "longitude": 90.397944,
+    "accuracy": 17,
+    "altitude": 47,
+    "speed": 42.090955567932916,
+    "bearing": 237,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 58,
+    "activity_type": "unknown",
+    "nearby_wifi": [
+      "WiFi_3431",
+      "WiFi_1924",
+      "WiFi_3838",
+      "WiFi_3571",
+      "WiFi_9730",
+      "WiFi_4428",
+      "WiFi_9307",
+      "WiFi_3869"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_89593",
+        "signal": -53
+      },
+      {
+        "id": "CELL_56263",
+        "signal": -73
+      },
+      {
+        "id": "CELL_54594",
+        "signal": -73
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250729_212603_015",
+    "timestamp": "2025-07-29T21:26:03.156426",
+    "latitude": 23.727993,
+    "longitude": 90.416583,
+    "accuracy": 9,
+    "altitude": 9,
+    "speed": 14.462660847414977,
+    "bearing": 317,
+    "area_name": "Motijheel",
+    "address": "Motijheel, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 32,
+    "activity_type": "unknown",
+    "nearby_wifi": [
+      "WiFi_5465",
+      "WiFi_4167",
+      "WiFi_3670"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_53851",
+        "signal": -60
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250804_122603_016",
+    "timestamp": "2025-08-04T12:26:03.156437",
+    "latitude": 23.792486,
+    "longitude": 90.398362,
+    "accuracy": 22,
+    "altitude": 28,
+    "speed": 3.78887303736106,
+    "bearing": 122,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 165,
+    "activity_type": "unknown",
+    "nearby_wifi": [
+      "WiFi_4531",
+      "WiFi_3030",
+      "WiFi_5363",
+      "WiFi_3858",
+      "WiFi_4011",
+      "WiFi_2001",
+      "WiFi_2137"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_84410",
+        "signal": -64
+      },
+      {
+        "id": "CELL_78617",
+        "signal": -58
+      },
+      {
+        "id": "CELL_11467",
+        "signal": -74
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250731_172603_017",
+    "timestamp": "2025-07-31T17:26:03.156451",
+    "latitude": 23.733072,
+    "longitude": 90.407315,
+    "accuracy": 25,
+    "altitude": 11,
+    "speed": 7.917746227967186,
+    "bearing": 234,
+    "area_name": "Motijheel",
+    "address": "Motijheel, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 104,
+    "activity_type": "stationary",
+    "nearby_wifi": [
+      "WiFi_1110",
+      "WiFi_3427"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_35371",
+        "signal": -68
+      },
+      {
+        "id": "CELL_45535",
+        "signal": -73
+      },
+      {
+        "id": "CELL_44058",
+        "signal": -43
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250730_002603_018",
+    "timestamp": "2025-07-30T00:26:03.156463",
+    "latitude": 23.748727,
+    "longitude": 90.379908,
+    "accuracy": 25,
+    "altitude": 50,
+    "speed": 32.6688609932846,
+    "bearing": 115,
+    "area_name": "Dhanmondi",
+    "address": "Dhanmondi, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 38,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_8989",
+      "WiFi_2746",
+      "WiFi_7303"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_27800",
+        "signal": -42
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250731_212603_019",
+    "timestamp": "2025-07-31T21:26:03.156474",
+    "latitude": 23.86619,
+    "longitude": 90.370205,
+    "accuracy": 23,
+    "altitude": 18,
+    "speed": 14.083339950100664,
+    "bearing": 310,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 69,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_7380",
+      "WiFi_6195",
+      "WiFi_2831",
+      "WiFi_3616",
+      "WiFi_6320",
+      "WiFi_5036",
+      "WiFi_4863",
+      "WiFi_8591"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_54375",
+        "signal": -59
+      },
+      {
+        "id": "CELL_82808",
+        "signal": -44
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250804_222603_020",
+    "timestamp": "2025-08-04T22:26:03.156488",
+    "latitude": 23.738691,
+    "longitude": 90.423564,
+    "accuracy": 8,
+    "altitude": 41,
+    "speed": 56.234319193694986,
+    "bearing": 53,
+    "area_name": "Motijheel",
+    "address": "Motijheel, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 66,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_8948",
+      "WiFi_1284",
+      "WiFi_1917",
+      "WiFi_8661",
+      "WiFi_3911",
+      "WiFi_9728"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_97054",
+        "signal": -51
+      },
+      {
+        "id": "CELL_97520",
+        "signal": -63
+      },
+      {
+        "id": "CELL_72084",
+        "signal": -53
+      },
+      {
+        "id": "CELL_36323",
+        "signal": -43
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_212603_021",
+    "timestamp": "2025-08-02T21:26:03.156501",
+    "latitude": 23.882351,
+    "longitude": 90.388914,
+    "accuracy": 19,
+    "altitude": 8,
+    "speed": 56.330194788257344,
+    "bearing": 135,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 146,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_9577",
+      "WiFi_2841",
+      "WiFi_4778",
+      "WiFi_3089",
+      "WiFi_5063",
+      "WiFi_7826"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_49829",
+        "signal": -43
+      },
+      {
+        "id": "CELL_75209",
+        "signal": -80
+      },
+      {
+        "id": "CELL_73381",
+        "signal": -62
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250729_052603_022",
+    "timestamp": "2025-07-29T05:26:03.156515",
+    "latitude": 23.821246,
+    "longitude": 90.372579,
+    "accuracy": 5,
+    "altitude": 48,
+    "speed": 55.23608643618007,
+    "bearing": 89,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 171,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_8877",
+      "WiFi_5306",
+      "WiFi_7400",
+      "WiFi_9504",
+      "WiFi_1074",
+      "WiFi_3235",
+      "WiFi_6297",
+      "WiFi_9584"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_69991",
+        "signal": -49
+      },
+      {
+        "id": "CELL_64436",
+        "signal": -77
+      },
+      {
+        "id": "CELL_17092",
+        "signal": -68
+      },
+      {
+        "id": "CELL_78282",
+        "signal": -40
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250731_082603_023",
+    "timestamp": "2025-07-31T08:26:03.156531",
+    "latitude": 23.820993,
+    "longitude": 90.367002,
+    "accuracy": 7,
+    "altitude": 37,
+    "speed": 34.75570909091361,
+    "bearing": 149,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 114,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_1374",
+      "WiFi_9675",
+      "WiFi_7656",
+      "WiFi_5629",
+      "WiFi_6734"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_87401",
+        "signal": -73
+      },
+      {
+        "id": "CELL_58378",
+        "signal": -52
+      },
+      {
+        "id": "CELL_80706",
+        "signal": -47
+      },
+      {
+        "id": "CELL_65901",
+        "signal": -57
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250801_092603_024",
+    "timestamp": "2025-08-01T09:26:03.156546",
+    "latitude": 23.866577,
+    "longitude": 90.383932,
+    "accuracy": 4,
+    "altitude": 23,
+    "speed": 10.748295673013647,
+    "bearing": 336,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 59,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_3352",
+      "WiFi_1308",
+      "WiFi_5900"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_23129",
+        "signal": -68
+      },
+      {
+        "id": "CELL_15169",
+        "signal": -69
+      },
+      {
+        "id": "CELL_41490",
+        "signal": -61
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250729_202603_025",
+    "timestamp": "2025-07-29T20:26:03.156557",
+    "latitude": 23.866785,
+    "longitude": 90.378458,
+    "accuracy": 16,
+    "altitude": 23,
+    "speed": 52.163776355130274,
+    "bearing": 232,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 51,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_7010",
+      "WiFi_1125",
+      "WiFi_4099",
+      "WiFi_5203"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_26529",
+        "signal": -71
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_182603_026",
+    "timestamp": "2025-08-02T18:26:03.156568",
+    "latitude": 23.800062,
+    "longitude": 90.399258,
+    "accuracy": 17,
+    "altitude": 50,
+    "speed": 58.25841029312348,
+    "bearing": 36,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 81,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_6016",
+      "WiFi_6294",
+      "WiFi_5875"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_50660",
+        "signal": -57
+      },
+      {
+        "id": "CELL_25729",
+        "signal": -61
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_142603_027",
+    "timestamp": "2025-08-03T14:26:03.156579",
+    "latitude": 23.813791,
+    "longitude": 90.374735,
+    "accuracy": 11,
+    "altitude": 50,
+    "speed": 14.292312376470761,
+    "bearing": 79,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 53,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_7616",
+      "WiFi_8372",
+      "WiFi_9990",
+      "WiFi_5918",
+      "WiFi_7498",
+      "WiFi_5530"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_49842",
+        "signal": -74
+      },
+      {
+        "id": "CELL_29362",
+        "signal": -47
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250730_092603_028",
+    "timestamp": "2025-07-30T09:26:03.156591",
+    "latitude": 23.737428,
+    "longitude": 90.417566,
+    "accuracy": 25,
+    "altitude": 12,
+    "speed": 20.9063875423869,
+    "bearing": 347,
+    "area_name": "Motijheel",
+    "address": "Motijheel, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 59,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_2251",
+      "WiFi_1287",
+      "WiFi_7948",
+      "WiFi_5511"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_26450",
+        "signal": -79
+      },
+      {
+        "id": "CELL_10245",
+        "signal": -56
+      },
+      {
+        "id": "CELL_48827",
+        "signal": -70
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250801_202603_029",
+    "timestamp": "2025-08-01T20:26:03.156604",
+    "latitude": 23.829897,
+    "longitude": 90.360241,
+    "accuracy": 23,
+    "altitude": 7,
+    "speed": 44.81990406218967,
+    "bearing": 91,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 39,
+    "activity_type": "stationary",
+    "nearby_wifi": [
+      "WiFi_5331",
+      "WiFi_2002",
+      "WiFi_2481",
+      "WiFi_5731",
+      "WiFi_5964",
+      "WiFi_2523",
+      "WiFi_2957"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_33441",
+        "signal": -75
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_172603_030",
+    "timestamp": "2025-08-02T17:26:03.156616",
+    "latitude": 23.829019,
+    "longitude": 90.363776,
+    "accuracy": 16,
+    "altitude": 40,
+    "speed": 43.55595710104894,
+    "bearing": 176,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 179,
+    "activity_type": "stationary",
+    "nearby_wifi": [
+      "WiFi_6345",
+      "WiFi_6515",
+      "WiFi_1081",
+      "WiFi_8436",
+      "WiFi_2450",
+      "WiFi_8122"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_85907",
+        "signal": -76
+      },
+      {
+        "id": "CELL_33654",
+        "signal": -49
+      },
+      {
+        "id": "CELL_64316",
+        "signal": -77
+      },
+      {
+        "id": "CELL_78412",
+        "signal": -44
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_152603_031",
+    "timestamp": "2025-08-02T15:26:03.156633",
+    "latitude": 23.715024,
+    "longitude": 90.406836,
+    "accuracy": 22,
+    "altitude": 37,
+    "speed": 6.227994980087681,
+    "bearing": 125,
+    "area_name": "Old Dhaka",
+    "address": "Old Dhaka, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 164,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_2690",
+      "WiFi_6895",
+      "WiFi_5948",
+      "WiFi_4194"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_38600",
+        "signal": -42
+      },
+      {
+        "id": "CELL_42153",
+        "signal": -67
+      },
+      {
+        "id": "CELL_35114",
+        "signal": -62
+      },
+      {
+        "id": "CELL_85972",
+        "signal": -40
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250804_082603_032",
+    "timestamp": "2025-08-04T08:26:03.156646",
+    "latitude": 23.74085,
+    "longitude": 90.366184,
+    "accuracy": 23,
+    "altitude": 50,
+    "speed": 48.24555335289723,
+    "bearing": 216,
+    "area_name": "Dhanmondi",
+    "address": "Dhanmondi, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 143,
+    "activity_type": "stationary",
+    "nearby_wifi": [
+      "WiFi_7378",
+      "WiFi_3775"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_49016",
+        "signal": -73
+      },
+      {
+        "id": "CELL_64551",
+        "signal": -48
+      },
+      {
+        "id": "CELL_41984",
+        "signal": -57
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_092603_033",
+    "timestamp": "2025-08-03T09:26:03.156658",
+    "latitude": 23.8001,
+    "longitude": 90.412691,
+    "accuracy": 14,
+    "altitude": 35,
+    "speed": 14.152497534234618,
+    "bearing": 156,
+    "area_name": "Banani",
+    "address": "Banani, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 47,
+    "activity_type": "stationary",
+    "nearby_wifi": [
+      "WiFi_8162",
+      "WiFi_4923",
+      "WiFi_7002"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_76922",
+        "signal": -51
+      },
+      {
+        "id": "CELL_16375",
+        "signal": -61
+      },
+      {
+        "id": "CELL_28361",
+        "signal": -58
+      },
+      {
+        "id": "CELL_17746",
+        "signal": -54
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_212603_034",
+    "timestamp": "2025-08-03T21:26:03.156670",
+    "latitude": 23.725139,
+    "longitude": 90.409205,
+    "accuracy": 22,
+    "altitude": 31,
+    "speed": 29.494270995288513,
+    "bearing": 96,
+    "area_name": "Motijheel",
+    "address": "Motijheel, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 17,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_1872",
+      "WiFi_7424",
+      "WiFi_2842",
+      "WiFi_1469",
+      "WiFi_2940",
+      "WiFi_7477"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_24334",
+        "signal": -68
+      },
+      {
+        "id": "CELL_10914",
+        "signal": -72
+      },
+      {
+        "id": "CELL_31312",
+        "signal": -66
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250730_222603_035",
+    "timestamp": "2025-07-30T22:26:03.156684",
+    "latitude": 23.786113,
+    "longitude": 90.411437,
+    "accuracy": 21,
+    "altitude": 7,
+    "speed": 8.101864178728263,
+    "bearing": 41,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 96,
+    "activity_type": "unknown",
+    "nearby_wifi": [
+      "WiFi_8155",
+      "WiFi_6312",
+      "WiFi_8898",
+      "WiFi_5902",
+      "WiFi_2593"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_19897",
+        "signal": -73
+      },
+      {
+        "id": "CELL_75787",
+        "signal": -41
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_132603_036",
+    "timestamp": "2025-08-02T13:26:03.156695",
+    "latitude": 23.880498,
+    "longitude": 90.373922,
+    "accuracy": 9,
+    "altitude": 28,
+    "speed": 38.1270383237527,
+    "bearing": 239,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 73,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_9139",
+      "WiFi_7191",
+      "WiFi_6338",
+      "WiFi_3511",
+      "WiFi_1279",
+      "WiFi_9130"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_87974",
+        "signal": -80
+      },
+      {
+        "id": "CELL_97518",
+        "signal": -60
+      },
+      {
+        "id": "CELL_25923",
+        "signal": -50
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250804_192603_037",
+    "timestamp": "2025-08-04T19:26:03.156708",
+    "latitude": 23.795185,
+    "longitude": 90.409378,
+    "accuracy": 24,
+    "altitude": 19,
+    "speed": 21.409596575684112,
+    "bearing": 254,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 52,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_7068",
+      "WiFi_1744"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_28524",
+        "signal": -67
+      },
+      {
+        "id": "CELL_56658",
+        "signal": -43
+      },
+      {
+        "id": "CELL_54113",
+        "signal": -78
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250730_132603_038",
+    "timestamp": "2025-07-30T13:26:03.156720",
+    "latitude": 23.747523,
+    "longitude": 90.382011,
+    "accuracy": 3,
+    "altitude": 44,
+    "speed": 58.21916580024019,
+    "bearing": 99,
+    "area_name": "Dhanmondi",
+    "address": "Dhanmondi, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 141,
+    "activity_type": "unknown",
+    "nearby_wifi": [
+      "WiFi_5536",
+      "WiFi_5675",
+      "WiFi_1774",
+      "WiFi_5181",
+      "WiFi_4620",
+      "WiFi_6484",
+      "WiFi_3357"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_56408",
+        "signal": -42
+      },
+      {
+        "id": "CELL_10703",
+        "signal": -50
+      },
+      {
+        "id": "CELL_39711",
+        "signal": -45
+      },
+      {
+        "id": "CELL_72919",
+        "signal": -65
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250730_182603_039",
+    "timestamp": "2025-07-30T18:26:03.156736",
+    "latitude": 23.801385,
+    "longitude": 90.410842,
+    "accuracy": 22,
+    "altitude": 46,
+    "speed": 34.429090921498734,
+    "bearing": 201,
+    "area_name": "Banani",
+    "address": "Banani, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 89,
+    "activity_type": "stationary",
+    "nearby_wifi": [
+      "WiFi_8102",
+      "WiFi_2033",
+      "WiFi_4548",
+      "WiFi_8573"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_96026",
+        "signal": -71
+      },
+      {
+        "id": "CELL_61746",
+        "signal": -52
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250729_162603_040",
+    "timestamp": "2025-07-29T16:26:03.156748",
+    "latitude": 23.798018,
+    "longitude": 90.404971,
+    "accuracy": 3,
+    "altitude": 18,
+    "speed": 8.383128210256501,
+    "bearing": 185,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 68,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_5934",
+      "WiFi_6847",
+      "WiFi_9009",
+      "WiFi_2945"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_73432",
+        "signal": -61
+      },
+      {
+        "id": "CELL_44987",
+        "signal": -62
+      },
+      {
+        "id": "CELL_98436",
+        "signal": -64
+      },
+      {
+        "id": "CELL_97333",
+        "signal": -58
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250802_072603_041",
+    "timestamp": "2025-08-02T07:26:03.156761",
+    "latitude": 23.879305,
+    "longitude": 90.388497,
+    "accuracy": 19,
+    "altitude": 14,
+    "speed": 9.059986457463902,
+    "bearing": 241,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 79,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_2300",
+      "WiFi_8950",
+      "WiFi_4978",
+      "WiFi_3712"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_72990",
+        "signal": -59
+      },
+      {
+        "id": "CELL_80966",
+        "signal": -80
+      },
+      {
+        "id": "CELL_38318",
+        "signal": -54
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_182603_042",
+    "timestamp": "2025-08-03T18:26:03.156773",
+    "latitude": 23.793282,
+    "longitude": 90.39995,
+    "accuracy": 16,
+    "altitude": 8,
+    "speed": 12.72820200115646,
+    "bearing": 255,
+    "area_name": "Gulshan",
+    "address": "Gulshan, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 73,
+    "activity_type": "stationary",
+    "nearby_wifi": [
+      "WiFi_5578",
+      "WiFi_9671",
+      "WiFi_2895",
+      "WiFi_2724",
+      "WiFi_2057",
+      "WiFi_6571",
+      "WiFi_4671",
+      "WiFi_6301"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_22253",
+        "signal": -74
+      },
+      {
+        "id": "CELL_48592",
+        "signal": -80
+      },
+      {
+        "id": "CELL_71880",
+        "signal": -76
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250729_152603_043",
+    "timestamp": "2025-07-29T15:26:03.156788",
+    "latitude": 23.874511,
+    "longitude": 90.389158,
+    "accuracy": 5,
+    "altitude": 9,
+    "speed": 51.712051184312045,
+    "bearing": 28,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 150,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_9966",
+      "WiFi_9742",
+      "WiFi_8249",
+      "WiFi_6770",
+      "WiFi_8439",
+      "WiFi_8703",
+      "WiFi_1075",
+      "WiFi_3882"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_63737",
+        "signal": -53
+      },
+      {
+        "id": "CELL_76987",
+        "signal": -42
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250731_212603_044",
+    "timestamp": "2025-07-31T21:26:03.156801",
+    "latitude": 23.700608,
+    "longitude": 90.413542,
+    "accuracy": 18,
+    "altitude": 11,
+    "speed": 9.626238430950009,
+    "bearing": 309,
+    "area_name": "Old Dhaka",
+    "address": "Old Dhaka, Dhaka, Bangladesh",
+    "location_method": "Cell Tower",
+    "duration_minutes": 102,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_8569",
+      "WiFi_7614"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_67538",
+        "signal": -43
+      },
+      {
+        "id": "CELL_42796",
+        "signal": -68
+      },
+      {
+        "id": "CELL_35777",
+        "signal": -42
+      },
+      {
+        "id": "CELL_36042",
+        "signal": -51
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250729_022603_045",
+    "timestamp": "2025-07-29T02:26:03.156814",
+    "latitude": 23.880632,
+    "longitude": 90.386597,
+    "accuracy": 3,
+    "altitude": 50,
+    "speed": 53.08938863375689,
+    "bearing": 106,
+    "area_name": "Uttara",
+    "address": "Uttara, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 28,
+    "activity_type": "driving",
+    "nearby_wifi": [
+      "WiFi_6232",
+      "WiFi_9814",
+      "WiFi_4990",
+      "WiFi_7364",
+      "WiFi_2064",
+      "WiFi_1827"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_40526",
+        "signal": -44
+      },
+      {
+        "id": "CELL_41833",
+        "signal": -40
+      },
+      {
+        "id": "CELL_82110",
+        "signal": -40
+      },
+      {
+        "id": "CELL_54163",
+        "signal": -45
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250730_212603_046",
+    "timestamp": "2025-07-30T21:26:03.156828",
+    "latitude": 23.798129,
+    "longitude": 90.408407,
+    "accuracy": 11,
+    "altitude": 28,
+    "speed": 10.075861129774923,
+    "bearing": 166,
+    "area_name": "Banani",
+    "address": "Banani, Dhaka, Bangladesh",
+    "location_method": "GPS",
+    "duration_minutes": 62,
+    "activity_type": "walking",
+    "nearby_wifi": [
+      "WiFi_7142",
+      "WiFi_4151",
+      "WiFi_3656",
+      "WiFi_3114"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_42432",
+        "signal": -55
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250803_132603_047",
+    "timestamp": "2025-08-03T13:26:03.156839",
+    "latitude": 23.787871,
+    "longitude": 90.407149,
+    "accuracy": 13,
+    "altitude": 22,
+    "speed": 44.944647237315166,
+    "bearing": 68,
+    "area_name": "Banani",
+    "address": "Banani, Dhaka, Bangladesh",
+    "location_method": "Hybrid",
+    "duration_minutes": 140,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_2706",
+      "WiFi_5336",
+      "WiFi_2362",
+      "WiFi_7643",
+      "WiFi_2750",
+      "WiFi_2099",
+      "WiFi_9312",
+      "WiFi_3841"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_88146",
+        "signal": -78
+      },
+      {
+        "id": "CELL_15273",
+        "signal": -63
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250731_022603_048",
+    "timestamp": "2025-07-31T02:26:03.156852",
+    "latitude": 23.828571,
+    "longitude": 90.370765,
+    "accuracy": 10,
+    "altitude": 35,
+    "speed": 27.367361513131915,
+    "bearing": 141,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 72,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_8879",
+      "WiFi_1226",
+      "WiFi_2990",
+      "WiFi_7437"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_39733",
+        "signal": -46
+      },
+      {
+        "id": "CELL_99210",
+        "signal": -58
+      }
+    ]
+  },
+  {
+    "location_id": "LOC_20250801_142603_049",
+    "timestamp": "2025-08-01T14:26:03.156864",
+    "latitude": 23.819848,
+    "longitude": 90.359451,
+    "accuracy": 6,
+    "altitude": 19,
+    "speed": 47.65386176840631,
+    "bearing": 5,
+    "area_name": "Mirpur",
+    "address": "Mirpur, Dhaka, Bangladesh",
+    "location_method": "WiFi",
+    "duration_minutes": 14,
+    "activity_type": "public_transport",
+    "nearby_wifi": [
+      "WiFi_6187",
+      "WiFi_8234",
+      "WiFi_4882",
+      "WiFi_4484"
+    ],
+    "cell_towers": [
+      {
+        "id": "CELL_29653",
+        "signal": -46
+      },
+      {
+        "id": "CELL_52373",
+        "signal": -54
+      },
+      {
+        "id": "CELL_56682",
+        "signal": -68
+      }
+    ]
+  }
+]

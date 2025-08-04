@@ -1,0 +1,18 @@
+{
+  "mobile_number": "+8801736821626",
+  "device_model": "Nothing Phone (2)",
+  "operator": "Banglalink",
+  "os_version": "Android 12",
+  "imei": "962595093545714",
+  "sim_serial": "898806662413520149563",
+  "device_id": "74c189f31423557182d75847f8ac7f6b",
+  "surveillance_status": "ACTIVE",
+  "last_seen": "2025-08-05T01:32:23.983710",
+  "location_services": "ENABLED",
+  "camera_access": "GRANTED",
+  "microphone_access": "GRANTED",
+  "storage_access": "GRANTED",
+  "network_type": "4G",
+  "battery_level": 81,
+  "screen_status": "UNLOCKED"
+}

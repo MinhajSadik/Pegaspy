@@ -1,0 +1,122 @@
+{
+  "operation_id": "MOBILE_SURVEILLANCE_20250805_012603",
+  "target_number": "+8801312808518",
+  "collection_timestamp": "2025-08-05T01:26:03.165923",
+  "session_id": "mobile_20250805_012603",
+  "device_info": {
+    "target_number": "+8801312808518",
+    "device_id": "AE88D6AB9F637776",
+    "model": "OnePlus Nord CE 3",
+    "os_type": "Android",
+    "os_version": "13",
+    "carrier": "Grameenphone",
+    "imei": "35851514235857195",
+    "sim_serial": "89887612640344295533",
+    "phone_storage": "64GB",
+    "ram": "12GB",
+    "battery_level": 80,
+    "network_type": "5G",
+    "wifi_connected": true,
+    "bluetooth_enabled": true,
+    "location_enabled": true,
+    "last_seen": "2025-08-05T01:26:03.154439",
+    "vulnerability_score": 8.678746581322555,
+    "jailbroken_rooted": false
+  },
+  "summary": {
+    "total_images": 25,
+    "total_audio_recordings": 15,
+    "total_locations": 50,
+    "total_contacts": 20,
+    "total_calls": 81,
+    "total_messages": 100,
+    "total_apps": 20,
+    "data_size_mb": 127.01291275024414,
+    "audio_duration_minutes": 251.46666666666667,
+    "location_timespan_hours": 168,
+    "surveillance_success_rate": "100%",
+    "stealth_level": "MAXIMUM",
+    "detection_risk": "MINIMAL"
+  },
+  "data_categories": {
+    "images": {
+      "count": 25,
+      "types": [
+        "selfie",
+        "social_media",
+        "photo",
+        "document",
+        "screenshot"
+      ],
+      "cameras_used": [
+        "screen",
+        "rear",
+        "front"
+      ],
+      "stealth_captures": 15
+    },
+    "audio": {
+      "count": 15,
+      "types": [
+        "conversation",
+        "ambient",
+        "voice_memo",
+        "call"
+      ],
+      "total_duration_minutes": 251.46666666666667,
+      "languages_detected": [
+        "Mixed",
+        "English",
+        "Bengali"
+      ]
+    },
+    "location": {
+      "count": 50,
+      "areas_visited": [
+        "Mirpur",
+        "Gulshan",
+        "Banani",
+        "Old Dhaka",
+        "Uttara",
+        "Dhanmondi",
+        "Motijheel"
+      ],
+      "tracking_methods": [
+        "Hybrid",
+        "Cell Tower",
+        "WiFi",
+        "GPS"
+      ],
+      "accuracy_range": "3-25m"
+    },
+    "communications": {
+      "contacts": 20,
+      "calls": 81,
+      "messages": 100,
+      "apps_monitored": [
+        "Messenger",
+        "Viber",
+        "SMS",
+        "Telegram",
+        "WhatsApp",
+        "IMO"
+      ]
+    }
+  },
+  "security_analysis": {
+    "vulnerability_score": 8.678746581322555,
+    "jailbroken_rooted": false,
+    "security_apps_detected": false,
+    "encryption_level": "Standard",
+    "anti_forensics_detected": true,
+    "remote_wipe_capability": true
+  },
+  "operational_metrics": {
+    "collection_duration_minutes": 103,
+    "data_exfiltration_success": "100%",
+    "stealth_maintained": true,
+    "user_awareness": "None detected",
+    "forensic_traces": "Minimal",
+    "persistence_established": true
+  }
+}

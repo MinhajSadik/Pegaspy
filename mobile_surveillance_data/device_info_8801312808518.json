@@ -1,0 +1,20 @@
+{
+  "target_number": "+8801312808518",
+  "device_id": "AE88D6AB9F637776",
+  "model": "OnePlus Nord CE 3",
+  "os_type": "Android",
+  "os_version": "13",
+  "carrier": "Grameenphone",
+  "imei": "35851514235857195",
+  "sim_serial": "89887612640344295533",
+  "phone_storage": "64GB",
+  "ram": "12GB",
+  "battery_level": 80,
+  "network_type": "5G",
+  "wifi_connected": true,
+  "bluetooth_enabled": true,
+  "location_enabled": true,
+  "last_seen": "2025-08-05T01:26:03.154439",
+  "vulnerability_score": 8.678746581322555,
+  "jailbroken_rooted": false
+}

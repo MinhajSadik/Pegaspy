@@ -1,0 +1,27 @@
+{
+  "mobile_number": "01781583107",
+  "generation_timestamp": "2025-08-05T01:43:20.205174",
+  "total_images_generated": 12,
+  "total_size_bytes": 177873,
+  "total_size_mb": 0.17,
+  "folder_structure": {
+    "main_folder": "application_images_01781583107",
+    "subfolders": [
+      "captured_images",
+      "selfies",
+      "screenshots",
+      "documents",
+      "social_media",
+      "gallery_photos",
+      "thumbnails"
+    ]
+  },
+  "image_types": {
+    "selfies": "Front camera captures",
+    "screenshots": "App interface captures",
+    "documents": "Document and text captures",
+    "social_media": "Social media app captures",
+    "gallery_photos": "Photo gallery access",
+    "thumbnails": "200x200 preview images"
+  }
+}
