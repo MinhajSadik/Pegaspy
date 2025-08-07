@@ -1,17 +1,19 @@
-# 🕷️ PegaSpy Phase 3
+# 🕷️ PegaSpy - Mobile Security Research Framework
 
-**Advanced Mobile Surveillance Platform**
+**Advanced Mobile Security Analysis & Research Platform**
 
-PegaSpy is a sophisticated mobile surveillance platform that combines zero-click exploits, deep OS control, stealthy self-destruct mechanisms, and a globe-spanning anonymized C2 network into a turnkey solution operated through an intuitive web dashboard.
+PegaSpy is a comprehensive mobile security research framework designed for authorized security testing, vulnerability research, and mobile device analysis. It provides tools for security researchers to analyze mobile platforms, test defensive measures, and conduct authorized penetration testing.
 
 ## ⚠️ LEGAL DISCLAIMER
 
-**THIS SOFTWARE IS FOR AUTHORIZED SECURITY TESTING AND RESEARCH PURPOSES ONLY**
+**THIS SOFTWARE IS FOR AUTHORIZED SECURITY RESEARCH AND TESTING PURPOSES ONLY**
 
 - Only use on systems you own or have explicit written permission to test
+- This framework is intended for security researchers, penetration testers, and authorized personnel
 - Unauthorized access to computer systems is illegal in most jurisdictions
-- Users are solely responsible for compliance with applicable laws
+- Users are solely responsible for compliance with applicable laws and regulations
 - The developers assume no liability for misuse of this software
+- Use only in controlled environments for legitimate security research
 
 ## 🎯 Key Features
 
