@@ -1,481 +1,174 @@
-# 🕷️ PegaSpy - Mobile Security Research Framework
+# PegaSpy - Anti-Spyware Defense Framework
 
-**Advanced Mobile Security Analysis & Research Platform**
+A comprehensive cybersecurity framework designed for legitimate security research, defensive operations, and spyware detection analysis.
 
-PegaSpy is a comprehensive mobile security research framework designed for authorized security testing, vulnerability research, and mobile device analysis. It provides tools for security researchers to analyze mobile platforms, test defensive measures, and conduct authorized penetration testing.
+## 🛡️ Overview
 
-## ⚠️ LEGAL DISCLAIMER
+PegaSpy is a sophisticated anti-spyware defense system that helps security professionals and researchers analyze potential threats across multiple platforms. The framework provides advanced detection capabilities, behavioral analysis, and comprehensive reporting for defensive cybersecurity operations.
 
-**THIS SOFTWARE IS FOR AUTHORIZED SECURITY RESEARCH AND TESTING PURPOSES ONLY**
+## ⚠️ Legal and Ethical Use Only
 
-- Only use on systems you own or have explicit written permission to test
-- This framework is intended for security researchers, penetration testers, and authorized personnel
-- Unauthorized access to computer systems is illegal in most jurisdictions
-- Users are solely responsible for compliance with applicable laws and regulations
-- The developers assume no liability for misuse of this software
-- Use only in controlled environments for legitimate security research
+**IMPORTANT**: This framework is designed exclusively for:
+- Authorized security research in controlled environments
+- Defensive cybersecurity operations
+- Educational purposes with proper supervision
+- Legitimate penetration testing with explicit written authorization
+- Personal security analysis of your own devices
 
-## 🎯 Key Features
+Unauthorized use against systems you do not own or have explicit permission to test is illegal and unethical. Users are solely responsible for compliance with all applicable laws.
 
-### Zero-Click Exploits
-- **iMessage Exploits**: Advanced iOS messaging vulnerabilities
-- **WhatsApp Exploits**: Cross-platform messaging attacks
-- **Telegram Exploits**: Secure messaging bypass techniques
-- **Stealth Delivery**: Invisible payload deployment
-- **Multi-Platform Support**: iOS, Android, Windows, macOS, Linux
+## 🚀 Features
 
-### Deep OS Control
-- **Kernel-Level Access**: Low-level system manipulation
-- **Process Injection**: Stealthy code execution
-- **Memory Manipulation**: Runtime modification capabilities
-- **System Hook Installation**: API interception
-- **Privilege Escalation**: Automated elevation techniques
+### Core Detection Capabilities
+- **Mobile Device Analysis**: Comprehensive scanning for spyware signatures and indicators
+- **Process Monitoring**: Real-time analysis of running processes and behaviors
+- **Network Traffic Analysis**: Deep packet inspection and traffic pattern analysis
+- **File Integrity Monitoring**: Detection of unauthorized file modifications
+- **Behavioral Analysis**: Advanced heuristic detection of suspicious activities
 
-### Persistence Mechanisms
-- **Boot Persistence**: Survive system restarts
-- **Service Installation**: Background operation
-- **Registry Manipulation**: Windows persistence
-- **LaunchAgent/Daemon**: macOS persistence
-- **Systemd Services**: Linux persistence
-- **Stealth Mode**: Anti-detection techniques
+### Security Analysis Modules
+- **Zero-Click Exploit Detection**: Identification of sophisticated attack vectors
+- **Encryption Analysis**: Analysis of communications and data patterns
+- **Cross-Platform Support**: Windows, macOS, Linux compatibility
+- **IoT Security Assessment**: Connected device security evaluation
 
-### Globe-Spanning C2 Network
-- **Tor Network**: Anonymous communication channels
-- **Blockchain C2**: Decentralized command infrastructure
-- **CDN Tunneling**: Content delivery network abuse
-- **Mesh Networking**: Peer-to-peer resilience
-- **Traffic Obfuscation**: Protocol camouflage
-- **Node Rotation**: Dynamic infrastructure
+### Reporting and Analytics
+- **Detailed Reports**: Comprehensive analysis reports with actionable intelligence
+- **Risk Assessment**: Automated threat level classification and scoring
+- **Dashboard Interface**: Web-based monitoring and analysis dashboard
+- **Export Capabilities**: Multiple format support (JSON, PDF, HTML)
 
-### Self-Destruct System
-- **Trigger-Based Activation**: Multiple detection methods
-- **Evidence Elimination**: Forensic artifact removal
-- **Stealth Wiping**: Secure data destruction
-- **Emergency Burn**: Instant infrastructure destruction
-- **Anti-Analysis**: VM/debugger detection
-- **Time-Based Triggers**: Automatic cleanup
+## 📋 Requirements
+
+### System Requirements
+- Python 3.8+
+- Administrator/Root privileges (for system-level analysis)
+- Minimum 4GB RAM
+- 5GB free disk space
+
+### Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## 🛠️ Installation
+
+### Quick Setup
+```bash
+git clone <your-repository-url>
+cd Pegaspy
+python -m venv pegaspy_env
+source pegaspy_env/bin/activate  # On Windows: pegaspy_env\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Configuration
+1. Review the configuration file:
+   ```bash
+   cat config/pegasus_config.json
+   ```
+
+2. Customize settings as needed for your analysis requirements
+
+## 🔧 Usage
+
+### Command Line Interface
+
+#### Quick Security Scan
+```bash
+python main.py --quick
+```
+
+#### Comprehensive Analysis
+```bash
+python main.py --comprehensive
+```
+
+#### Advanced Options
+```bash
+python main.py --comprehensive --network-time 600 --behavioral-time 900 --output-dir ./reports
+```
 
 ### Web Dashboard
-- **Real-Time Monitoring**: Live system status
-- **Target Management**: Comprehensive victim tracking
-- **Exploit Launcher**: Point-and-click operations
-- **Campaign Management**: Coordinated attack orchestration
-- **Analytics Dashboard**: Performance metrics
-- **C2 Network Control**: Infrastructure management
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    Web Dashboard                            │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐          │
-│  │   Targets   │ │   Exploits  │ │  Campaigns  │          │
-│  └─────────────┘ └─────────────┘ └─────────────┘          │
-└─────────────────────────────────────────────────────────────┘
-                              │
-┌─────────────────────────────────────────────────────────────┐
-│                    Core Engine                              │
-│  ┌─────────────┐ ┌─────────────┐ ┌─────────────┐          │
-│  │Zero-Click   │ │ Persistence │ │Self-Destruct│          │
-│  │ Exploits    │ │  Manager    │ │   Engine    │          │
-│  └─────────────┘ └─────────────┘ └─────────────┘          │
-└─────────────────────────────────────────────────────────────┘
-                              │
-┌─────────────────────────────────────────────────────────────┐
-│                C2 Infrastructure                            │
-│  ┌───────────┐ ┌───────────┐ ┌───────────┐ ┌───────────┐  │
-│  │    Tor    │ │Blockchain │ │    CDN    │ │   Mesh    │  │
-│  │  Network  │ │    C2     │ │ Tunneling │ │ Network   │  │
-│  └───────────┘ └───────────┘ └───────────┘ └───────────┘  │
-└─────────────────────────────────────────────────────────────┘
-```
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Python 3.9 or higher
-- Administrative/root privileges (for some features)
-- Internet connection (for C2 infrastructure)
-- Modern web browser (for dashboard)
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-org/pegaspy.git
-   cd pegaspy
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Configure the platform:**
-   ```bash
-   # Edit configuration (optional)
-   cp pegaspy_config.json.example pegaspy_config.json
-   nano pegaspy_config.json
-   ```
-
-4. **Start PegaSpy:**
-   ```bash
-   python pegaspy.py
-   ```
-
-5. **Access the web dashboard:**
-   ```
-   Open: http://127.0.0.1:5000
-   Default password: admin123
-   ```
-
-### Command Line Options
-
 ```bash
-python pegaspy.py [OPTIONS]
+python web_dashboard/app.py
+```
+Access the dashboard at `http://localhost:5000`
 
-Options:
-  -c, --config FILE         Configuration file path
-  -h, --host HOST          Web dashboard host (default: 127.0.0.1)
-  -p, --port PORT          Web dashboard port (default: 5000)
-  --debug                  Enable debug mode
-  --no-auto-destruct       Disable auto-destruct system
-  --no-persistence         Disable persistence mechanisms
-  --help                   Show help message
+## 📊 Analysis Modules
+
+### Detection Analysis
+- **Mobile Scanner**: Process and system analysis
+- **Network Analyzer**: Traffic pattern analysis
+- **Behavioral Engine**: Anomaly detection
+- **File Integrity**: Change monitoring
+
+### Prevention & Hardening
+- **System Hardening**: Security configuration recommendations
+- **Real-time Protection**: Continuous monitoring capabilities
+- **Exploit Detection**: Advanced threat identification
+
+## 🔍 Detection Capabilities
+
+### Threat Categories
+- Advanced spyware detection
+- Process behavior analysis
+- Network anomaly identification
+- File system monitoring
+- System integrity verification
+
+### Detection Methods
+- Signature-based detection
+- Heuristic analysis
+- Behavioral monitoring
+- Network pattern analysis
+- File integrity verification
+
+## 🛠️ Development
+
+### Project Structure
+```
+Pegaspy/
+├── config/                 # Configuration files
+├── core/                   # Core framework components
+├── detection_analysis/     # Analysis modules
+├── prevention_hardening/   # Security hardening tools
+├── web_dashboard/         # Web interface
+├── surveillance/          # Data collection (clean)
+├── main.py               # Main CLI interface
+└── requirements.txt      # Dependencies
 ```
 
-## 📋 Configuration
-
-### Basic Configuration
-
-```json
-{
-  "web_host": "127.0.0.1",
-  "web_port": 5000,
-  "web_debug": false,
-  "web_secret_key": "change_this_in_production",
-  
-  "tor_enabled": true,
-  "blockchain_enabled": true,
-  "cdn_enabled": true,
-  "mesh_enabled": true,
-  
-  "auto_destruct_enabled": true,
-  "destruct_time_limit": 86400,
-  
-  "imessage_enabled": true,
-  "whatsapp_enabled": true,
-  "telegram_enabled": true,
-  
-  "persistence_enabled": true,
-  "stealth_mode": true,
-  
-  "anti_analysis": true,
-  "vm_detection": true,
-  "debugger_detection": true
-}
-```
-
-### Security Settings
-
-- **auto_destruct_enabled**: Enable automatic self-destruct triggers
-- **destruct_time_limit**: Time limit before auto-destruct (seconds)
-- **anti_analysis**: Enable anti-analysis detection
-- **vm_detection**: Detect virtual machine environments
-- **debugger_detection**: Detect debugging attempts
-
-## 🎮 Usage Guide
-
-### 1. Dashboard Overview
-
-The main dashboard provides:
-- System status overview
-- Active targets summary
-- Exploit success rates
-- C2 network health
-- Recent activity logs
-
-### 2. Target Management
-
-**Adding Targets:**
-1. Navigate to "Targets" tab
-2. Click "Add Target"
-3. Enter target information:
-   - Phone number or identifier
-   - Platform (iOS/Android)
-   - OS version
-   - Additional metadata
-
-**Target Operations:**
-- View target details
-- Launch exploits
-- Monitor compromise status
-- Export target data
-
-### 3. Exploit Operations
-
-**Available Exploits:**
-- **iMessage**: iOS messaging vulnerabilities
-- **WhatsApp**: Cross-platform messaging
-- **Telegram**: Secure messaging bypass
-
-**Launching Exploits:**
-1. Select target from list
-2. Choose exploit type
-3. Configure options:
-   - Payload selection
-   - Stealth level
-   - Persistence method
-   - Self-destruct timer
-4. Launch exploit
-5. Monitor progress in real-time
-
-### 4. Campaign Management
-
-**Creating Campaigns:**
-1. Navigate to "Campaigns" tab
-2. Click "New Campaign"
-3. Configure campaign:
-   - Name and description
-   - Target selection
-   - Exploit sequence
-   - Timing parameters
-   - Success criteria
-
-**Campaign Operations:**
-- Start/pause/resume campaigns
-- Monitor progress
-- View detailed analytics
-- Export campaign reports
-
-### 5. C2 Network Management
-
-**Network Overview:**
-- Tor circuit status
-- Blockchain channel health
-- CDN endpoint availability
-- Mesh network topology
-
-**Network Operations:**
-- Rotate infrastructure
-- Add/remove nodes
-- Monitor traffic
-- Emergency burn procedures
-
-### 6. Analytics and Reporting
-
-**Available Metrics:**
-- Exploit success rates
-- Target compromise statistics
-- Geographic distribution
-- Platform analysis
-- Timeline analysis
-
-**Report Generation:**
-- Custom date ranges
-- Filtered data sets
-- Multiple export formats
-- Automated scheduling
-
-## 🔧 Advanced Features
-
-### Custom Exploit Development
-
-```python
-from zero_click_exploits import BaseExploit, ExploitType
-
-class CustomExploit(BaseExploit):
-    def __init__(self):
-        super().__init__(
-            exploit_id="custom_001",
-            exploit_type=ExploitType.CUSTOM,
-            name="Custom Exploit",
-            description="Custom exploit implementation"
-        )
-    
-    async def execute(self, target, options):
-        # Implement custom exploit logic
-        pass
-```
-
-### Custom Persistence Mechanisms
-
-```python
-from persistence import BasePersistence, PersistenceMethod
-
-class CustomPersistence(BasePersistence):
-    def __init__(self):
-        super().__init__(
-            method=PersistenceMethod.CUSTOM,
-            name="Custom Persistence"
-        )
-    
-    async def install(self, options):
-        # Implement custom persistence
-        pass
-```
-
-### Custom Triggers
-
-```python
-from self_destruct import TriggerRule, TriggerType, TriggerCondition
-
-custom_trigger = TriggerRule(
-    trigger_id="custom_trigger",
-    trigger_type=TriggerType.CUSTOM,
-    condition=TriggerCondition.EQUALS,
-    target_value="custom_condition",
-    description="Custom trigger condition"
-)
-```
-
-## 🛡️ Security Considerations
-
-### Operational Security
-
-1. **Network Isolation**: Use dedicated networks for operations
-2. **VPN/Tor**: Always use anonymization layers
-3. **Burner Infrastructure**: Use disposable resources
-4. **Time Limits**: Set appropriate auto-destruct timers
-5. **Evidence Management**: Regular cleanup procedures
-
-### Anti-Detection
-
-1. **VM Detection**: Automatic virtual environment detection
-2. **Debugger Detection**: Anti-debugging mechanisms
-3. **Analysis Detection**: Sandbox and analysis tool detection
-4. **Traffic Obfuscation**: Protocol camouflage
-5. **Behavioral Mimicry**: Normal traffic patterns
-
-### Emergency Procedures
-
-1. **Manual Burn**: Immediate infrastructure destruction
-2. **Evidence Elimination**: Comprehensive artifact removal
-3. **Network Isolation**: Automatic disconnection
-4. **Data Destruction**: Secure wiping procedures
-5. **Alert Systems**: Real-time threat notifications
-
-## 📊 Monitoring and Logging
-
-### Log Levels
-
-- **DEBUG**: Detailed debugging information
-- **INFO**: General operational information
-- **WARNING**: Warning conditions
-- **ERROR**: Error conditions
-- **CRITICAL**: Critical security events
-
-### Log Locations
-
-- **Application Logs**: `pegaspy.log`
-- **Exploit Logs**: `logs/exploits/`
-- **C2 Logs**: `logs/c2/`
-- **Security Logs**: `logs/security/`
-
-### Monitoring Metrics
-
-- System resource usage
-- Network connectivity
-- Exploit success rates
-- Target response times
-- Security event frequency
-
-## 🔍 Troubleshooting
-
-### Common Issues
-
-**Web Dashboard Not Accessible:**
-```bash
-# Check if service is running
-ps aux | grep pegaspy
-
-# Check port availability
-netstat -tlnp | grep 5000
-
-# Check firewall settings
-sudo ufw status
-```
-
-**C2 Connection Issues:**
-```bash
-# Test Tor connectivity
-curl --socks5 127.0.0.1:9050 https://check.torproject.org
-
-# Check blockchain connectivity
-python -c "from web3 import Web3; print(Web3().isConnected())"
-```
-
-**Exploit Failures:**
-- Verify target platform compatibility
-- Check network connectivity
-- Review exploit logs
-- Validate payload configuration
-
-### Debug Mode
-
-```bash
-# Enable debug logging
-python pegaspy.py --debug
-
-# Increase log verbosity
-export PEGASPY_LOG_LEVEL=DEBUG
-```
-
-## 🤝 Contributing
-
-### Development Setup
-
-```bash
-# Clone repository
-git clone https://github.com/your-org/pegaspy.git
-cd pegaspy
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-
-# Install development dependencies
-pip install -r requirements.txt
-pip install -e .
-
-# Run tests
-pytest tests/
-
-# Code formatting
-black .
-flake8 .
-```
-
-### Code Standards
-
-- Follow PEP 8 style guidelines
-- Use type hints where appropriate
-- Write comprehensive docstrings
-- Include unit tests for new features
-- Maintain security best practices
+## 🔐 Security Considerations
+
+### Data Protection
+- All analysis data is handled securely
+- Configurable data retention policies
+- Privacy-preserving analysis options
+- Secure configuration management
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is provided for educational and legitimate security research purposes. Users must comply with all applicable laws and regulations.
 
-## 🙏 Acknowledgments
+## ⚖️ Legal Notice
 
-- Security research community
-- Open source contributors
-- Ethical hacking community
-- Academic researchers
+**CRITICAL**: This software is provided for educational and defensive security purposes only. 
 
-## 📞 Support
+- Use only on systems you own or have explicit written authorization to test
+- Users are fully responsible for compliance with all applicable laws
+- Developers assume no liability for misuse
+- Intended for security professionals, researchers, and educational institutions
+- Not intended for malicious activities
 
-For support and questions:
+## 🔄 Usage Guidelines
 
-- **Documentation**: [Wiki](https://github.com/your-org/pegaspy/wiki)
-- **Issues**: [GitHub Issues](https://github.com/your-org/pegaspy/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-org/pegaspy/discussions)
-- **Security**: security@pegaspy.org
+1. **Authorization Required**: Always obtain proper authorization before testing
+2. **Controlled Environment**: Use in isolated, controlled environments
+3. **Responsible Disclosure**: Follow responsible disclosure practices
+4. **Legal Compliance**: Ensure compliance with local and international laws
+5. **Educational Focus**: Primary use should be learning and defense
 
 ---
 
-**Remember: Use responsibly and only on systems you own or have explicit permission to test.**
+**Remember**: This tool is designed to help protect against spyware threats. Use it responsibly and ethically to improve cybersecurity defenses.

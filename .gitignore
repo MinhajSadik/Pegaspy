@@ -1,9 +1,9 @@
-# Pegaspy Project - Git Ignore Rules
-
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
 
 # Distribution / packaging
@@ -20,21 +20,17 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
-
 # Virtual environments
 venv/
 env/
 ENV/
-env.bak/
-venv.bak/
 pegaspy_env/
 pegasus_env/
 
@@ -43,67 +39,37 @@ pegasus_env/
 .idea/
 *.swp
 *.swo
+*~
 
-# macOS
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
 
-# Logs and databases
+# Logs and reports
 *.log
-*.sqlite
-*.sqlite3
-*.db
+reports/
+logs/
+
+# Surveillance data (should remain clean)
+surveillance/targets/*.json
+surveillance/exploits/*.json  
+surveillance/packets/*.json
+surveillance/network/*.json
+surveillance/system_data/*.json
+surveillance/enhanced/*.json
+exploits_delivered/*.json
 
 # Temporary files
 *.tmp
 *.temp
-*.bak
+cookies.txt
+dashboard.log
 
-# Surveillance data and reports
-*_surveillance_*/
-*surveillance_data/
-*_report_*.json
-*_results_*.json
-*_capture_*.json
-*_capture_*.log
-application_images_*/
-*.png
-*.jpg
-*.jpeg
+# Test outputs
+test_*.json
+test_*.txt
+test_*.log
 
-# Configuration files with sensitive data
-config/secrets.json
-config/api_keys.json
-.env
-.env.local
-
-# Test coverage
-htmlcov/
-.coverage
-.coverage.*
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Documentation builds
-docs/_build/
-site/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Node.js (if any JavaScript components)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Security and sensitive files
-*_private_key*
-*.pem
-*.key
-*.crt
-secrets/
-keys/
+# Personal configurations (keep template only)
+config/*_personal.json
+config/*_local.json

@@ -1,0 +1,24 @@
+# Enhanced Surveillance Dependencies
+# Install these for real surveillance capabilities
+
+# Audio Recording
+pyaudio==0.2.11
+
+# Video Recording  
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# Screen Capture (already available)
+Pillow>=9.0.0
+
+# Keylogging and Mouse Tracking
+pynput==1.7.6
+
+# System Monitoring (already available)
+psutil>=5.9.0
+
+# Optional: For encrypted storage
+cryptography>=41.0.0
+
+# Optional: For advanced video codecs
+# imageio-ffmpeg==0.4.9
